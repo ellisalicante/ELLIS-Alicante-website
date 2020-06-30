@@ -1,4 +1,4 @@
-## The ELLIS Unit Alicante is hiring  
+## The ELLIS Unit Alicante is hiring  ![Image]
 
 You can use the [editor on GitHub](https://github.com/ellisalicante/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
