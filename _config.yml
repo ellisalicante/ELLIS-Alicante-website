@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Un espacio de colaboración público-privada para la excelencia investigadora 
   y el impacto social de la IA.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ellisalicante.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ellisalicante
 github_username:  ellisalicante
 
