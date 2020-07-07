@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: default
 title: Sobre ELLIS
-permalink: /about/
+permalink: /es/about/
+lang: es
+pageid: about
 ---
 
 La comunidad científica de investigadore/as en Inteligencia Artificial (IA) en Europa se
