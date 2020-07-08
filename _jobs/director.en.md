@@ -23,6 +23,8 @@ The requirements of the position are:
 
 The salary conditions are internationally competitive, with the opportunity not only to be part of an interesting project with great potential, but also to contribute to its growth and success.
 
-NOTE: The selected candidate will undergo the evaluation of ELLIS Europe, except in the case of being an ELLIS Fellow. Collaborations with ELLIS Europe will be valued positively.
+NOTE: The selected candidate will undergo the evaluation of ELLIS Europe, except in the case of being an ELLIS Fellow. Collaborations 
+with ELLIS Europe will be valued positively.
 
-The application period for positions will end * on July 28, 2020 *. Interested parties are requested to send their curriculum vitae to victor@ellisalicante.org with the subject "Candidacy for Management of the Fundación Unidad ELLIS Alicante".
+The application period for positions will end *on July 28, 2020*. Interested parties are requested to send their curriculum vitae 
+to victor@ellisalicante.org with the subject "Candidacy for director of the ELLIS Alicante Foundation".
