@@ -23,6 +23,6 @@ Los requisitos del puesto son:
 
 Las condiciones salariales son competitivas a nivel internacional, con la oportunidad no solo de formar parte de un interesante proyecto con gran potencial, sino además de contribuir al crecimiento y éxito de éste.  
 
-NOTA: El/la candidata/a seleccionado/a se someterá a la evaluación de Ellis Europa, excepto en el caso de que fuese Fellow de ELLIS. Las colaboraciones con ELLIS Europa serán valoradas positivamente.
+NOTA: El/la candidata/a seleccionado/a se someterá a la evaluación de ELLIS Europa, excepto en el caso de que fuese Fellow de ELLIS. Las colaboraciones con ELLIS Europa serán valoradas positivamente.
 
-El plazo de solicitud de las posiciones terminará el 26 de julio de 2020. Se ruega a los interesados que envíen su curriculum vitae a victor@ellisalicante.org con el tema “Candidatura a Dirección de la Fundación Unidad ELLIS Alicante”. 
+El plazo de solicitud de las posiciones terminará *el 28 de julio de 2020*. Se ruega a los interesados que envíen su curriculum vitae a victor@ellisalicante.org con el tema “Candidatura a Dirección de la Fundación Unidad ELLIS Alicante”. 
