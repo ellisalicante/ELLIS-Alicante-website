@@ -20,6 +20,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ellisalicante
 email: info@ellisalicante.org
+address: | 
+ Fundación de la Comunitat Valenciana Unidad ELLIS Alicante
+ Campus de San Vicente s/n
+ Universidad de Alicante
+ San Vicente del Raspeig (Alicante), 03690, España
 
 # Build settings
 markdown: kramdown

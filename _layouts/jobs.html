@@ -4,8 +4,10 @@ layout: page
 
 {{content}}
 
-{% for job in site.jobs %}
+{% assign pages=site.jobs | where:"lang", page.lang %}
+ 
+{% for job in pages %}
   <h3><a href="{{ job.url }}">{{ job.title }}</a></h3>
-  <p>{{ job.excerpt  | markdownify }}</p>
+  <p>{{ job.excerpt | strip_html  }} <a href="{{ job.url }}">[...]</a></p>
 {% endfor %}
 

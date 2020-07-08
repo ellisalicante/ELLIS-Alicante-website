@@ -6,12 +6,34 @@ layout: default
 
 {{content}}
 
-<div>
-{%- if site.twitter_username -%}<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><img width=20 height=20 src="/assets/twitter.png"> {{ site.twitter_username| escape }}</a>{%- endif -%}
-</div>
-<div>
-{%- if site.twitter_username -%}<a href="mailto:{{ site.email }}"><img width=20 height=20 src="/assets/email.png"> {{ site.email| escape }}</a>{%- endif -%}
-</div>
-<div>
-{{page.description}}
-</div>
+  <div>
+
+	<div class="row">
+	  <div class="col-sm-6">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">{{ site.data.languages[page.lang].contact_info }}</h5>
+				<p class="card-text">	
+					{%- if site.email -%}<a href="mailto:{{ site.email }}"><img width=20 height=20 src="/assets/email.png"> {{ site.email | escape }}</a>{%- endif -%}
+					
+					<h6>{{ site.data.languages[page.lang].address }}</h6>
+					<div>
+					{{ site.address | newline_to_br }}
+					</div>
+				</p>
+			</div>
+        </div>
+	  </div>
+
+      <div class="col-sm-6">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">{{ site.data.languages[page.lang].social_media }}</h5>
+				<p class="card-text">	
+					{%- if site.twitter_username -%}<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><img width=20 height=20 src="/assets/twitter.png"> {{ site.twitter_username| escape }}</a>{%- endif -%}
+				</p>
+			</div>
+	  </div>
+	  </div>
+    </div>
+ </div>
