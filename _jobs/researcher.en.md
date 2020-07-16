@@ -34,7 +34,7 @@ mild winters, excellent museums, international schools, a large international ai
 
 ### Submission Guidelines
 
-Applicants should submit their CV + brief statement of interest in PDF format
+Applicants should submit their CV + brief statement of interest in PDF format to [this link](https://easychair.org/conferences/?conf=ihcai-2020) 
 
 ### Contact
 
