@@ -1,5 +1,8 @@
 ---
 title: Análisis comparativo de España vs Italia en el mes de julio-agosto 2020 con respecto a los casos de COVID-19
+layout: page
+permalink: /es/reports/spainvsitaly
+lang: es
 ---
 
 # Análisis comparativo de España vs Italia en el mes de julio-agosto 2020 con respecto a los casos de COVID-19
@@ -20,11 +23,11 @@ Los gráficos incluidos en este documento representan los porcentajes de las res
 
 La primera hipótesis para explicar las diferencias entre España e Italia se corresponde a pensar que los italianos adoptan mas medidas de protección individual que los españoles. Desgraciadamente, este no es el caso, ya que para **todas las medidas de protección individual,** los españoles son más cumplidores que los italianos. 
 
-![img](file:///C:/Users/krist/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![img](SpainVsItaly.assets/clip_image002.png)
 
 Asimismo, un mayor porcentaje de italianos considera que ir a la playa, restaurantes, bares y terrazas, cine, transporte público, colegios-institutos, iglesia, viajar en avión y tener invitados en casa pueden realizarse con bajo riesgo de contagio de COVID-19, en comparación a España 
 
-![img](file:///C:/Users/krist/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![img](SpainVsItaly.assets/clip_image004.png)
 
  
 
