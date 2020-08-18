@@ -2,10 +2,9 @@
 title: Análisis comparativo de España vs Italia en el mes de julio-agosto 2020 con respecto a los casos de COVID-19
 layout: page
 permalink: /es/reports/spainvsitaly
+pageid: spainvsitaly
 lang: es
 ---
-
-# Análisis comparativo de España vs Italia en el mes de julio-agosto 2020 con respecto a los casos de COVID-19
 
 Dr. Nuria Oliver
 nuria@alum.mit.edu
