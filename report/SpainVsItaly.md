@@ -1,10 +1,11 @@
 ---
-title: Análisis comparativo de España vs Italia en el mes de julio-agosto 2020 con respecto a los casos de COVID-19
+title: Análisis comparativo de España vs Italia en COVID-19
 layout: page
 permalink: /es/reports/spainvsitaly
 pageid: spainvsitaly
 lang: es
 category: report
+description: ¿Por qué a España le ha ido peor que a Italia en el control de COVID-19 en el último mes?
 ---
 
 Dr. Nuria Oliver
