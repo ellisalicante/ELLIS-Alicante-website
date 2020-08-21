@@ -9,8 +9,8 @@ description: ¿Por qué a España le ha ido peor que a Italia en el control de C
 cardimage: /report/SpainVsItaly.assets/clip_image002.png
 ---
 
-Dr. Nuria Oliver
-nuria@alum.mit.edu
+Dr. Nuria Oliver  
+nuria@alum.mit.edu  
 18 agosto 2020
 
 España tiene ahora mismo una media de los últimos 7 días de mas de 4600 nuevos casos diarios de COVID-19, mientras que Italia tiene una media de 480 nuevos casos diarios, es decir, aproximadamente 10 veces menos que España. 
