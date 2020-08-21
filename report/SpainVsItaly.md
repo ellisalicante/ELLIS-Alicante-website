@@ -6,6 +6,7 @@ pageid: spainvsitaly
 lang: es
 category: report
 description: ¿Por qué a España le ha ido peor que a Italia en el control de COVID-19 en el último mes?
+cardimage: /report/SpainVsItaly.assets/clip_image002.png
 ---
 
 Dr. Nuria Oliver
