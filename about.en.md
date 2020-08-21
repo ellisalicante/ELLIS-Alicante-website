@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 pageid: about
 title: About ELLIS
 permalink: /en/about/

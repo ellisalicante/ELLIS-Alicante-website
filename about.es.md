@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Sobre ELLIS
 permalink: /es/about/
 lang: es

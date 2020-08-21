@@ -4,6 +4,7 @@ layout: page
 permalink: /es/reports/spainvsitaly
 pageid: spainvsitaly
 lang: es
+category: report
 ---
 
 Dr. Nuria Oliver

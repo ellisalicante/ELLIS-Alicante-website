@@ -34,7 +34,7 @@ inviernos suaves, excelentes museos, escuelas internacionales, un gran aeropuert
 
 ### Instrucciones para el envío
 
-Los solicitantes deben presentar su CV + breve declaración de interés en formato PDF [con el siguiente enlace]([this link](https://easychair.org/conferences/?conf=ihcai-2020)
+Los solicitantes deben presentar su CV + breve declaración de interés en formato PDF [con el siguiente enlace](https://easychair.org/conferences/?conf=ihcai-2020)
 
 ### Contacto
 
