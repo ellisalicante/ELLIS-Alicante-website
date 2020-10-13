@@ -56,6 +56,11 @@ header_pages:
     - jobs.en.md
     - jobs.es.md
 
+
+collections:
+  people:
+    people: true
+
 defaults:
   -
     scope:
