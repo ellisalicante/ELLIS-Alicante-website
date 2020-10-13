@@ -34,18 +34,23 @@
 				<ul class="navbar-nav">
 					{% for i in (1..2) %}
 					{% if i == 1 %}
-					{%  assign result=site.pages | where:"pageid", page.pageid | sort: 'lang' %}
+					{%  assign result=site.pages | sort: 'lang' %}
 					{% else %}
-					{% 	assign result=site.posts | where:"pageid", page.pageid | sort: 'lang' %}
+					{% 	assign result=site.posts | sort: 'lang' %}
 					{% endif %}
 
+					{% capture removeback %}.{{page.lang}}.md{%endcapture%}
+					{% capture pagebasepath %}{{ page.path | remove: removeback }}{% endcapture%}
+					
 					{% for p in result %}
-					{% if p.lang != page.lang %}
-					<li class="nav-item">
-						<a class="btn btn-outline-light" href="{{ p.url }}"
-							class="{{ p.lang }}">{{ site.data.languages[p.lang].label }}</a>
-					</li>
-					{% endif %}
+						{% capture removeback %}.{{p.lang}}.md{%endcapture%}
+						{% capture basepath %}{{ p.path | remove: removeback }}{% endcapture%}
+						{% if pagebasepath == basepath and page.lang != p.lang %}
+						<li class="nav-item">
+							<a class="btn btn-outline-light" href="{{ p.url }}"
+								class="{{ p.lang }}">{{ site.data.languages[p.lang].label }}</a>
+						</li>
+						{% endif %}
 					{% endfor %}
 
 					{% endfor %}

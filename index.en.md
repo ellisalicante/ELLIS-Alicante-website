@@ -1,6 +1,5 @@
 ---
 
-pageid: index
 layout: home
 lang: en
 permalink: /
