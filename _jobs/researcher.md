@@ -1,16 +1,16 @@
 ---
 layout: page
 pageid: researcherjob
-permalink: /en/job/researcher
-lang: en
+permalink: /job/researcher
 title: Postdoc, Junior and Senior Researcher Positions
+excerpt_separator: <!--more-->
 ---
 
 The newly created ELLIS Unit of Alicante, Spain, is looking for postdocs, junior and senior researchers. [ELLIS](http://ellis.eu) (The European 
 Laboratory of Learning and Intelligent Systems) is a European non-profit association whose objective is to attract, retain and nurture the 
 next generation of excellent researchers in Europe in machine learning and related topics. In addition to excellent research, ELLIS aims 
 to have positive economic and societal impact.
-
+<!--more-->
 Two open calls in the Fall of 2019 and Spring 2020 led to the establishment of a network of [27 ELLIS units](https://ellis.eu/units) in 13 
 different countries. Together, these units bring together the best AI researchers at their locations and are connected with each other, 
 creating a critical mass of excellent research centers across Europe and Israel.
