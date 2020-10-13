@@ -12,4 +12,4 @@ La comunidad científica de investigadore/as en Inteligencia Artificial (IA) en 
 
 Atraer, retener y cultivar la próxima generación de talento investigador excelente a Europa. Para ello, es necesario abordar las principales barreras existentes, incluyendo la falta de salarios competitivos; la alta carga docente; la rigidez de muchos entornos académicos europeos que dificultan la creación de startups y/o la colaboración estrecha con empresas, y la fragmentación de la investigación, generando islas de excelencia y perdiendo oportunidades. 
 
-![ELLIS_Pillars](D:\GitHub\ellisalicante.github.io\ELLIS_Pillars.png)
+![ELLIS_Pillars](ELLIS_Pillars.png)
