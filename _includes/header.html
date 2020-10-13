@@ -17,7 +17,7 @@
 
 	{%- if titles_size > 0 -%}
 
-	<nav class="navbar navbar-expand-md navbar-light ewt-navbar trans">
+	<nav class="navbar navbar-expand navbar-light ewt-navbar trans">
 		<div class="container">
 			<div class="navbar-collapse justify-content-between">
 				<ul class="navbar-nav mr-auto">
@@ -42,7 +42,7 @@
 					{% for p in result %}
 					{% if p.lang != page.lang %}
 					<li class="nav-item">
-						<a class="nav-link" href="{{ p.url }}"
+						<a class="btn btn-outline-light" href="{{ p.url }}"
 							class="{{ p.lang }}">{{ site.data.languages[p.lang].label }}</a>
 					</li>
 					{% endif %}
@@ -58,12 +58,12 @@
 <div class="homepage-header custom-ellis-header custom-ellis-header-mobile">
 	<div class="container">
 		<div class="ellis-header-upper-spacer"></div>
-			<div class="text-center">
-{% if page.layout == "home" %}				
-				<img class="img-fluid pt-5 pb-5" src="/assets/header_logo.png" alt="Ellis header logo2" /> 
-{% endif %}
-			</div>
-	</div>
+		{% if page.layout == "home" %}
+		<div class="text-center">
+			<img class="img-fluid pt-5 pb-5" src="/assets/header_logo.png" alt="Ellis header logo2" />
+		</div>
+		{% endif %}
+ 	</div>
 </div>
 
 <div class="section-top d-lg-none"></div>
