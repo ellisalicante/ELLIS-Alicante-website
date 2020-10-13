@@ -30,6 +30,7 @@ address: |
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-optional-front-matter
 
 collections:
   jobs:
@@ -53,4 +54,11 @@ header_pages:
     - about.es.md
     - about.en.md
     - jobs.en.md
-    - jobs.es.md 
+    - jobs.es.md
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      lang: "en" 

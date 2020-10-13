@@ -4,7 +4,7 @@ layout: page
 
 {{content}}
 
-{% assign pages=site.jobs | where:"lang", page.lang %}
+{% assign pages=site.jobs %}
  
 {% for job in pages %}
   <h3><a href="{{ job.url }}">{{ job.title }}</a></h3>
