@@ -48,7 +48,7 @@
 						{% if pagebasepath == basepath and page.lang != p.lang %}
 						<li class="nav-item">
 							<a class="btn btn-outline-light" href="{{ p.url }}"
-								class="{{ p.lang }}">{{ site.data.languages[p.lang].label }}</a>
+								class="{{ p.lang }}"><small>{{ site.data.languages[p.lang].label }}</small></a>
 						</li>
 						{% endif %}
 					{% endfor %}
