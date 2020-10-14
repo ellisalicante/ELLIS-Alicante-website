@@ -32,10 +32,6 @@ plugins:
   - jekyll-feed
   - jekyll-optional-front-matter
 
-collections:
-  jobs:
-    output: true
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -59,7 +55,8 @@ header_pages:
 
 collections:
   people:
-    people: true
+  jobs:
+    output: true
 
 defaults:
   -

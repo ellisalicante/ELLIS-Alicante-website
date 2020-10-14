@@ -12,4 +12,4 @@ of 17 ELLIS units in 10 countries in Europe and Israel. At that time the ELLIS n
 
 Attract, retain and cultivate the next generation of research talent in Europe. For this, it is necessary to address the main existing barriers, including the lack of competitive wages; the high teaching load; the rigidity of many academic environments in Europe that hinder the creation of startups and / or close collaboration with companies, and the fragmentation of research, generating islands of excellence and missing opportunities.
 
-![ELLIS_Pillars](ELLIS_Pillars.png){:width="100%"}
+![ELLIS_Pillars](assets/ELLIS_Pillars.png){:width="100%"}
