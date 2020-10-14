@@ -1,6 +1,5 @@
 ---
 layout: page
-pageid: researcherjob
 permalink: /job/researcher
 title: Postdoc, Junior and Senior Researcher Positions
 excerpt_separator: <!--more-->
