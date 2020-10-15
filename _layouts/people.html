@@ -4,13 +4,13 @@ layout: default
 
 {{content}}
 
-{% assign people=site.people | sort: "order" %}
+{% assign people=site.people | sort: "name" %}
 
 <div class="container">
   <div class="row">
 {% for p in people %}
 <div class="card p-3 col-lg-6">
-<h5 class="card-title">{% if p.picture != "" %}<img src="{{p.picture}}" align=right style="width: 100px">{% endif %}{{ p.name }}<br><small>{{ p.title }}</small></h5>
+<h5 class="card-title">{% if p.picture != "" %}<img src="{{p.picture}}" align=right style="height: 100px">{% endif %}{{ p.name }}<br><small>{{ p.title }}</small></h5>
 <p class="card-text">{{ p.content}}</p>
 </div>
 {% endfor %}
