@@ -1,15 +1,12 @@
 ---
 layout: page
-permalink: /news/2020-09-30-cruefbbvafunding
-title: ELLIS Alicante receives competitive funding 
+title: The Data Science against COVID19 Team obtains €300 thousand in competitive funding from CRUE and FBBVA
 excerpt_separator: <!--more-->
 ---
 
-**The Data Science against COVID19 Team obtains 300.000**  **euros of competitive funding from CRUE and FBBVA**
+Dr. Nuria Oliver, Chief Scientific Advisor at the newly created ELLIS Unit of Alicante, has received competitive funding for her work leading the Data Science against COVID-19 team as Commissioner for the President of the Valencian Government in Spain on AI and Data Science against COVID-19.<!--more-->
 
-Dr. Nuria Oliver, Chief Scientific Advisor at the newly created ELLIS Unit of Alicante, has received competitive funding for her work leading the Data Science against COVID-19 team as Commissioner for the President of the Valencian Government in Spain on AI and Data Science against COVID-19. 
-
-The team  is formed by a multidisciplinary group of volunteers who collaborate in the analysis of  data to assist in the fight against COVID-19.  It has been selected to obtain funding of EUR 300,000 in two recent competitive research initiatives.
+The team  is formed by a multidisciplinary group of volunteers who collaborate in the analysis of  data to assist in the fight against COVID-19.  It has been selected to obtain funding of €300,000 in two recent competitive research initiatives.
 
 The first is the Super COVID-19 Fund organized by CRUE Spanish Universities, the Spanish Council for Scientific Research (CSIC) and Banco Santander.[[1\]](#_ftn1) The call has given a total of EUR 8.5 million to support collaborative projects that address the health and educational challenges arising from the health crisis. The proposal made by the team, called CD4COVID, was one of the selected proposals and received funding of 150,000 euros.
 
