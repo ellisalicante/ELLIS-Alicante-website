@@ -4,7 +4,7 @@ title: The Data Science against COVID19 Team obtains €300 thousand in competit
 excerpt_separator: <!--more-->
 ---
 
-Dr. Nuria Oliver, Chief Scientific Advisor at the newly created ELLIS Unit of Alicante, has received competitive funding for her work leading the Data Science against COVID-19 team as Commissioner for the President of the Valencian Government in Spain on AI and Data Science against COVID-19.<!--more-->
+The Data Science against COVID19 Team, led by Dr. Nuria Oliver, Chief Scientific Advisor at the newly created ELLIS Unit of Alicante, has received competitive funding for her work leading the Data Science against COVID-19 team as Commissioner for the President of the Valencian Government in Spain on AI and Data Science against COVID-19.<!--more-->
 
 The team  is formed by a multidisciplinary group of volunteers who collaborate in the analysis of  data to assist in the fight against COVID-19.  It has been selected to obtain funding of €300,000 in two recent competitive research initiatives.
 
@@ -17,8 +17,6 @@ The Data Sciences team in the fight against COVID-19 is a multidisciplinary team
 The team works in four priority areas with their respective coordinators: (1) mobility data analysis, visualization and modeling, (2) computational epidemiological models and (3) predictive models and (4) citizen science in the fight against COVID-19 through a large-scale citizen survey with more than 300,000 responses:  https://covid19impactsurvey.org
 
 The group is led by Dr. Nuria Oliver, who in addition to being Commissioner to the President of the Valencian Government on AI Strategy and Data Science against COVID-19, is co-founder and Chief Scientific Advisor in the ELLIS Unit Alicante. Experts from the Universitat Jaume I, University of Valencia, Politechnic University of Valencia, University Miguel Hernández, University of Alicante, University CEU Cardenal Herrera, Fisabio and Microsoft are part of the team, in collaboration with Esri, the Spanish National Office of Statistics, the SESDIA and the three most important mobile phone operators in the country.
-
-
 
 ------
 
