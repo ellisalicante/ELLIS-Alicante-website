@@ -1,7 +1,7 @@
 ---
 layout: people
 title: People
-permalink: /people/
+permalink: /en/people/
 lang: en
 ---
 
