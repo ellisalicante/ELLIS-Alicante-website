@@ -1,6 +1,7 @@
 ---
 title: Latest News
 layout: default
+permalink: /en/news/
 ---
 
 <div class="container mt-5 mb-5">
