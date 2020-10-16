@@ -4,4 +4,3 @@ title: People
 permalink: /en/people/
 lang: en
 ---
-
