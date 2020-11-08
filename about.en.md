@@ -21,13 +21,13 @@ Attract, retain and cultivate the next generation of research talent in Europe. 
 
 
 
-### **ELLIS Alicante: The Institute for Humanity-centric Artificial Intelligence** 
+### **The ELLIS Unit in Alicante: The Institute for Humanity-centric Artificial Intelligence** 
 
 The ELLIS Unit in Alicante is called "The Institute for Humanity-centric Artificial Intelligence". Formally, it is a non-profit private foundation, created by the generosity of 38 private donors. 
 
 Its governing structures include the Board, a Scientific Advisory Committee and a Trustees Committee. 
 
-It is devoted to carrying out research in three areas: 
+It is devoted to carrying out research in three areas within modern Artificial Intelligence: 
 
 (1) Individual and aggregate human behavior modeling from data using machine learning techniques, including exploring the opportunities in the context of the 17 Sustainable Development Goals. 
 

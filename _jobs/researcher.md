@@ -10,7 +10,7 @@ Laboratory of Learning and Intelligent Systems) is a European non-profit associa
 next generation of excellent researchers in Europe in machine learning and related topics. In addition to excellent research, ELLIS aims 
 to have positive economic and societal impact.
 <!--more-->
-Two open calls in the Fall of 2019 and Spring 2020 led to the establishment of a network of [27 ELLIS units](https://ellis.eu/units) in 13 
+Two open calls in the Fall of 2019 and Spring 2020 led to the establishment of a network of [30 ELLIS units](https://ellis.eu/units) in 14 
 different countries. Together, these units bring together the best AI researchers at their locations and are connected with each other, 
 creating a critical mass of excellent research centers across Europe and Israel.
 
@@ -25,7 +25,7 @@ models for social good.
 3. Human-centric challenges in AI, such as algorithmic discrimination and opacity, computational violation of people’s privacy, 
 lack of veracity or the subliminal manipulation of human behavior.
 
-The ELLIS Unit Alicante offers *competitive salaries* and a *flexible working environment* with no teaching load and close interactions both 
+The ELLIS Unit Alicante offers ***competitive salaries*** and a ***flexible working environment*** with no teaching load and close interactions both 
 with universities and companies.
 
 It is located in the University Campus of the University of Alicante, a beautiful mid-size Mediterranean city with sandy beaches, 
