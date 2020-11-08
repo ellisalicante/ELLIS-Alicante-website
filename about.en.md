@@ -9,7 +9,7 @@ lang: en
 
 The European scientific community of researchers in modern Artificial Intelligence mobilized and created in 2018 a non-profit Association called [ELLIS](https://ellis.eu), the European Laboratory of Learning and Intelligent Systems. In December 2019 and after a competitive selection process, ELLIS announced the establishment of the first 17 ELLIS units in 10 countries in Europe and Israel. At that time the ELLIS network emerged with a commitment of more than 200 million euros of investment in research in the next 5 years. In June 2020, ELLIS announced the creation of 13 more ELLIS units, leading to a network of 30 units in 14 European countries and Israel. The [official inauguration](https://ellis.eu/events/ellis-units-official-launch) of these first 30 ELLIS units took place on September, 15th 2020. 
 
-The [ELLIS Unit in Alicante](https://ellis.eu/units/alicante) was one of the first 17 units selected by ELLIS. 
+The [ELLIS Unit in Alicante](https://ellis.eu/units/alicante) was one of the first 17 units selected by ELLIS via a competitive review process by an international committee of experts. 
 
 ![image-20201108144453469](D:\GitHub\ellisalicante.github.io\assets\ellis_units_map)
 
