@@ -11,7 +11,7 @@ The European scientific community of researchers in modern Artificial Intelligen
 
 The [ELLIS Unit in Alicante](https://ellis.eu/units/alicante) was one of the first 17 units selected by ELLIS via a competitive review process by an international committee of experts. 
 
-![imageELLISunits](assets\ellis_units_map){:width="60%"}
+![imageELLISunits](assets/ellis_units_map.png){:width="60%"}
 
 #### **The goals of ELLIS**
 
