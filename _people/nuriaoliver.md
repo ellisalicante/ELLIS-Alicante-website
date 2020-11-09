@@ -2,6 +2,7 @@
 name: Nuria Oliver
 title: Chief Scientific Advisor and Vice-President of ELLIS
 picture: /assets/nuria.jpg
+people_category: researcher
 ---
 
 Nuria Oliver is Chief Scientific Advisor and one of the founders of the ELLIS Alicante Foundation. 

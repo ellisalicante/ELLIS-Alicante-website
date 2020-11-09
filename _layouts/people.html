@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{{content}}
-
-{% assign people=site.people | sort: "name" %}
+{% assign people=site.people | where: "people_category", page.people_category  | sort: "name" %}
 
 <div class="container">
+ {{content}}
+
   <div class="row">
 {% for p in people %}
 <div class="card p-3 col-lg-6">

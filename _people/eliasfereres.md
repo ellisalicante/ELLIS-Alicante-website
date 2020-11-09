@@ -2,6 +2,7 @@
 name: Elías Fereres Castiel
 title: Board member
 picture: /assets/elias.jpg
+people_category: board
 ---
 
 Elias Fereres is an expert in public policy and brings an extensive experience in government relations.

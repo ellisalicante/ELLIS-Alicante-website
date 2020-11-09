@@ -2,6 +2,7 @@
 name: Christof Beaupoil
 title: President of the Foundation
 picture: /assets/christofbeaupoil.jpg
+people_category: board
 ---
 
 Christof Beaupoil is a successful entrepreneur and expert from the IT industry.

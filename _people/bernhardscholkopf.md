@@ -2,6 +2,7 @@
 name: Bernhard Schölkopf
 title: Board member and President of ELLIS
 picture: /assets/bernhard.jpg
+people_category: board
 ---
 
 Bernhard Schölkopf is one of Europe's top researchers in Artificial Intelligence and represents ELLIS at the European level. 

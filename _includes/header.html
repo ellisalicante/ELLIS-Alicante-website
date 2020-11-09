@@ -10,25 +10,35 @@
 		</div>
 	</div>
 
-	{% assign pages=site.pages | where:"lang", page.lang %}
-	{%- assign default_paths = pages | map: "path" -%}
-	{%- assign page_paths = site.header_pages | default: default_paths -%}
-	{%- assign titles_size = pages | map: 'title' | join: '' | size -%}
-
-	{%- if titles_size > 0 -%}
-
 	<nav class="navbar navbar-expand navbar-light ewt-navbar trans">
 		<div class="container">
 			<div class="navbar-collapse justify-content-between">
 				<ul class="navbar-nav mr-auto">
-					{%- for path in page_paths -%}
-					{%- assign my_page = pages | where: "path", path | first -%}
-					{%- if my_page.title -%}
+
+
+					{% for item in site.data.menu[page.lang] %}
+					{% assign my_page = site.pages | where: "path", item.path | first %}
+					
+					{% if item.subitems %}
+					
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  {{ item.title | escape }}
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					{% for subitem in item.subitems %}
+					  {% assign my_subpage = site.pages | where: "path", subitem.path | first %}
+					
+					  <a class="dropdown-item" href="{{ my_subpage.url | relative_url }}">{{ subitem.title | default: my_subpage.title | escape }}</a>
+					{% endfor %}
+					</div>
+					</li>					
+					{% else %}
 					<li class="nav-item">
-						<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+						<a class="nav-link" href="{{ my_page.url | relative_url }}">{{ item.title | default: my_page.title | escape }}</a>
 					</li>
-					{%- endif -%}
-					{%- endfor -%}
+					{% endif %}
+					{% endfor %}
 				</ul>
 
 				<ul class="navbar-nav">
@@ -57,7 +67,6 @@
 				</ul>
 			</div>
 	</nav>
-	{%- endif -%}
 </header>
 
 <div class="homepage-header custom-ellis-header custom-ellis-header-mobile">

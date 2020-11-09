@@ -2,6 +2,7 @@
 name: Victoria Carrascosa
 title: Board member
 picture: /assets/victoria.jpg
+people_category: board
 ---
 
 Victoria Carrascosa is an expert in human resources, legal services and compliance. 

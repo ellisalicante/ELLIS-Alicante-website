@@ -44,15 +44,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header_pages:
-    - index.es.md
-    - index.en.md
-    - about.es.md
-    - about.en.md
-    - jobs.en.md
-    - jobs.es.md
-
-
 collections:
   people:
   jobs:
