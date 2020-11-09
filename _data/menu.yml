@@ -1,0 +1,23 @@
+en:
+ - path: index.en.md
+ - title: About ELLIS
+   subitems: 
+    - path: about.en.md
+    - path: about/governance.en.md
+    - path: about/researchers.en.md
+    - path: about/statutes.es.md
+      title: Statutes (in Spanish)
+ - path: news.en.md
+ - path: jobs.en.md
+es:
+ - path: index.es.md
+ - title: Sobre ELLIS
+   subitems:
+    - path: about.es.md
+    - path: about/governance.en.md
+    - path: about/researchers.en.md
+    - path: about/statutes.es.md
+      title: Estatutos
+ - path: news.en.md
+   title: Noticias
+ - path: jobs.es.md

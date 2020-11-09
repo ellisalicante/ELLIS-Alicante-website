@@ -11,13 +11,13 @@ The European scientific community of researchers in modern Artificial Intelligen
 
 The [ELLIS Unit in Alicante](https://ellis.eu/units/alicante) was one of the first 17 units selected by ELLIS via a competitive review process by an international committee of experts. 
 
-![imageELLISunits](assets/ellis_units_map.png){:width="60%"}
+![ELLIS Units](assets/ellis_units_map.png){:width="60%"}
 
 #### **The goals of ELLIS**
 
 Attract, retain and cultivate the next generation of research talent in Europe. For this, it is necessary to address the main existing barriers, including the lack of competitive wages; the high teaching load; the rigidity of many academic environments in Europe that hinder the creation of startups and / or close collaboration with companies, and the fragmentation of research, generating islands of excellence and missing opportunities.
 
-![ELLIS_Pillars](assets/ELLIS_Pillars.png){:width="60%"}
+![ELLIS Pillars](assets/ELLIS_Pillars.png){:width="60%"}
 
 
 
@@ -29,9 +29,9 @@ Its governing structures include the Board, a Scientific Advisory Committee and 
 
 It is devoted to carrying out research in three areas within modern Artificial Intelligence: 
 
-(1) Individual and aggregate human behavior modeling from data using machine learning techniques, including exploring the opportunities in the context of the 17 Sustainable Development Goals. 
+1. Individual and aggregate human behavior modeling from data using machine learning techniques, including exploring the opportunities in the context of the 17 Sustainable Development Goals. 
 
-(2) The development of intelligent, interactive systems, with a focus on intelligent mobile systems and personal assistants. 
+2. The development of intelligent, interactive systems, with a focus on intelligent mobile systems and personal assistants. 
 
-(3) Addressing the risks and limitations of today's data-driven, machine learning-based models used to assist in decision-making processes. Such limitations include the computational violation of privacy, the lack of veracity, algorithmic discrimination and opacity and the subliminal manipulation of human behavior. 
+3. Addressing the risks and limitations of today's data-driven, machine learning-based models used to assist in decision-making processes. Such limitations include the computational violation of privacy, the lack of veracity, algorithmic discrimination and opacity and the subliminal manipulation of human behavior. 
 
