@@ -15,7 +15,9 @@ es:
    subitems:
     - path: about.es.md
     - path: about/governance.en.md
+      title: Gobernanza
     - path: about/researchers.en.md
+      title: Investigación
     - path: about/statutes.es.md
       title: Estatutos
  - path: news.en.md
