@@ -1,6 +1,6 @@
 ---
 name: Christof Beaupoil
-title: President of the Foundation
+title: President of the Board
 picture: /assets/christofbeaupoil.jpg
 people_category: board
 ---
