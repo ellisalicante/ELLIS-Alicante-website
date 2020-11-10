@@ -18,4 +18,4 @@ Finally, the board may appoint a director of the Foundation, with executive func
 
 Below is the organizational chart of the ELLIS Alicante Foundation. 
 
- <img src="D:\GitHub\ellisalicante.github.io\about\ELLIS_Alicante_OrgChart-1604996948943.png" alt="ELLIS_Alicante_orgchart" style="zoom:67%;" />
+![ELLIS_Alicante_OrgChart](assets/ELLIS_Alicante_OrgChart.png){:width="60%"}
