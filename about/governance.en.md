@@ -6,6 +6,8 @@ lang: en
 people_category: board
 ---
 
+## **Governance**
+
 The **board** is responsible for the governance and representation of the Foundation, the fulfilment of its goals and the administration and management of its assets. 
 
 In addition, the ELLIS Alicante Foundation has a Scientific Advisory Board (SAB) and a Trustees Committee (TC). 
@@ -21,3 +23,4 @@ Below is the organizational chart of the ELLIS Alicante Foundation.
 ![ELLIS_Alicante_OrgChart](ELLIS_Alicante_OrgChart-1604997621003.png)
 
 ## **Board** 
+
