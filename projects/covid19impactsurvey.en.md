@@ -3,6 +3,7 @@ layout: survey
 title: Covid19ImpactSurvey
 permalink: /en/covid19impactsurvey
 lang: en
+description: The Covid19ImpactSurvey is one of the world's largest long-term surveys of public opinion on the impact of Covid-19 on society. 
 ---
 
 The [Covid19ImpactSurvey](https://covid19impactsurvey.org) is one of the world's largest long-term surveys of public opinion on the impact of Covid-19 on society. It has focused on Spain, Italy, Germany, and Brazil, with more than 350,000 responses, capturing the progression of the epidemic from the peak of March 2020 until the second wave in November 2020. The survey continues with a goal of around 8,000 responses per week.

@@ -3,6 +3,7 @@ layout: survey
 title: Covid19ImpactSurvey
 permalink: /es/covid19impactsurvey
 lang: es
+description: Covid19ImpactSurvey es una de las encuestas ciudadanas de largo plazo más grandes del mundo sobre el impacto de Covid-19 en la sociedad.
 ---
 
 [Covid19ImpactSurvey](https://covid19impactsurvey.org) es una de las encuestas ciudadanas de largo plazo más grandes del mundo sobre el impacto de Covid-19 en la sociedad. Se ha centrado en España, Italia, Alemania y Brasil, con más de 350.000 respuestas anónimas, capturando la progresión de la epidemia desde el pico de marzo de 2020 hasta la segunda oleada de noviembre 2020. La encuesta continúa con un objetivo de 8.000 respuestas por semana.
