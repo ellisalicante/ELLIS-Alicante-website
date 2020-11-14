@@ -2,7 +2,24 @@
 layout: default
 ---
 <div class="container">
-<h2>{{page.title}}</h2>
+
+<div class="d-flex flex-row justify-content-between">
+<div><h2>{{page.title}}</h2></div>
+
+<div class="btn-group">
+{% if page.lang == "es" %}
+Compartir la encuesta:
+{% else %}
+Share survey:
+{% endif %}
+
+<a href="https://covid19impactsurvey.org/share/whatsapp.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/whatsapp.png" width=20 height=20> WhatsApp</div></a>
+<a href="https://covid19impactsurvey.org/share/twitter.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/twitter.png"  width=20 height=20> Twitter</div></a>
+<a href="https://covid19impactsurvey.org/share/facebook.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/facebook.png"  width=20 height=20> Facebook</div></a>
+
+</div>
+</div>
+
 <div class="text-justify">
 {{content}}
 </div>
