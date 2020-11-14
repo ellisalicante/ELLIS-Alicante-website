@@ -8,15 +8,17 @@ layout: default
 
 <div class="btn-group">
 {% if page.lang == "es" %}
+{% assign emailbody = "Covid19ImpactSurvey es una de las encuestas ciudadanas más grandes del mundo sobre el impacto de Covid-19 en la sociedad. ¿Te animas a contestarlo? https://covid19impactsurvey.org" %}
 Compartir la encuesta:
 {% else %}
+{% assign emailbody = "The Covid19ImpactSurvey one of the world's largest citizen-science surveys and is helping us understand the health, economic and psychological impact of the epidemic. Do you want contribute your experience? https://covid19impactsurvey.org" %}
 Share survey:
 {% endif %}
 
 <a href="https://covid19impactsurvey.org/share/whatsapp.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/whatsapp.png" width=20 height=20> WhatsApp</div></a>
 <a href="https://covid19impactsurvey.org/share/twitter.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/twitter.png"  width=20 height=20> Twitter</div></a>
 <a href="https://covid19impactsurvey.org/share/facebook.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/facebook.png"  width=20 height=20> Facebook</div></a>
-
+<a href="mailto:?subject=Covid19ImpactSurvey&body={{ emailbody }}"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/email.png" width=20 height=20> Email</div></a>
 </div>
 </div>
 
