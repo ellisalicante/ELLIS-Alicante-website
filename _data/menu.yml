@@ -7,6 +7,9 @@ en:
     - path: about/researchers.en.md
     - path: about/statutes.es.md
       title: Statutes (in Spanish)
+ - title: Projects
+   subitems:
+     - path: projects/covid19impactsurvey.en.md
  - path: news.en.md
  - path: jobs.en.md
 es:
@@ -20,6 +23,9 @@ es:
       title: Investigación
     - path: about/statutes.es.md
       title: Estatutos
- - path: news.en.md
    title: Noticias
+ - title: Proyectos
+   subitems:
+     - path: projects/covid19impactsurvey.es.md
+ - path: news.en.md
  - path: jobs.es.md
