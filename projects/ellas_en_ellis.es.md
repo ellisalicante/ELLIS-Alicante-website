@@ -2,6 +2,8 @@
 title: "Ellas en ELLIS: Más de cuatro"
 layout: page
 lang: es
+cardimage: /assets/logomasdecuatro.png
+permalink: ellas
 ---
 
 
