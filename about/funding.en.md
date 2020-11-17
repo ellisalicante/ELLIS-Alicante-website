@@ -2,6 +2,7 @@
 title: Sponsorships and Donations
 layout: page
 language: en
+permalink: en/funding
 ---
 
 In order to fund the activities of the ELLIS Alicante Foundation, there are different sponsorship contributions and donations from companies and other institutions at various levels, aligned with the sponsorship program at [ELLIS](https://ellis.eu/sponsorship).
