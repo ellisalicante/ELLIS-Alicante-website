@@ -1,6 +1,6 @@
 ---
 layout: survey
-title: Covid19ImpactSurvey
+title: Covid19ImpactSurvey Results
 permalink: /en/covid19impactsurvey
 lang: en
 description: The Covid19ImpactSurvey is one of the world's largest long-term surveys of public opinion on the impact of Covid-19 on society. 

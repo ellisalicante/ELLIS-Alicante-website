@@ -10,6 +10,7 @@ en:
  - title: Projects
    subitems:
      - path: projects/covid19impactsurvey.en.md
+       title: Covid19ImpactSurvey
  - path: news.en.md
  - path: jobs.en.md
 es:
@@ -27,5 +28,6 @@ es:
  - title: Proyectos
    subitems:
      - path: projects/covid19impactsurvey.es.md
+       title: Covid19ImpactSurvey
  - path: news.en.md
  - path: jobs.es.md

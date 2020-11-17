@@ -1,6 +1,6 @@
 ---
 layout: survey
-title: Covid19ImpactSurvey
+title: Covid19ImpactSurvey Resultados
 permalink: /es/covid19impactsurvey
 lang: es
 description: Covid19ImpactSurvey es una de las encuestas ciudadanas de largo plazo más grandes del mundo sobre el impacto de Covid-19 en la sociedad.
