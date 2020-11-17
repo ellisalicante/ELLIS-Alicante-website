@@ -1,7 +1,8 @@
+---
 layout: page
-permalink: es/projects/
 title: Nuevas crisis, viejas desigualdades 
 excerpt_separator: <!--more-->
+---
 
 <img src="../assets/logomasdecuatro.png" alt="logomasdecuatro" style="zoom:25%;" />
 
@@ -9,7 +10,7 @@ excerpt_separator: <!--more-->
 
 María Ángeles Sallé, Nuria Oliver, Cecilia Castaño y Capitolina Díaz 
 
-En el último mes, el debate sobre los factores que explican las (cada vez menores) diferencias en el número de contagios entre España y otros países europeos ha ganado protagonismo, no solo en los medios sino -también- en los organismos especializados. ¿Menores restricciones públicas o indisciplina social?, ¿características de nuestro modelo productivo y de relación? 
+En el último mes, el debate sobre los factores que explican las (cada vez menores) diferencias en el número de contagios entre España y otros países europeos ha ganado protagonismo, no solo en los medios sino -también- en los organismos especializados. ¿Menores restricciones públicas o indisciplina social?, ¿características de nuestro modelo productivo y de relación? <!--more-->
 
 No hay un consenso claro pero, partiendo de que se trata de un fenómeno complejo y multidimensional, quisiéramos añadir **tres ingredientes** adicionales a este cóctel, menos visibles y motivados por la interacción entre **causas estructurales** relacionadas con el mercado de trabajo español, la **capacidad de respuesta** de los servicios públicos (cadena de detección, aislamiento y acompañamiento de los casos identificados) y el **comportamiento social** (posicionamiento frente a todo ello de las personas afectadas). Un análisis que estimamos relevante, no solo para explicar lo que sucede sino, sobre todo, para encontrar alternativas eficaces que contribuyan a cerrar esta brecha. 
 
