@@ -1,16 +1,18 @@
-# **Ellas en ELLIS: Más de cuatro**
+---
+title: "Ellas en ELLIS: Más de cuatro"
+layout: page
+lang: es
+---
 
 
 
-<img src="logomasdecuatro-1605613583846.png" alt="logomasdecuatro" style="zoom:10%;" />
+![Logo](../assets/logomasdecuatro.png)
 
 ## **Quiénes**
 
 **Cuatro mujeres** (sociólogas, politólogas y tecnólogas), dos de ellas catedráticas de universidad y las cuatro muy bregadas también en el trabajo desde el terreno (**ámbitos sociales, educativos, institucionales, empresariales y tecnológicos**), hemos decidido poner nuestro grano de arena en la **reflexión sobre la crisis COVID-19**. Intentamos aportar, como equipo que piensa conjuntamente, miradas y propuestas que nos parecen poco representadas en el debate público. No solo por el hecho de ser mujeres comprometidas con la **igualdad de género** (en ese sentido, nuestro objetivo no es el de encasillarnos en las problemáticas u ópticas femeninas, aunque por supuesto las abordemos: queremos reflexionar sobre el conjunto), sino porque apreciamos que al debate en curso le faltan también perspectivas más diversas, integradoras y pluridisciplinares. Perspectivas que puedan incidir tanto en la creación de opinión como en el diseño y materialización de las nuevas políticas públicas en curso, con la vista puesta -sobre todo- en la **agenda europea 2021-2027** y su traslación a España.
 
-![masdecuatro](masdecuatro-1605613685929.jpg)
-
-
+![Más de cuatro](../assets/masdecuatro.jpg)
 
 **Somos**, por orden alfabético:
 
@@ -30,12 +32,12 @@ Los tres primeros (“verticales”) se enfocan en **colectivos** que constituye
 
 Son los siguientes artículos: 
 
-\1.    Nueva crisis, viejas desigualdades. 
+1. Nueva crisis, viejas desigualdades. 
 
-\2.    “Milenials y pandemials”: ¿culpables o ignorados?
+2. “Milenials y pandemials”: ¿culpables o ignorados?
 
-\3.    Mujeres en al primera y segunda ola: más contribución y menos igualdad.
+3. Mujeres en al primera y segunda ola: más contribución y menos igualdad.
 
-\4.    Datos digitales y tecnología para un mundo mejor. 
+4. Datos digitales y tecnología para un mundo mejor. 
 
-\5.    “Personas en el centro”: pensar al revés las nuevas agendas del cambio social.
+5. “Personas en el centro”: pensar al revés las nuevas agendas del cambio social.

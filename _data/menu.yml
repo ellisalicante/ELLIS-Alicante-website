@@ -29,7 +29,7 @@ es:
    subitems:
      - path: projects/covid19impactsurvey.es.md
        title: Covid19ImpactSurvey
-	 - path: projects/ellas_en_ellis.es.md
-       title: Ellas_ELLIS 
+     - path: projects/ellas_en_ellis.es.md
+       title: Ellas en ELLIS 
  - path: news.en.md
  - path: jobs.es.md
