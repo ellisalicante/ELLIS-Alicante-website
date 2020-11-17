@@ -1,6 +1,7 @@
 ---
 title: Donaciones y Patrocinios
 lang: es
+layout: page
 ---
 Para apoyar a que la Fundación Unidad ELLIS Alicante pueda llevar a cabo su misión, hay distintas modalidades posibles de contribuciones y donaciones por parte de las empresas y otras instituciones colaboradoras, alineadas con el programa de patrocinios de  [ELLIS](https://ellis.eu/sponsorship).
 
@@ -14,6 +15,7 @@ La tabla resume las distintas opciones de patrocinio para la Fundación Unidad E
 | **BRONCE**                    | **25.000** euros año + **10.000** euros para ELLIS +  IVA<br>1 beca de Doctorado / postdoc + **5.000** euros para  ELLIS | •    Logo  en comunicaciones<br>•    Acceso  preferente a formación (workshops, eventos...)<br>•    Anuncio en la Newsletter |
 | **AMIGOS/AS DE LA FUNDACIÓN** | **5.000 -** **25.000** euros                                 | Reconocimiento en la página web y en el informe anual        |
 | **MICRO-FINANCIACIÓN**        | Hasta **5.000** euros                                        | Reconocimiento en la página web y en el informe anual        |
+
 
 Todas las modalidades de apoyo a la Fundación recibirán invitaciones a todos los eventos que organice la unidad ELLIS Alicante, así como al evento de Inauguración de esta y otros eventos especiales conmemorativos. Todos recibirán un pin distintivo de la unidad ELLIS Alicante y serán reconocidos en la memoria anual de la Fundación además del reconocimiento explícito en función de su nivel de patrocinio.
 

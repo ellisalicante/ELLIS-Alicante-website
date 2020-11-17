@@ -24,7 +24,7 @@ es:
       title: Investigación
     - path: about/statutes.es.md
       title: Estatutos
-   title: Noticias
+    - path: funding/funding.es.md
  - title: Proyectos
    subitems:
      - path: projects/covid19impactsurvey.es.md
