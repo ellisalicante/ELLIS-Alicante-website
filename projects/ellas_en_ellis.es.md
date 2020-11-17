@@ -8,7 +8,9 @@ permalink: ellas
 
 
 
-![Logo](../assets/logomasdecuatro.png)
+<img src="../assets/logomasdecuatro.png" alt="Logo" style="zoom:25%;" />
+
+
 
 ## **Quiénes**
 
