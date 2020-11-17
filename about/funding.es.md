@@ -7,6 +7,7 @@ Para apoyar a que la Fundación Unidad ELLIS Alicante pueda llevar a cabo su mis
 
 La tabla resume las distintas opciones de patrocinio para la Fundación Unidad ELLIS Alicante. 
 
+{:.table}
 | **NIVEL**                     | **CONTRIBUCIÓN** **ANUAL**                                   | **BENEFICIOS**                                               |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **PLATINO**                   | **500.000** euros primer año,<br>**200.000** euros siguientes años (mínimo 2 años) | •    Opción  de asiento en el patronato<br>•    Logo  en comunicaciones<br>•    Visitas  ilimitadas a la sede<br>•    Acceso  preferente a formación (workshops, eventos...)<br>•    Anuncio en la Newsletter<br>•    Posibilidad  de proponer retos alineados con investigaciones |
