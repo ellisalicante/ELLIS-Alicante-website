@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 **María Ángeles Sallé**, **[Nuria Oliver](https://nuriaoliver.com),** **Cecilia Castaño** y **Capitolina Díaz** 
 
-Artículo publicado por [EL PAIS el 18 NOV 2020](https://elpais.com/hemeroteca/2020-11-18/) 
+Artículo publicado por [EL PAIS, el 18 NOV 2020](https://elpais.com/opinion/2020-11-17/los-pandemials-culpables-o-ignorados.html) 
 
 No podemos sostener el reproche de los adultos hacia los jóvenes. En realidad, parten con desventaja ante un difícil mercado laboral y corremos el riesgo de romper la solidaridad intergeneracional. <!--more-->
 
