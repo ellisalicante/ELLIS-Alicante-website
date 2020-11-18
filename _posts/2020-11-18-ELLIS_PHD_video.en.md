@@ -9,4 +9,3 @@ The [ELLIS PhD program](https://www.youtube.com/watch?v=oQKoiy1qWH0) has been la
 <!--more-->
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oQKoiy1qWH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
