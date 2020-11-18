@@ -7,6 +7,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url }}">
 <meta property="og:title" content="{{page.title}}" />
+
+{% for i in (1..2) %}{% if i == 1 %}{%  assign result=site.pages | sort: 'lang' %}{% else %}{% 	assign result=site.posts | sort: 'lang' %}{% endif %}{% capture removeback %}.{{page.lang}}.md{%endcapture%}{% capture pagebasepath %}{{ page.path | remove: removeback }}{% endcapture%}{% for p in result %}{% capture removeback %}.{{p.lang}}.md{%endcapture%}{% capture basepath %}{{ p.path | remove: removeback }}{% endcapture%}{% if pagebasepath == basepath %}
+<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url }}" />{% endif %}{% endfor %}{% endfor %}
+
 {% if page.cardimage %}
 <meta property="og:image" content="{{ page.cardimage |  | absolute_url }}" />
 {% else %}
