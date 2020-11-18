@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: es
 title: Nuevas crisis, viejas desigualdades 
 excerpt_separator: <!--more-->
 ---
