@@ -38,7 +38,7 @@ Son los siguientes artículos:
 
 1. Nueva crisis, viejas desigualdades. 
 
-2. [“Pandemials”: ¿culpables o ignorados?](https://ellisalicante.org/es/pandemials.es.md) Publicado en [EL PAIS el 18-nov-2020](https://elpais.com/opinion/2020-11-17/los-pandemials-culpables-o-ignorados.html)
+2. [“Pandemials”: ¿culpables o ignorados?](pandemials.es.md) Publicado en [EL PAIS el 18-nov-2020](https://elpais.com/opinion/2020-11-17/los-pandemials-culpables-o-ignorados.html)
 
 3. Mujeres en al primera y segunda ola: más contribución y menos igualdad.
 
