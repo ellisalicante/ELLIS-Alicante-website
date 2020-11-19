@@ -8,6 +8,7 @@ en:
     - path: about/statutes.es.md
       title: Statutes (in Spanish)
     - path: about/funding.en.md
+    - path: about/privacy.en.md    
  - title: Projects
    subitems:
      - path: projects/covid19impactsurvey.en.md
@@ -26,6 +27,8 @@ es:
     - path: about/statutes.es.md
       title: Estatutos
     - path: about/funding.es.md
+    - path: about/privacy.en.md
+      title: Política de privacidad
  - title: Proyectos
    subitems:
      - path: projects/covid19impactsurvey.es.md
