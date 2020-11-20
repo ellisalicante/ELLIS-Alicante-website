@@ -32,6 +32,23 @@ p
 					<a class="twitter-timeline" href="https://twitter.com/ELLISAlicante?ref_src=twsrc%5Etfw">Tweets by ELLISAlicante</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>					
 				</div>
 			</div>
+		</div>
+		
+		<div class="col-sm-6">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">{{ site.data.languages[page.lang].contact_info }}</h5>
+					<p class="card-text">
+						{%- if site.email -%}<a href="mailto:{{ site.email }}"><img width=20 height=20
+								src="/assets/email.png"> {{ site.email | escape }}</a>{%- endif -%}
+
+					<h6>{{ site.data.languages[page.lang].address }}</h6>
+					<div>
+						{{ site.address | newline_to_br }}
+					</div>
+					</p>
+				</div>
+			</div>
 			<div class="card">
 				<div class="card-body">
 				<h5 class="card-title">{{ site.data.languages[page.lang].mail_title }}</h5>
@@ -51,23 +68,6 @@ p
 					</div>
 				</div>
 			</div>
-			</div>
-		</div>
-		
-		<div class="col-sm-6">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">{{ site.data.languages[page.lang].contact_info }}</h5>
-					<p class="card-text">
-						{%- if site.email -%}<a href="mailto:{{ site.email }}"><img width=20 height=20
-								src="/assets/email.png"> {{ site.email | escape }}</a>{%- endif -%}
-
-					<h6>{{ site.data.languages[page.lang].address }}</h6>
-					<div>
-						{{ site.address | newline_to_br }}
-					</div>
-					</p>
-				</div>
 			</div>
 		</div>
 		
