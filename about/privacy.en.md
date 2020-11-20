@@ -46,7 +46,7 @@ The following data are gathered temporarily:
 - Address of the previously visited website (referrer)
 - Name and version of your browser/operating system (if transmitted)
 
-These data are stored in our systems' log files. These data are not stored together with the user's other personal data.
+These data are stored in log files by our cloud service provider. These data are not stored together with the user's other personal data.
 
 The legal basis for the temporary saving of data and log files is Article 6 (1) lit. f GDPR. Storage occurs in log files in order to ensure the website's functionality. The data also help us optimize the websites, eliminate malfunctions and ensure our IT system security. Our justified interest in data processing pursuant to Article 6 (1) lit. f GDPR also lies in such purposes.
 
@@ -63,7 +63,7 @@ While we do not use targeting cookies for advertising purposes, we use Google An
 - Geo Location data/language
 - Platform (such as browser/network/device)
 
-To enrich our content, we sometimes embed social options, photos and video content from websites such as Facebook, Twitter and YouTube. As a result, when you visit a page with content embedded from, for example, Facebook, Facebook may set a cookie. By visiting or engaging our content that makes use of Youtube, you are influenced to follow the Youtube terms of service [(https://www.youtube.com/t/terms)](https://www.youtube.com/t/terms) when using/engaging with Youtube components. Please note that we do not control the dissemination of these cookies and/or functionality and you should check the relevant third party website, such as Facebook, Twitter or YouTube [(http://www.google.com/policies/privacy)](http://www.google.com/policies/privacy), for more information about their cookies, privacy information and functionality.
+To enrich our content, we sometimes embed social options, photos and video content from websites such as Facebook, Twitter and YouTube. As a result, when you visit a page with content embedded from, for example, Facebook, Facebook may set a cookie. By visiting or engaging our content that makes use of YouTube, you are influenced to follow the YouTube terms of service [(https://www.youtube.com/t/terms)](https://www.youtube.com/t/terms) when using/engaging with YouTube components. Please note that we do not control the dissemination of these cookies and/or functionality and you should check the relevant third party website, such as Facebook, Twitter or YouTube [(http://www.google.com/policies/privacy)](http://www.google.com/policies/privacy), for more information about their cookies, privacy information and functionality.
 
 ## D. Utilization of cookies
 
@@ -101,11 +101,11 @@ For detailed instructions on how to manage your own data related to Google produ
 
 ## E. Registration
 
-On our websites, we offer users the option to register, entailing the entry of personal data in a data entry form. We generally gather your email address, family name and first name. We inform you about the specific processing of the data and we obtain your consent as part of the registration procedure. Reference is also made to this data protection statement.
+On our websites, we may offer users the option to register, entailing the entry of personal data in a data entry form. We generally gather your email address, family name and first name. We inform you about the specific processing of the data and we obtain your consent as part of the registration procedure. Reference is also made to this data protection statement.
 
 The legal basis for the processing of data is the user's consent pursuant to Article 6 (1) lit. a GDPR. If registration serves to fulfil a contract whose contractual party is the user or to implement pre-contractual measures, the additional legal basis for the processing of data is Article 6 (1) lit. b GDPR. Registering the user is necessary to provide certain contents and services on our website or to fulfil a contract with the user or to implement pre-contractual measures. The data are deleted as soon as they are no longer required to achieve the purpose for which they were gathered. This is the case for data gathered during the registration process if registration is cancelled or modified on our websites. For the registration process to fulfil a contract or to implement pre-contractual measures, this is the case if the data are no longer required to fulfil the contract. After the contract ends, it may be necessary to continue to store the contractual partner's personal data in order to fulfil contractual or statutory obligations.
 
-As a user, you can cancel the registration at any time. You can have the data saved in connection with yourself modified at any time. The procedure is described in more detail in the specific registration procedure. If the data are required to fulfil a contract or to implement pre-contractual measures, Farly deletion of the data is possible only to the extent that no contractual or statutory obligations prevent such deletion.
+As a user, you can cancel the registration at any time. You can have the data saved in connection with yourself modified at any time. The procedure is described in more detail in the specific registration procedure. If the data are required to fulfil a contract or to implement pre-contractual measures, deletion of the data is possible only to the extent that no contractual or statutory obligations prevent such deletion.
 
 ## F. Location and the processing of personal data and third party service providers
 
@@ -116,13 +116,26 @@ We may use the following third-party service providers named below to process an
 - Google LLC, we use Google Analytics service to measure the performance of this website and covid19impactsurvey.org.
 - Mailchimp (The Rocket Science Group, LLC), which we use to manage email subscriber lists and send emails to our subscribers. [Read their privacy policy](https://mailchimp.com/legal/privacy/).
 
-Covid19ImpactSurvey data processed in the following fashion:
+Covid19ImpactSurvey data is processed in the following fashion:
 
 * The website is hosted by Amazon with CloudFront and Lambda@Edge, hosted in US East. You can find their privacy policy here: https://aws.amazon.com/privacy/
 
-* The anonymous of the survey answers data is collected via Survey123 and visualizations are provided via ArgGIS provided by ESRI. You can find their Privacy Policy at https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement
+* The survey collects the information explicitly entered by users as part of the survey questions, which includes country, language, postal code, age range and gender. Some information is automatically recorded along with the survey answers for the purpose of helping us analyse the answers and eliminate answers that were likely not from real users. This information includes:
 
-* Covid19ImpactSurvey anonymous survey data is also analysed and displayed via Tableau Public. You can find the data policy at https://public.tableau.com/en-us/s/data-policy
+  * The country of the participant (done automatically via Amazon CloudFront without the IP address being visible to us)
+  * Time of day
+  * Amount of time taken to complete survey questions
+  * The language selected by the user (for the purpose of displaying the survey in a language the user understands), 
+  * How the user arrived at the survey (calculated from the referral URL)
+  * We may use online ads to publicize the covid19impactsurvey.org, however, we will not enable or collect any demographic or user targeting information that these systems might offer, and only advertise towards the general public. We may collect additional anonymous information to measure the effectiveness and quality of the ads using the conversion functionality that these systems offer.
+
+* Covid19ImpactSurvey anonymous survey answers are collected via Survey123 and visualizations are provided via ArgGIS provided by ESRI. You can find their Privacy Policy at [https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement](https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement)
+
+* Covid19ImpactSurvey anonymous survey data is also analysed and displayed via Tableau Public. You can find the data policy at [https://public.tableau.com/en-us/s/data-policy](https://public.tableau.com/en-us/s/data-policy)
+
+* We will ensure that the survey data we store complies with GDPR recital 26 for anonymous data, which permits the processing of information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable. We will take all appropriate measures to ensure that the data remains anonymous and will not record any additional information or make any other efforts to de-anonymize the data.
+
+* We may share the anonymous survey data for the purposes of scientific research or helping inform the general public. 
 
   
 
