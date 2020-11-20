@@ -4,6 +4,7 @@ en:
   social_media: Social media
   address: Address
   mail_title: Subscribe to updates via email
+  mail_sub: Subscribe
   mail_unsub: You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.
   mail_gdpr: We use Mailchimp as our email platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.
 es:
@@ -12,6 +13,7 @@ es:
   social_media: Redes sociales
   address: Dirección
   mail_title: Reciba actualizaciones por mail
+  mail_sub: Suscribir
   mail_unsub: Puede darse de baja en cualquier momento haciendo clic en el enlace en el pie de página de nuestros correos electrónicos. Para obtener información sobre nuestras prácticas de privacidad, visite nuestro sitio web.
   mail_gdpr: Usamos Mailchimp como nuestra plataforma de correo electrónico. Al hacer clic a continuación para suscribirse, reconoce que su información se transferirá a Mailchimp para su procesamiento. <a href="https://mailchimp.com/legal/" target="_blank"> Obtén más información sobre las prácticas de privacidad de Mailchimp aquí.
   
