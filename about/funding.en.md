@@ -16,7 +16,7 @@ The table below summarizes the different sponsorship options at ELLIS Alicante.
 | **GOLD** | **100,000** euros per year + **20,000** euros for ELLIS + VAT <br> 4 PhD / postdoc scholarships + **20,000** euros for ELLIS | • Logo in all communications <br> • Annual visit to the headquarters with Gold sponsors <br> • Preferential access to training (workshops, events ...) <br> • Announcement in the Newsletter <br> • Possibility of financing lines of research and internships |
 | **SILVER** | **50,000** euros per year + **10,000 ** euros for ELLIS + VAT <br>2 PhD / postdoc scholarships + **10,000** euros for ELLIS | • Logo in all communications <br>• Preferential access to training (workshops, events ...) <br> • Announcement in the Newsletter |
 | **BRONZE** | **25,000** euros per year + **10,000** euros for ELLIS + VAT for 1 PhD / postdoc scholarship + **5,000** euros for ELLIS | • Logo in communications <br>• Preferential access to training (workshops, events ...) <br> • Announcement in the Newsletter |
-| **FRIENDS OF THE FOUNDATION ** | **5,000** - **25,000** euros | Recognition on the website and in the annual report |
+| **FRIENDS OF THE FOUNDATION** | **5,000** - **25,000** euros | Recognition on the website and in the annual report |
 | **MICRO-FINANCING** | Up to **5,000** euros | Recognition on the website and in the annual report |
 
 
