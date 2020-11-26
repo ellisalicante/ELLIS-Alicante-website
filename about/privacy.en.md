@@ -56,7 +56,7 @@ The recording of data for the provision of the website and the storage of data i
 
 ## C. Web analysis
 
-While we do not use targeting cookies for advertising purposes, we use Google Analytics on our Site for analytical/performance purposes. Google Analytics allows us to track anonymous user movement and interaction on our Site, as well as monitoring how our Site works under high volume or stressed conditions. The types of aggregated events we track using Google Analytics include:
+We use Google Analytics to track anonymous user movements and interactions on our site, as well as monitoring how our Site works under high volume or stressed conditions. We have disabled persistent cookies and enabled IP address anonymization to help protect the privacy of our website visitors. Google Analytics provides anonymous statistical information about the demographics of people that visit the Site that we may use to build audience profiles to help promote the awareness of ELLIS Alicante using online advertising. The types of aggregated events we track using Google Analytics include:
 
 - Site user activity (which includes new users/returning users/length of visit/pages reviewed/bounce rate/referrals)
 - Demographics (such as age/gender)
