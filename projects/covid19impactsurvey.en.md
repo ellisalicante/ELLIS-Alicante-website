@@ -10,6 +10,6 @@ The [Covid19ImpactSurvey](https://covid19impactsurvey.org) is one of the world's
 
 The preliminary results of the survey ([Assessing the Impact of the COVID-19 Pandemic in Spain: Large-Scale, Online, Self-Reported Population Survey](https://www.jmir.org/2020/9/e21319/)) have been published in JMIR, the Journal of Medical Internet Research, one of the leading peer-reviewed journals in the field.
 
-The questionnaire is available at [https://covid19impactsurvey.org](https://covid19impactsurvey.org). It is a short survey and can be answered in about 5-7 minutes.
+The questionnaire is available at [https://covid19impactsurvey.org](https://covid19impactsurvey.org). It is a short anonymous survey and can be answered in about 5-7 minutes. For more information, please contact [survey@ellisalicante.org](mailto:survey@ellisalicante.org).
 
 We have provided a visualization of the more interesting results below (currently available only in Spanish):
