@@ -12,7 +12,7 @@ El **patronato** es responsable del gobierno y representación de la Fundación,
 
 Además, la Fundación ELLIS Alicante cuenta con un Consejo Científico Asesor y un *Trustees Committee* . 
 
-El **Consejo Científico Asesor ** está compuesto por científico/as de reconocido prestigio internacional en las áreas de investigación de la Fundación ELLIS Alicante. Su función es apoyar la agenda de investigación de la Fundación ELLIS Alicante y aportar su opinión experta. Normalmente, se reúne una vez al año. 
+El **Consejo Científico Asesor** está compuesto por científico/as de reconocido prestigio internacional en las áreas de investigación de la Fundación ELLIS Alicante. Su función es apoyar la agenda de investigación de la Fundación ELLIS Alicante y aportar su opinión experta. Normalmente, se reúne una vez al año. 
 
 El **Trustees Committee** está integrado por personas de gran relevancia desde el punto de vista institucional, político, profesional, empresarial o social. Actúan como embajadores de la Fundación ELLIS Alicante con un enfoque particular en ayudar a la Fundación a identificar nuevas oportunidades de financiación y colaboración. 
 
