@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Governance
-permalink: /en/board/
+permalink: /governance
 people_category: board
 ---
 

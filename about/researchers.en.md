@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Researchers
-permalink: /en/researchers/
+permalink: /researchers
 people_category: researcher
 ---
 

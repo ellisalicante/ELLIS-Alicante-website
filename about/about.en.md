@@ -1,6 +1,6 @@
 ---
 title: About ELLIS
-permalink: /en/about/
+permalink: /about
 lang: en
 ---
 

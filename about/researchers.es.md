@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Investigación
-permalink: /en/researchers/
+permalink: /investigation
 lang: es
 people_category: researcher
 ---

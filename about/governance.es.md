@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Gobernanza
-permalink: /en/board/
+permalink: /gobernanza
 lang: es
 people_category: board
 ---

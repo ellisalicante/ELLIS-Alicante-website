@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre ELLIS
-permalink: /es/about/
+permalink: /sobre
 lang: es
 ---
 
