@@ -20,7 +20,7 @@ Finalmente, el patronato podrá nombrar un director/a de la Fundación, con func
 
 A continuación se muestra el organigrama de la Fundación ELLIS Alicante. 
 
-![ELLIS_Alicante_OrgChart](orgchart.en.svg)
+![ELLIS_Alicante_OrgChart](orgchart.es.svg)
 
 ## **Patronato** 
 
