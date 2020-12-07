@@ -26,11 +26,28 @@ address: |
  Universidad de Alicante
  San Vicente del Raspeig (Alicante), 03690, España
 
+# github pages fixed defaultslsi: false
+safe: true
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
   - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

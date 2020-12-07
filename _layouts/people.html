@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign people=site.people | where: "people_category", page.people_category  | sort: "name" %}
+{% assign people=site.people | where: "people_category", page.people_category  | where: "lang", page.lang | sort: "name" %}
 
 <div class="container">
  {{content}}

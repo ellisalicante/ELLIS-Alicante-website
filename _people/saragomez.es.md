@@ -3,6 +3,7 @@ name: Sara Gomez
 title: Board member
 picture: /assets/sara.jpg
 people_category: board
+lang: es
 ---
 
 Sara Gomez is an expert on university relations and promotion of diversity in the technology field.

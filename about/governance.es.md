@@ -1,7 +1,8 @@
 ---
 layout: people
-title: Governance
+title: Gobernanza
 permalink: /en/board/
+lang: es
 people_category: board
 ---
 
