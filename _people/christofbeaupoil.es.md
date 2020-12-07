@@ -1,6 +1,6 @@
 ---
 name: Christof Beaupoil
-title: President of the Board
+title: Presidente del Patronato
 picture: /assets/christofbeaupoil.jpg
 people_category: board
 lang: es
