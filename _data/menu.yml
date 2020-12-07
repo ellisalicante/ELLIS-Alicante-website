@@ -40,4 +40,5 @@ es:
      - path: projects/ellas_en_ellis.es.md
        title: Ellas en ELLIS 
  - path: news.en.md
+   title: Noticias
  - path: jobs.es.md
