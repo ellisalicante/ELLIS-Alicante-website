@@ -6,6 +6,4 @@ people_category: board
 lang: es
 ---
 
-Christof Beaupoil is a successful entrepreneur and expert from the IT industry.
-
-He was co-founder of Aspera USU, one of the leading companies in the Software Asset Management sector. Christof received his degree in mechanical engineering at RWTH Aachen University. In 2013, he became president of Aspera's United States operation in Boston. Since moving to Alicante, he has returned to his engineering roots in the wind energy sector, working on airborne wind energy. Christof is passionate in promoting Alicante as a center for innovation and brings his years of management expertise and professionalism to his work as President of the ELLIS Alicante Foundation.
+Christof Beaupoil es un emprendedor exitoso y experto en la industria de IT. Fue cofundador de Aspera USU, una de las empresas líderes en el sector de Software Asset Management. Christof recibió su título en ingeniería mecánica en la Universidad RWTH Aachen. En 2013, se convirtió en presidente de la operación estadounidense de Aspera en Boston. Desde que se mudó a Alicante, ha vuelto a sus raíces de ingeniería en el sector de la energía eólica, trabajando en energía eólica aerotransportada. Christof es un apasionado de la promoción de Alicante como centro de innovación y aporta sus años de experiencia en gestión y profesionalismo a su trabajo como presidente de la Fundación ELLIS Alicante.

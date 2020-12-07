@@ -6,6 +6,8 @@ people_category: board
 lang: es
 ---
 
-Victoria Carrascosa is an expert in human resources, legal services and compliance. 
+Victoria Carrascosa es experta en recursos humanos, servicios legales y cumplimiento. 
 
-She is a senior executive with hands-on experience in diverse industries operating over various multinationals, family-owned companies and technological startups. She received a degree in Law and Economics from the Comillas University Pontifical University and an MBA from the IE Business School. She has been HR Director at Saint-Gobain, Mitsubishi Electric Europe, Globeducate and is currently HR Manager at Eckes-Granini. Her expertise include staffing/recruitment, diversity programs, compensation, succession planning, payroll process supervision and workplace compliance. 
+Es ejecutiva senior con experiencia práctica en diversas industrias a través de sus posiciones de liderazgo en distintas multinacionales, empresas familiares y startups tecnológicas. Es licenciada en Derecho y Economía por la Universidad Pontificia de Comillas con un MBA por IE Business School. Ha sido Directora de RRHH en Saint-Gobain, Mitsubishi Electric Europe, Globeducate. Actualmente es Directora de RRHH en Eckes-Granini. 
+
+Su experiencia incluye el diseño programas de desarrollo profesional, de reclutamiento, de diversidad, de compensación y de planificación de sucesión, así como la supervisión del proceso de nómina y cumplimiento de las políticas de RRHH en contextos laborales.

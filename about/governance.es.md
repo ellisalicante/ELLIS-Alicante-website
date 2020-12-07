@@ -6,21 +6,21 @@ lang: es
 people_category: board
 ---
 
-## **Governance**
+## **Gobernanza**
 
-The **board** is responsible for the governance and representation of the Foundation, the fulfilment of its goals and the administration and management of its assets. 
+El **patronato** es responsable del gobierno y representación de la Fundación, el cumplimiento de sus objetivos y la administración y gestión de sus activos.. 
 
-In addition, the ELLIS Alicante Foundation has a Scientific Advisory Board (SAB) and a Trustees Committee (TC). 
+Además, la Fundación ELLIS Alicante cuenta con un Consejo Científico Asesor y un *Trustees Committee* . 
 
-The **Scientific Advisory Board** is composed of internationally recognized scientists in the areas of research of the ELLIS Alicante Foundation. Their role is to support the research agenda of the ELLIS Alicante Foundation and provide their expert feedback. Typically, the SAB meets once a year. 
+El **Consejo Científico Asesor ** está compuesto por científico/as de reconocido prestigio internacional en las áreas de investigación de la Fundación ELLIS Alicante. Su función es apoyar la agenda de investigación de la Fundación ELLIS Alicante y aportar su opinión experta. Normalmente, se reúne una vez al año. 
 
-The **Trustees Committee** is composed of highly relevant individuals from an institutional, political, professional, business or social perspective. They act as ambassadors to the ELLIS Alicante Foundation with a particular focus on helping the Foundation identify new funding and collaboration opportunities. 
+El **Trustees Committee** está integrado por personas de gran relevancia desde el punto de vista institucional, político, profesional, empresarial o social. Actúan como embajadores de la Fundación ELLIS Alicante con un enfoque particular en ayudar a la Fundación a identificar nuevas oportunidades de financiación y colaboración. 
 
-Finally, the board may appoint a director of the Foundation, with executive functions. The director will be responsible for the implementation of the Foundation's vision and mission. Depending on the profile, the director might also be in charge of the scientific leadership of the Foundation or a Scientific Director might be appointed by the board.
+Finalmente, el patronato podrá nombrar un director/a de la Fundación, con funciones ejecutivas. El director/a será responsable de la implementación de la visión y misión de la Fundación. Dependiendo del perfil, el director/a también podría estar a cargo del liderazgo científico de la Fundación o el podría nombrar un director/a científico/a. 
 
-Below is the organizational chart of the ELLIS Alicante Foundation. 
+A continuación se muestra el organigrama de la Fundación ELLIS Alicante. 
 
 ![ELLIS_Alicante_OrgChart](orgchart.en.svg)
 
-## **Board** 
+## **Patronato** 
 

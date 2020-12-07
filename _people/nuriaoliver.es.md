@@ -6,6 +6,10 @@ people_category: researcher
 lang: es
 ---
 
-Nuria Oliver is Chief Scientific Advisor and one of the founders of the ELLIS Alicante Foundation. She is co-founder and vice-president of ELLIS. 
+Nuria Oliver es Directora Científica y cofundadora de la Fundación ELLIS Alicante. Es cofundadora y vicepresidenta de [ELLIS](https://ellisalicante.org).
 
-She is Chief Scientific Advisor at the Vodafone Institute, Chief Data Scientist at DataPop Alliance, an independent member of the board of directors of Bankia, and Commissioner of the Presidency of Valencia for AI and COVID-19. Previously, she was Director of Data Science Research at Vodafone, Scientific Director at Telefónica and researcher at Microsoft Research. She holds a PhD from the Media Lab at MIT, and is an IEEE Fellow, and ACM Fellow, and EurAI Fellow, co-founder and vice-president of ELLIS, and elected permanent member of the Royal Academy of Engineering of Spain. She is also a member of CHI Academy and the Academia Europaea. She is well known for her work in computational models of human behavior, human computer-interaction, mobile computing and big data for social good. Named inventor of 40 patents. She has received many awards, including the MIT TR100 Young Innovator Award (2004), Spanish National Computer Science Award (2016), Engineer of the Year (2018), Valencian Medal to Business and Social Impact (2018) and Data Scientist of the Year (2019).
+Es Asesora Científica Jefe del Instituto Vodafone, Científica Jefa de Datos en DataPop Alliance y Comisionada para Presidencia de la Generalitat Valenciana en IA y Ciencias de Datos en la Lucha contra COVID-19. Asesora a numerosas instituciones, universidades y empresas. 
+
+Anteriormente, fue Directora de Investigación en Ciencia de Datos en Vodafone, Directora Científica en Telefónica e investigadora en Microsoft Research. Tiene un doctorado por el Media Lab del MIT. 
+
+Es IEEE Fellow, ACM Fellow y EurAI Fellow y académica electa de la Real Academia de Ingeniería de España. También es miembro de CHI Academy y la Academia Europaea. Es conocida por su trabajo en modelos computacionales de comportamiento humano, interacción persona-máquina, computación móvil y el uso del big data y la Inteligencia Artificial para el bien social. Inventora de 40 patentes. Ha recibido numerosos premios, entre los que destacan el Premio Joven Innovador MIT TR100 (2004), Premio Nacional de Informática de España (2016), Ingeniera del Año (2018), Medalla Valenciana al Impacto Social y Empresarial (2018) y Científica de Datos del Año en Europa. (2019).

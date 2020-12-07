@@ -6,7 +6,7 @@ permalink: es/funding
 ---
 Para apoyar a que la Fundación Unidad ELLIS Alicante pueda llevar a cabo su misión, hay distintas modalidades posibles de contribuciones y donaciones por parte de las empresas y otras instituciones colaboradoras, alineadas con el programa de patrocinios de  [ELLIS](https://ellis.eu/sponsorship).
 
-La tabla resume las distintas opciones de patrocinio para la Fundación Unidad ELLIS Alicante. 
+La tabla de abajo resume las distintas opciones de patrocinio para la Fundación Unidad ELLIS Alicante. 
 
 {:.table}
 | **NIVEL**                     | **CONTRIBUCIÓN** **ANUAL**                                   | **BENEFICIOS**                                               |

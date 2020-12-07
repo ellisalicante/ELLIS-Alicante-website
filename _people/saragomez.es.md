@@ -6,6 +6,8 @@ people_category: board
 lang: es
 ---
 
-Sara Gomez is an expert on university relations and promotion of diversity in the technology field.
+Sara Gomez es experta en relaciones universitarias y promoción de la diversidad en el ámbito tecnológico. 
 
-She is a professor and researcher in the areas of structure theory and continuum medium mechanics at the Polytechnic University of Madrid (UPM), where she received her Doctorate in Engineering. She was Director of the Spanish Royal Academy of Engineering from 2000-2004; director of the Industrial Engineering school at the UPM from 2008-2012 and vice-rector of the UPM from 2012-2016. She was General Director for Universities and Superior Artistic Disciplines for the Government of the Region of Madrid in Spain (2019-2020). She is Director of the “Women and Engineering” program at the Spanish Royal Academy of Engineering. Her work has received several awards, including the 8th of March Award by the Government of the Madrid region for her efforts to help women achieve equal of opportunity than men in Science and Research.
+Es profesora e investigadora en las áreas de teoría de estructuras y mecánica del medio continuo en la Universidad Politécnica de Madrid (UPM), donde se doctoró en Ingeniería. Fue Directora ejecutiva de la Real Academia Española de Ingeniería de 2000 a 2004; directora de la escuela de Ingeniería Industrial de la UPM desde 2008-2012 y vicerrectora de la UPM desde 2012-2016. Ha sido Directora General de Universidades y Disciplinas Artísticas Superiores del Gobierno de la Comunidad de Madrid en España (2019-2020). 
+
+Actualmente es directora ejecutiva del programa “Mujer e Ingeniería” de la Real Academia de Ingeniería de España. Su trabajo ha recibido varios premios, incluido el Premio 8 de marzo del Gobierno de la Comunidad de Madrid por sus esfuerzos para ayudar a las mujeres a alcanzar la igualdad de oportunidades que los hombres en Ciencia e Investigación.
