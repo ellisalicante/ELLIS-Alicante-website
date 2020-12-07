@@ -1,7 +1,6 @@
 ---
 title: Privacy policy
 permalink: privacy
-layout: page
 lang: en
 ---
 
@@ -127,7 +126,7 @@ Covid19ImpactSurvey data is processed in the following fashion:
   * Amount of time taken to complete survey questions
   * The language selected by the user (for the purpose of displaying the survey in a language the user understands), 
   * How the user arrived at the survey (calculated from the referral URL)
-  * We may use online ads to publicize the covid19impactsurvey.org, however, we will not enable or collect any demographic or user targeting information that these systems might offer, and only advertise towards the general public. We may collect additional anonymous information to measure the effectiveness and quality of the ads using the conversion functionality that these systems offer.
+  * We may use online ads to publicize covid19impactsurvey.org, however, we will not enable or collect any demographic or user targeting information that these systems might offer beyond the basic demographic questions asked in the survey, and only advertise towards the general public. We may collect additional anonymous information to measure the effectiveness and quality of the ads using the conversion functionality that these systems offer.
 
 * Covid19ImpactSurvey anonymous survey answers are collected via Survey123 and visualizations are provided via ArgGIS provided by ESRI. You can find their Privacy Policy at [https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement](https://www.esri.com/en-us/privacy/privacy-statements/privacy-statement)
 

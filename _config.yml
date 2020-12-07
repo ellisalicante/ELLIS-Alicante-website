@@ -16,7 +16,7 @@ lang: en
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ellisalicante.org"
 twitter_username: ellisalicante
 email: info@ellisalicante.org
@@ -55,3 +55,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       lang: "en" 
+      layout: "page"

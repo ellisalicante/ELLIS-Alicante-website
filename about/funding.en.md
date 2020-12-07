@@ -1,6 +1,5 @@
 ---
 title: Sponsorships and Donations
-layout: page
 language: en
 permalink: en/funding
 ---

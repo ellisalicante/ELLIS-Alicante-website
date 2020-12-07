@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="orgchart.en.svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 85.385622 71.176193"
+   height="448.35397"
+   width="537.86218">
+  <defs
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     scale-x="0.6"
+     units="px"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1377"
+     inkscape:window-width="2560"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="129.93338"
+     inkscape:cx="83.778655"
+     inkscape:zoom="2.8"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-132.19159,-39.767936)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,62.343165 24.47393,-9.369051"
+       id="path2077" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,62.343165 v 3.898034 h 22.3978 v 1.954313"
+       id="path2079" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="M 168.19941,62.340516 141.57255,53.066798"
+       id="path2081" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,62.340516 v 3.900683 h -22.29983 v 1.951665"
+       id="path2083" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.76613,77.485121 v 28.721519 h 7.43328"
+       id="path2085" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.76613,77.485121 v 6.620301 h 7.43328"
+       id="path2087" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.76613,77.485121 v 17.731816 h 7.43328"
+       id="path2089" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,62.340516 v 5.852348"
+       id="path2091" />
+    <path
+       style="fill:none;stroke:#34599c;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,49.144931 v 3.900682"
+       id="path2093" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 158.9098,39.855324 v 9.289607 h 18.58451 v -9.289607 z"
+       id="path2095" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.9098,39.855324 h 18.58451 v 9.289607 H 158.9098 Z"
+       id="path2097" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:700;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="165.74414"
+       y="41.414539"
+       id="text2103"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="165.74414"
+         y="41.414539"
+         id="tspan2101"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:700;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2099">Board*</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="164.85437"
+       y="43.575405"
+       id="text2109"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="164.85437"
+         y="43.575405"
+         id="tspan2107"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2105">President</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="162.18506"
+       y="45.90575"
+       id="text2115"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="162.18506"
+         y="45.90575"
+         id="tspan2113"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2111">Christof </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="167.98975"
+       y="45.90575"
+       id="text2121"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="167.98975"
+         y="45.90575"
+         id="tspan2119"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:italic;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2117">Beaupoil</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 158.9098,53.048261 v 9.294904 h 18.58451 v -9.294904 z"
+       id="path2123" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.9098,53.048261 h 18.58451 v 9.294904 H 158.9098 Z"
+       id="path2125" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="163.58371"
+       y="58.118736"
+       id="text2131"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="163.58371"
+         y="58.118736"
+         id="tspan2129"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2127">Management</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 158.9098,68.195512 v 9.289609 h 18.58451 v -9.289609 z"
+       id="path2133" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 158.9098,68.195512 h 18.58451 v 9.289609 H 158.9098 Z"
+       id="path2135" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="164.89719"
+       y="73.265617"
+       id="text2141"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="164.89719"
+         y="73.265617"
+         id="tspan2139"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2137">Research</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 168.19941,90.572132 v 9.294905 h 18.58981 v -9.294905 z"
+       id="path2143" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,90.572132 h 18.58981 v 9.294905 h -18.58981 z"
+       id="path2145" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="171.64711"
+       y="94.798454"
+       id="text2151"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="171.64711"
+         y="94.798454"
+         id="tspan2149"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2147">Human Behavior </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="174.18932"
+       y="96.493248"
+       id="text2157"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="174.18932"
+         y="96.493248"
+         id="tspan2155"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2153">Modeling</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 168.19941,79.460619 v 9.289605 h 18.58981 v -9.289605 z"
+       id="path2159" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,79.460619 h 18.58981 v 9.289605 h -18.58981 z"
+       id="path2161" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="169.99469"
+       y="83.685387"
+       id="text2167"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="169.99469"
+         y="83.685387"
+         id="tspan2165"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2163">Intelligent, Interactive </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="174.52827"
+       y="85.38018"
+       id="text2173"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="174.52827"
+         y="85.38018"
+         id="tspan2171"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2169">Systems</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 168.19941,101.56183 v 9.29491 h 18.58981 v -9.29491 z"
+       id="path2175" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.19941,101.56183 h 18.58981 v 9.29491 h -18.58981 z"
+       id="path2177" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="169.35957"
+       y="105.78783"
+       id="text2183"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="169.35957"
+         y="105.78783"
+         id="tspan2181"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2179">Risks and Limitations of </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="170.4612"
+       y="107.48264"
+       id="text2189"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="170.4612"
+         y="107.48264"
+         id="tspan2187"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2185">Artificial Intelligence</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 136.60468,68.192864 v 9.292257 h 18.58716 v -9.292257 z"
+       id="path2191" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.60468,68.192864 h 18.58716 v 9.292257 h -18.58716 z"
+       id="path2193" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="138.65402"
+       y="73.265617"
+       id="text2199"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="138.65402"
+         y="73.265617"
+         id="tspan2197"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2195">Supporting functions</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 132.2803,53.066798 v 9.292255 h 18.58451 v -9.292255 z"
+       id="path2201" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.177424px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.2803,53.066798 h 18.58451 v 9.292255 H 132.2803 Z"
+       id="path2203" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="132.88812"
+       y="58.139271"
+       id="text2209"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="132.88812"
+         y="58.139271"
+         id="tspan2207"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2205">Scientific Advisory Board</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 181.30231,68.195512 v 9.289609 h 18.58981 v -9.289609 z"
+       id="path2211" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 181.30231,68.195512 h 18.58981 v 9.289609 h -18.58981 z"
+       id="path2213" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="185.80949"
+       y="72.42086"
+       id="text2219"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="185.80949"
+         y="72.42086"
+         id="tspan2217"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2215">Sponsors and </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="186.19081"
+       y="74.115662"
+       id="text2225"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="186.19081"
+         y="74.115662"
+         id="tspan2223"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2221">Partnerships</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 183.37844,52.974114 v 9.294904 h 18.58981 v -9.294904 z"
+       id="path2227" />
+    <path
+       style="fill:none;stroke:#3d67b1;stroke-width:0.174776px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+       d="m 183.37844,52.974114 h 18.58981 v 9.294904 h -18.58981 z"
+       id="path2229" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;line-height:125%;font-family:'Proxima Nova Rg';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="185.59764"
+       y="58.046535"
+       id="text2235"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="185.59764"
+         y="58.046535"
+         id="tspan2233"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.60404px;font-family:'Proxima Nova Rg';fill:#000000;stroke-width:0.264583"
+           id="tspan2231">Trustees Committee</tspan></tspan></text>
+    <path
+       style="fill:#4472c4;fill-opacity:1;fill-rule:nonzero;stroke:#4472c4;stroke-width:0.00529624px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 196.13708,62.480867 v 0.264814 h -0.26481 v -0.264814 z m 0,0.529624 v 0.264811 h -0.26481 v -0.264811 z m 0,0.529625 v 0.264811 h -0.26481 v -0.264811 z m 0,0.529624 v 0.264811 h -0.26481 V 64.06974 Z m 0,0.529625 v 0.26481 h -0.26481 v -0.26481 z m 0,0.529624 V 65.3938 h -0.26481 v -0.264811 z m 0,0.529624 v 0.264811 h -0.26481 v -0.264811 z m 0,0.529622 v 0.264814 h -0.26481 v -0.264814 z m 0,0.529625 v 0.264813 h -0.26481 V 66.71786 Z m 0,0.529624 v 0.264813 h -0.26481 v -0.264813 z m 0,0.529624 v 0.264814 h -0.26481 v -0.264814 z"
+       id="path2237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="192.05231"
+       y="108.92059"
+       id="text2243"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="192.05231"
+         y="108.92059"
+         id="tspan2241"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2239">*The Honorary President</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="207.68681"
+       y="108.92059"
+       id="text2249"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="207.68681"
+         y="108.92059"
+         id="tspan2247"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2245">position is </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="192.05231"
+       y="110.61539"
+       id="text2255"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="192.05231"
+         y="110.61539"
+         id="tspan2253"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+           id="tspan2251">designated by the </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="203.61929"
+       y="110.61539"
+       id="text2261"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="203.61929"
+         y="110.61539"
+         id="tspan2259"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;font-family:Arial;fill:#333333;stroke-width:0.264583"
+           id="tspan2257">Generalitat</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="210.77982"
+       y="110.61539"
+       id="text2267"><tspan
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="210.77982"
+         y="110.61539"
+         id="tspan2265"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:1.4056px;font-family:Arial;fill:#333333;stroke-width:0.264583"
+           id="tspan2263">Valenciana</tspan></tspan></text>
+  </g>
+</svg>

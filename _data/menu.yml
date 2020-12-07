@@ -3,6 +3,7 @@ en:
  - title: About ELLIS
    subitems: 
     - path: about.en.md
+    - path: about/transparency.en.md
     - path: about/governance.en.md
     - path: about/researchers.en.md
     - path: about/statutes.es.md
@@ -20,6 +21,7 @@ es:
  - title: Sobre ELLIS
    subitems:
     - path: about.es.md
+    - path: about/transparency.es.md
     - path: about/governance.en.md
       title: Gobernanza
     - path: about/researchers.en.md
