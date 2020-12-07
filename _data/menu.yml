@@ -14,6 +14,8 @@ en:
    subitems:
      - path: projects/covid19impactsurvey.en.md
        title: Covid19ImpactSurvey
+     - path: projects/ellas_en_ellis.es.md
+       title: Ellas en ELLIS 
  - path: news.en.md
  - path: jobs.en.md
 es:
