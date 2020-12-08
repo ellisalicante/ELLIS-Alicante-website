@@ -1,6 +1,6 @@
 ---
 name: Sara Gomez
-title: Board member
+title: Miembro del Patronato
 picture: /assets/sara.jpg
 people_category: board
 lang: es

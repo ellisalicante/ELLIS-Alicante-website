@@ -1,6 +1,6 @@
 ---
 name: Bernhard Schölkopf
-title: Board member and President of ELLIS
+title: Miembro del Patronato y Presidente de ELLIS Europa
 picture: /assets/bernhard.jpg
 people_category: board
 lang: es
