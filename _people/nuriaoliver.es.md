@@ -1,6 +1,6 @@
 ---
 name: Nuria Oliver
-title: Chief Scientific Advisor and Vice-President of ELLIS
+title: Directora Cientifica y Vicepresidenta de ELLIS Europa
 picture: /assets/nuria.jpg
 people_category: researcher
 lang: es

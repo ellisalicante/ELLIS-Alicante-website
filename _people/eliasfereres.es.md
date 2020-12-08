@@ -1,6 +1,6 @@
 ---
 name: Elías Fereres Castiel
-title: Board member
+title: Miembro del Patronato
 picture: /assets/elias.jpg
 people_category: board
 lang: es

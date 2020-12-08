@@ -1,6 +1,6 @@
 ---
 name: Victoria Carrascosa
-title: Board member
+title: Miembro del Patronato
 picture: /assets/victoria.jpg
 people_category: board
 lang: es
