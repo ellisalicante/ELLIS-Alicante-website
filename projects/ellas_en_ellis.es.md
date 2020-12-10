@@ -36,7 +36,7 @@ Los tres primeros (“verticales”) se enfocan en **colectivos** que constituye
 
 Son los siguientes artículos: 
 
-1. Nueva crisis, viejas desigualdades. 
+1. [Nueva crisis, viejas desigualdades](nuevas_crisis.en.md). Publicado en [EL PAIS el 4-dic-2020](https://elpais.com/opinion/2020-12-03/nueva-crisis-viejas-desigualdades.html)
 
 2. [“Pandemials”: ¿culpables o ignorados?](pandemials.es.md) Publicado en [EL PAIS el 18-nov-2020](https://elpais.com/opinion/2020-11-17/los-pandemials-culpables-o-ignorados.html)
 
