@@ -15,7 +15,7 @@ The transparency portal of the ELLIS Alicante Foundation provides the main infor
   Universidad de Alicante<br>
   San Vicente del Raspeig (Alicante), 03690, España
 
-* [Statutes of the Foundation](statutes.es.md) ([Original de 25-Mayo-2020](EstatutosOriginal.pdf))
+* [Statutes of the Foundation](statutes.es.md) ([Original from 25-Mayo-2020](EstatutosOriginal.pdf))
 
 * [Privacy policy](privacy.en.md)
 

@@ -16,7 +16,7 @@ El portal de transparencia de la Fundación de la Comunitat Valenciana Unidad EL
   Universidad de Alicante<br>
   San Vicente del Raspeig (Alicante), 03690, España
 
-* [Estatutos de la Fundación](statutes.es.md) ([Original of 25-May-2020](EstatutosOriginal.pdf))
+* [Estatutos de la Fundación](statutes.es.md) ([Original del 25-May-2020](EstatutosOriginal.pdf))
 
 * [Política de privacidad](privacy.en.md)
 
