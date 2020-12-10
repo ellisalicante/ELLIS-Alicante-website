@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 ## Nuevas crisis, viejas desigualdades 
 
-María Ángeles Sallé, Nuria Oliver, Cecilia Castaño y Capitolina Díaz 
+**María Ángeles Sallé, Nuria Oliver, Cecilia Castaño y Capitolina Díaz** 
 
 En los últimos meses, el debate sobre los factores que explican las diferencias de impacto de la pandemia entre España y otros países europeos ha ganado protagonismo, no solo en los medios sino -también- en los organismos especializados. ¿Menores restricciones públicas o indisciplina social?, ¿características de nuestro modelo productivo y de relación?<!--more-->
 
