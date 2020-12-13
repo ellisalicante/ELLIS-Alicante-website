@@ -2,7 +2,7 @@
 title: "Data Science against COVID-19 Taskforce"
 layout: page
 lang: en
-permalink: ai4covid19
+permalink: ai4covid19/en
 ---
 
 
