@@ -1,8 +1,8 @@
 ---
-title: "xprize"
+title: XPrize on Pandemic Response
 layout: page
 lang: en
 permalink: xprize
 ---
 
-## **XPrize on Pandemic Response**
+## 

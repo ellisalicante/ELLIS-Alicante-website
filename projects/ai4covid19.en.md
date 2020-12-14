@@ -5,10 +5,6 @@ lang: en
 permalink: ai4covid19/en
 ---
 
-
-
-## **Data Science against COVID-19 Taskforce**
-
 ### Who are we
 
 This taskforce is composed of scientists from the Valencian research ecosystem, with varying levels of seniority and different specialization areas. 
