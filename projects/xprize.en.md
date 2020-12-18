@@ -66,8 +66,10 @@ permalink: xprize
               <h2>Opening a door to the future</h2>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
               <p class="read-more">
-                <a href="#">Read More</a>
+                <a href="#" onclick="abrir_panel('p7')">Read More</a>
               </p>
+
+              <!-- Button trigger modal -->
             </div>
           </div>
           <div class="blog-card alt">
@@ -90,7 +92,7 @@ permalink: xprize
               <h2>Java is not the same as JavaScript</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
               <p class="read-more">
-                <a href="#">Read More</a>
+                <a href="#" onclick="abrir_panel('p8')" >Read More</a>
               </p>
             </div>
           </div>
@@ -103,7 +105,7 @@ permalink: xprize
         <section class="card ficha">
           <h1>Data Modeling Tool</h1>
           <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-          <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="http://public.tableau.com/views/Covid19ImpactSurvey/Polticaspublicas?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=yes&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:loadOrderID=0"></iframe>
+          <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="https://public.tableau.com/views/Covid19ImpactSurvey/Polticaspublicas?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=yes&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:loadOrderID=0"></iframe>
         </section>  
       </div>
 
@@ -202,10 +204,27 @@ permalink: xprize
         </section>  
       </div>
 
+      <div class="page" id="p7"  style="display:none">
+        <section class="card ficha">
+        <h1>DETALLE 1</h1>
+        <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="https://ellisalicante.org/iframes/xprize/team/Weekday_cases.html"></iframe>
+        </section>  
+      </div>
+
+      <div class="page" id="p6"  style="display:none">
+        <section class="card ficha">
+        <h1>Deltalle 2</h1>
+        <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+        <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+        </section>  
+      </div>
+
 
     </div>
   </div>
 </div>
+
+
 <script>
 function abrir_panel(nombrepanel) {
   var i, tabcontent, tablinks;
