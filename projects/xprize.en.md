@@ -18,6 +18,7 @@ permalink: xprize
     <div class="grupomenu">
       <ul>
         <a href="#" onclick="abrir_panel('p1')" ><img class="icon" src="{{ "/assets/img/xprize/icono_1.png" | absolute_url }}" alt="" width="35px" height="40px"></a>
+        <a href="#" onclick="abrir_panel('p6')" ><img class="icon" src="{{ "/assets/img/xprize/icono_6.png" | absolute_url }}" alt="" width="35px" height="35px"></a>
         <a href="#" onclick="abrir_panel('p2')" ><img class="icon" src="{{ "/assets/img/xprize/icono_2.png" | absolute_url }}" alt="" width="35px" height="35px"></a>
         <a href="#" onclick="abrir_panel('p3')" ><img class="icon" src="{{ "/assets/img/xprize/icono_3.png" | absolute_url }}" alt="" width="35px" height="35px"></a>
         <a href="#" onclick="abrir_panel('p4')" ><img class="icon" src="{{ "/assets/img/xprize/icono_4.png" | absolute_url }}" alt="" width="35px" height="40px"></a>
@@ -42,7 +43,7 @@ permalink: xprize
       <!-- CONTENIDOS -->
       <div class="page" id="p2"  style="display:none">
         <section class="card ficha">
-          <h1>El proyecto</h1>
+          <h1>Our Approach</h1>
           <p class="center" style="color:#fff">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
           <div class="blog-card">
             <div class="meta">
@@ -100,7 +101,7 @@ permalink: xprize
       <!-- RESULTADOS -->
       <div class="page" id="p3"  style="display:none">
         <section class="card ficha">
-          <h1>Los resultados</h1>
+          <h1>Data Modeling Tool</h1>
           <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
           <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="http://public.tableau.com/views/Covid19ImpactSurvey/Polticaspublicas?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=yes&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:loadOrderID=0"></iframe>
         </section>  
@@ -187,15 +188,20 @@ permalink: xprize
 
       <div class="page" id="p5"  style="display:none">
         <section class="card ficha">
-        <h1>Otra Información</h1>
+        <h1>Other Information</h1>
         <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
         <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-
-
-
-
         </section>  
       </div>
+
+      <div class="page" id="p6"  style="display:none">
+        <section class="card ficha">
+        <h1>Our Vision</h1>
+        <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+        <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+        </section>  
+      </div>
+
 
     </div>
   </div>
