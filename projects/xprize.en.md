@@ -29,10 +29,13 @@ permalink: xprize
     <div class="grupocontenido">
       <div class="page" id="p1" style="display:block">
         <section class="card ficha">
-          <img class="center" src="{{ "/assets/img/xprize/logo_claro.png" | absolute_url }}" alt="" width="300px" height="300px">
-          <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-          <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
-          <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+          <div style="padding-top:120px">
+            <img class="center" src="{{ "/assets/img/xprize/logo_claro_c.png" | absolute_url }}" alt="" width="200px" height="200px">
+          </div>
+          <div style="padding:0px 60px">
+            <p class="center">“Research is to see what everybody else has seen, and to think what nobody else has thought.”</p>
+            <p class="center"><em>Albert Szent-Györgyi</em></p>
+          </div>
          </section>  
       </div>
 
@@ -45,7 +48,7 @@ permalink: xprize
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
               <ul class="details">
-                <li class="author"><a href="#">John Doe</a></li>
+                <li class="author"><a href="#">Jaaaa</a></li>
                 <li class="date">Aug. 24, 2015</li>
                 <li class="tags">
                   <ul>
@@ -106,112 +109,60 @@ permalink: xprize
       <!-- EL EQUIPO -->
       <div class="page" id="p4"  style="display:none">
         <section class="card ficha fichaequipo">
-          <h1>El equipo</h1>
-          <h1>&nbsp;</h1>
+          <h1>The Team</h1>
+          <br/>
+          <br/>
         <section>
         	<div class="container">
         		<div class="row flex-center sm-no-flex">
 
         			<div class="pull-right sm-no-float col-md-8">
-        				<ul class="team-members">
+        				<ul class="list-unstyled team-members">
         					<!-- single member row starts -->
         					<li class="clearfix">
-        						<div class="member-details">
-        							<div>
-        								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
+                    <div class="member-details"><div></div></div>
+        						<div class="member-details"><div><img src="{{ "/assets/img/xprize/team/dahe.png" | absolute_url }}" alt=""><div class="member-info"><h3>David Hervas</h3><p>Member</p></div></div></div>
+        						<div class="member-details"><div><img src="{{ "/assets/img/xprize/team/dafu.png" | absolute_url }}" alt=""><div class="member-info"><h3>David Fuente Herraiz</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/mire.png" | absolute_url }}" alt=""><div class="member-info"><h3>Miguel Rebollo</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/krpo.png" | absolute_url }}" alt=""><div class="member-info"><h3>Kristina Polotskaya</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div></div></div>
         					</li><!-- /single member row ends -->
 
         					<!-- single member row starts -->
         					<li class="clearfix">
-        						<div class="member-details">
-        							<div>
-        								<img src="https://axis.org/wp-content/uploads/2015/05/evan-headshot.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="https://axis.org/wp-content/uploads/2015/12/2015-Dougie-Headshot.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
+        						<div class="member-details"><div><img src="{{ "/assets/img/xprize/team/osga.png" | absolute_url }}" alt=""><div class="member-info"><h3>Òscar Garibo</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/aumu.png" | absolute_url }}" alt=""><div class="member-info"><h3>Aurora Mula Leal</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/rufe.png" | absolute_url }}" alt=""><div class="member-info"><h3>Rubén Femenía</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/alra.png" | absolute_url }}" alt=""><div class="member-info"><h3>Álex Rabasa</h3><p>Leader</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/xaba.png" | absolute_url }}" alt=""><div class="member-info"><h3>Xavier Barber</h3><p>Member</p></div></div></div>
         					</li><!-- /single member row ends -->
 
-        					<!-- single member row starts -->
+                  <!-- single member row starts -->
         					<li class="clearfix">
-        						<div class="member-details">
-        							<div>
-        								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="https://axis.org/wp-content/uploads/2014/12/jeremiah-e1418073411753.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
-
-        						<div class="member-details">
-        							<div>
-        								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
-        								<div class="member-info">
-        									<h3>John Doe</h3>
-        									<p>UI Designer</p>
-        								</div>
-        							</div>
-        						</div>
+                    <div class="member-details"><div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/nuol.png" | absolute_url }}" alt=""><div class="member-info"><h3>Nuria Oliver</h3><p>Leader</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/fres.png" | absolute_url }}" alt=""><div class="member-info"><h3>Francisco Escolano</h3><p>Member</p></div></div></div>
+        						<div class="member-details"><div><img src="{{ "/assets/img/xprize/team/eles.png" | absolute_url }}" alt=""><div class="member-info"><h3>Elisa Espín</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/elpi.png" | absolute_url }}" alt=""><div class="member-info"><h3>Eloy Piñol Jimenez</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/magu.png" | absolute_url }}" alt=""><div class="member-info"><h3>Manuel G. Portolés</h3><p>Member</p></div></div></div>
         					</li><!-- /single member row ends -->
+
+                  <!-- single member row starts -->
+                  <li class="clearfix">
+                    <div class="member-details"><div></div></div>
+                    <div class="member-details"><div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/alco.png" | absolute_url }}" alt=""><div class="member-info"><h3>J. Alberto Conejero</h3><p>Leader</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/miga.png" | absolute_url }}" alt=""><div class="member-info"><h3>Miguel Angel Garcia-March</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/emsa.png" | absolute_url }}" alt=""><div class="member-info"><h3>Emilio Sansanor</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/milo.png" | absolute_url }}" alt=""><div class="member-info"><h3>Miguel Angel Lozano</h3><p>Member</p></div></div></div>
+                  </li><!-- /single member row ends -->
+
+                  <!-- single member row starts -->
+                  <li class="clearfix">
+                    <div class="member-details"><div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/vide.png" | absolute_url }}" alt=""><div class="member-info"><h3>Victor de Elena</h3><p>Member</p></div></div></div>
+                    <div class="member-details"><div><img src="{{ "/assets/img/xprize/team/mama.png" | absolute_url }}" alt=""><div class="member-info"><h3>Marina Martinez-Garcia</h3><p>Member</p></div></div></div>
+                  </li><!-- /single member row ends -->
 
         				</ul><!-- /end team-photos -->
         			</div><!-- /end col-md-8 -->
@@ -219,8 +170,12 @@ permalink: xprize
         			<div class="pull-left col-md-4 sm-text-center">
         				<div class="team-overview">
         					<h2>Who Are We?</h2>
-        					<a href="#">Meet the Entire Team</a>
-        					<p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
+        					<h3>VALENCIA IA4COVID</h3>
+                  <p>This group is made up of more than twenty experts from the Universities and research centers of the Valencian Community and led by Dr. Nuria Oliver. We have all been working intensively since the beginning of the pandemic, altruistically and using the resources available to us in our respective institutions and with the occasional philanthropic collaboration of some companies.</p>
+                  <br/>   
+                  <p><strong>Affiliated with:</strong> Ellis Alicante, Universitat Politècnica de València, Universitat Jaume I, ELLIS Alicante, ELLIS Alicante, Universitat Politecnica de Valencia, Universitat Jaume I, Universidad Cardenal Herrera CEU, Universidad de Alicante, Universidad Miguel Hernández</p>
+
+
         				</div>
         			</div><!-- /end col-md-4 -->
         		</div><!-- /end row -->
@@ -235,6 +190,10 @@ permalink: xprize
         <h1>Otra Información</h1>
         <p class="center">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
         <p class="center">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+
+
+
+
         </section>  
       </div>
 
