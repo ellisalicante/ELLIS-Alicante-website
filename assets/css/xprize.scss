@@ -35,55 +35,15 @@
 
 
 
-#xprize #p1 .ficha {
-  z-index: 1;
-  background: #FFF;
-  border-style: groove;
- }
-#xprize #p2 .ficha {
-  z-index: 1;
-  padding: 10px;
-  background: #03013e;
- }
-#xprize #p3 .ficha {
-  z-index: 1;
-  padding: 10px;
-  background: #ffd000;
- }
-#xprize #p4 .ficha {
-  z-index: 1;
-  padding: 10px;
-  background: #03013e;
- }
-#xprize #p5 .ficha {
-  z-index: 1;
-  padding: 10px;
-  background: #ffd000;
- }
- #xprize #p6 .ficha {
-   z-index: 1;
-   padding: 10px;
-   background: #ffd000;
-  }
+#xprize #pHome .ficha { z-index: 1; background: #FFF; border-style: groove;}
+#xprize #pOurVision .ficha { z-index: 1; padding: 10px;background: #ffd000;}
+#xprize #pOurApproach .ficha { z-index: 1; padding: 10px;background: #03013e;}
+#xprize #pDataModelingTool .ficha { z-index: 1; padding: 10px;background: #ffd000;}
+#xprize #pTheTeam .ficha { z-index: 1; padding: 10px;background: #03013e;}
+#xprize #pOtherInformation .ficha { z-index: 1; padding: 10px;background: #ffd000;}
 
-  #xprize #p7 .ficha {
-    z-index: 1;
-    padding: 10px;
-    background: #fabada;
-   }
-
-
-
-#xprize #t2:target #p2,
-#xprize #t3:target #p3,
-#xprize #t4:target #p4,
-#xprize #t5:target #p5 {
-  transform: translateX(-190%);
-  -webkit-transform: translateX(-190%);
-  -moz-transform: translateX(-190%);
-  -o-transform: translateX(-190%);
-  transition-delay: .4s !important;
-}
+#xprize #pPost1 .ficha { z-index: 1; padding: 10px;background: #ffd000;}
+#xprize #pPost2 .ficha { z-index: 1; padding: 10px;background: #ffd000;}
 
 
 
@@ -112,7 +72,7 @@
 }
 
 #xprize .card {
-  position: absolute;
+  // position: absolute;
   width: 100%;
   height: 100%;
   margin: 30px 0;
@@ -159,7 +119,7 @@
 }
 
 #xprize .page .card {
-  position: absolute;
+  // position: absolute;
   width: 100%;
   top: 0;
   bottom: 0;
@@ -171,11 +131,11 @@
   border-radius: 0px;
 }
 
-#xprize .page#p1 .icon {
+#xprize .page#pHome .icon {
   height: 220px;
 }
 
-#xprize .page#p1 .icon {
+#xprize .page#pHome .icon {
   transform: translateX(10%) !important;
 }
 
@@ -361,7 +321,7 @@
 
 /* Team overview */
 .team-overview {
-	padding-right: 15px;
+	// padding-right: 15px;
 }
 .team-overview h2 {
 	text-transform: uppercase;
@@ -384,16 +344,65 @@
 }
 
 
-.team-overview > a:before {
-	content: '';
-	width: 10px;
-	height: 2px;
-	position: relative;
-	top: -3px;
-	margin-right: 5px;
-	background-color: #ccc;
-	display: inline-block;
+
+
+
+/* Post overview */
+.post-overview {
+	padding: 15px;
 }
+.post-overview h2 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 5px;
+  color: #000;
+
+}
+.post-overview h3 {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 700;
+  margin-bottom: 30px;
+  color: #03013e;
+}
+
+.post-overview p {
+	font-size: 11px;
+	margin-bottom: 5px;
+  color: #000;
+}
+
+/* ov overview */
+.ov-overview {
+	padding: 15px;
+  text-align: left !important;
+}
+.ov-overview h2 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 5px;
+  color: #000;
+
+}
+.ov-overview h3 {
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 700;
+  margin-bottom: 30px;
+  color: #03013e;
+}
+
+.ov-overview p {
+	font-size: 11px;
+	margin-bottom: 5px;
+  color: #000;
+}
+
+
+
+
 
 
 // El proyecto
@@ -518,6 +527,8 @@ $color_grey_dark: #a2a2a2;
       margin-top: 5px;
     }
     .read-more {
+      font-size: 12px;
+      font-weight: 600;
       text-align: right;
       a {
         color: $color_prime;
@@ -525,9 +536,11 @@ $color_grey_dark: #a2a2a2;
         position: relative;
         min-width: 100px;
         &:after {
-          content: "\f061";
-          font-family: FontAwesome;
-          margin-left: -10px;
+          content: url('/assets/img/xprize/i_right.png');
+          transform: scale(.5);
+          margin-left: 10px;
+          width: 10px;
+          height: 10px;
           opacity: 0;
           vertical-align: middle;
           transition: margin .3s, opacity .3s;
@@ -603,24 +616,31 @@ $color_grey_dark: #a2a2a2;
 
 .iframewrap1{
   width: 100%;
-  height: 100%;
+  // height: 100%;
+  // min-height: 70vh;
   padding: 0;
   overflow: hidden;
 }
 
 .iframe1 {
-  width: 200%;
-  height: 200%;
+  height: 1111px; /* new height (400 * (1/0.8) ) */
+  width: 222%; /* new width (100 * (1/0.8) )*/
 
-  -ms-transform: scale(0.50);
-  -moz-transform: scale(0.50);
-  -o-transform: scale(0.50);
-  -webkit-transform: scale(0.50);
-  transform: scale(0.50);
-
-  -ms-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
+  transform: scale(0.45);
   transform-origin: 0 0;
+}
+
+
+.btnBack{
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  border: 3px solid #03013e;
+  color: #03013e;
+  padding: 3px 22px;
+  margin-top: 7px;
+}
+
+.xprizetitle{
+  padding-bottom: 10px;
 }
