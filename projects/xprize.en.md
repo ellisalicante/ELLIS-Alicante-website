@@ -207,7 +207,7 @@ permalink: xprize
       <div class="page" id="p7"  style="display:none">
         <section class="card ficha">
         <h1>DETALLE 1</h1>
-        <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="http://ec2-3-10-118-253.eu-west-2.compute.amazonaws.com:8080/iframesellis/Weekday_cases.html"></iframe>
+        <iframe frameborder="0" marginheight="0" marginwidth="0" title="Visualización de datos" allowtransparency="false" allowfullscreen="true" class="tableauViz" style="display: block; width: 100%; min-height: 2050px; max-height: 1964.7px; margin: 0px; padding: 0px; border: none; height: auto;" src="https://ellisalicante.org/xprize_weekday_cases.html"></iframe>
         </section>  
       </div>
 
