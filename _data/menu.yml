@@ -1,7 +1,7 @@
 en:
  - path: index.en.md
  - title: About ELLIS
-   subitems: 
+   subitems:
     - path: about/about.en.md
     - path: about/transparency.en.md
     - path: about/governance.en.md
@@ -9,15 +9,15 @@ en:
     - path: about/statutes.es.md
       title: Statutes (in Spanish)
     - path: about/funding.en.md
-    - path: about/privacy.en.md    
+    - path: about/privacy.en.md
  - title: Projects
    subitems:
      - path: projects/covid19impactsurvey.en.md
        title: Covid19ImpactSurvey
      - path: projects/ellas_en_ellis.es.md
-       title: Ellas en ELLIS 
+       title: Ellas en ELLIS
      - path: projects/ai4covid19.en.md
-       title: Data Science against COVID-19 
+       title: Data Science against COVID-19
      - path: projects/xprize.en.md
        title: xprize
  - path: news.en.md
@@ -40,9 +40,11 @@ es:
      - path: projects/covid19impactsurvey.es.md
        title: Covid19ImpactSurvey
      - path: projects/ellas_en_ellis.es.md
-       title: Ellas en ELLIS 
+       title: Ellas en ELLIS
      - path: projects/ai4covid19.es.md
-       title: Ciencias de Datos contra COVID-19 
+       title: Ciencias de Datos contra COVID-19
+     - path: projects/xprize.en.md
+       title: xprize
  - path: news.en.md
    title: Noticias
  - path: jobs.es.md
