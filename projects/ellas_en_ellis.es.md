@@ -44,4 +44,4 @@ Son los siguientes artículos:
 
 4. Datos digitales y tecnología para un mundo mejor. 
 
-5. “Personas en el centro”: pensar al revés las nuevas agendas del cambio social.
+5. “[Personas en el centro”: una vuelta a las agendas del cambio social](personas_centro.es.md). [Publicado en EL PAIS el 17-dic-2020](https://elpais.com/opinion/2020-12-16/las-personas-en-el-centro-una-vuelta-a-las-agendas-del-cambio-social.html)
