@@ -1,4 +1,25 @@
 /* MODIFICACIONES PLANTILLA */
+.portfolio-menu ul li {
+    margin: 5px 10px;
+}
+.xquote {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.pxprize{
+  font-size: 13px;
+  margin-bottom: 7px;
+  line-height:inherit;
+}
+.pxprize li {
+margin-left: 25px;
+}
+.pxprize li {
+  list-style-type: circle;
+  list-style-image: url('../images/bullets.png');
+}
+
 .slider-content .title{
   font-size: 40px;
 }
@@ -14,13 +35,27 @@
 }
 
 /* tablones */
+.iframePredictiveT{
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+}
+.iframePredictiveB{
+  border: 3px solid #ddd;
+  height: 450px !important;
+  width: 125% !important;
+  transform: scale(0.80);
+  transform-origin: 0 0;
+}
+
+
 .iframeYoMeQuedoEnCasaT {
   width: 100%;
   padding: 0;
   overflow: hidden;
   position: absolute;
 }
-
 .iframeYoMeQuedoEnCasaB {
   height: 700px !important;
   width: 166% !important;
@@ -42,11 +77,24 @@
   transform-origin: 0 0;
 }
 
-.pxprize{
-  font-size: 11px;
-  margin-bottom: 5px;
-  line-height:inherit;
+
+.iframeDailyConfirmedT {
+width: 100%;
+padding: 0;
+overflow: hidden;
+position: absolute;
 }
+
+.iframeDailyConfirmedB {
+  border: 3px solid #ddd;
+height: 601px !important;
+width: 166% !important;
+transform: scale(0.60);
+transform-origin: 0 0;
+overflow: hidden;
+
+}
+
 /* TEAM */
 .fichaequipo {
   border: none;
