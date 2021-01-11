@@ -34,12 +34,25 @@ margin-left: 25px;
     font-size: 10px;
 }
 
+
+ /* */
+
 /* tablones */
-.iframePredictiveT{
+.iframePredictiveT,
+.iframeYoMeQuedoEnCasaT,
+.iframeEncuestaT.
+.iframePredictiveSpainT{
   width: 100%;
   padding: 0;
   overflow: hidden;
   position: absolute;
+}
+.iframePredictiveSpainB{
+  border: 3px solid #ddd;
+  height: 450px !important;
+  width: 125% !important;
+  transform: scale(0.80);
+  transform-origin: 0 0;
 }
 .iframePredictiveB{
   border: 3px solid #ddd;
@@ -49,25 +62,11 @@ margin-left: 25px;
   transform-origin: 0 0;
 }
 
-
-.iframeYoMeQuedoEnCasaT {
-  width: 100%;
-  padding: 0;
-  overflow: hidden;
-  position: absolute;
-}
 .iframeYoMeQuedoEnCasaB {
   height: 700px !important;
   width: 166% !important;
   transform: scale(0.60);
   transform-origin: 0 0;
-}
-
-.iframeEncuestaT {
-  width: 100%;
-  padding: 0;
-  overflow: hidden;
-  position: absolute;
 }
 
 .iframeEncuestaB {
@@ -88,8 +87,8 @@ position: absolute;
 .iframeDailyConfirmedB {
   border: 3px solid #ddd;
 height: 601px !important;
-width: 166% !important;
-transform: scale(0.60);
+width: 100% !important;
+transform: scale(0.98);
 transform-origin: 0 0;
 overflow: hidden;
 

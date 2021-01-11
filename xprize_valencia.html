@@ -215,7 +215,8 @@
                      <ul>
                         <li onclick="abrir_panel('grupo1', 'panel11')" class="active">INTRODUCTION</li>
                         <li onclick="abrir_panel('grupo1', 'panel12')">DASHBOARD</li>
-                        <li onclick="abrir_panel('grupo1', 'panel13')">DOCUMENTATION</li>
+                        <li onclick="abrir_panel('grupo1', 'panel13')">SPAIN PREDICTION</li>
+                        <li onclick="abrir_panel('grupo1', 'panel14')">DOCUMENTATION</li>
                      </ul>
                   </div>
                </div>
@@ -242,6 +243,17 @@
                      </div>
                   </div>
                   <div class="grupo1" id="panel13" style="display: none">
+                     <h4 style="color:#03013e; padding-bottom: 10px;">#DASHBOARD</h4>
+                     <p class="pxprize">We have developed a <a href="http://gual.uji.es/covid19.html" target="_blank">website</a> to display the data that you can consult at this link or through our website.</p>
+                     <p class="pxprize"><em>(Currently available only in Spanish)</em></p>
+                     <!-- IFRAME ALICANTE -->
+                     <div class="iframePredictiveSpainT">
+                        <div class="iframePredictiveSpainB">
+                           <iframe src="xprize_valencia_t3.html" width="100%" height="100%"></iframe>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="grupo1" id="panel14" style="display: none">
                      <h4 style="color:#03013e; padding-bottom: 10px;">#DOCUMENTATION</h4>
                      <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
                      <p class="pxprize">Aqui deberian ir los papers, notas de prensa, etc relacionadas con esta linea de trabajo</p>
@@ -252,7 +264,7 @@
       </section>
 
       <!--====== MODELO EPIMEDIOLOGICO ======-->
-      <section id="epimediologicalmodel" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100">
+      <section id="epimediologicalmodel" style="min-height: 80vh" class="portfolio-area portfolio-four pb-100">
          <div class="container">
            <!-- Cabecera -->
             <div class="row justify-content-center">
