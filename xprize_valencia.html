@@ -53,11 +53,11 @@
                      </button>
                      <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
-                           <!-- <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li> -->
+                           <li class="nav-item"><a class="page-scroll" href="#home">home</a></li>
                            <li class="nav-item"><a class="page-scroll" href="#predictivemodel">Predictive Model</a></li>
                            <li class="nav-item"><a class="page-scroll" href="#epimediologicalmodel">Epimediological Model</a></li>
-                           <li class="nav-item"><a class="page-scroll" href="#prescriptivevemodel">Prescriptive Model</a></li>
-                           <li class="nav-item"><a class="page-scroll" href="#mobile">Mobile Data Analysis</a></li>
+                           <!-- <li class="nav-item"><a class="page-scroll" href="#prescriptivevemodel">Prescriptive Model</a></li>
+                           <li class="nav-item"><a class="page-scroll" href="#mobile">Mobile Data Analysis</a></li> -->
                            <li class="nav-item"><a class="page-scroll" href="#citizen">Citizen's Science</a></li>
                            <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li>
                            <li class="nav-item"><a class="page-scroll" href="#press">Press</a></li>
@@ -75,7 +75,7 @@
       </section>
 
       <!--====== SLIDER ======-->
-      <section id="home" class="slider_area">
+      <section id="slider" class="slider_area">
          <div id="carouselThree" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
@@ -101,7 +101,7 @@
                   </div>
                   <div class="slider-image-box d-none d-lg-flex align-items-end">
                      <div class="slider-image">
-                        <img src="assets/xprize/images/slider/sta.png" alt="">
+                        <img src="assets/xprize/images/slider/sta.png" class="img-fluid" alt="">
                      </div>
                   </div>
                </div>
@@ -121,7 +121,7 @@
                   </div>
                   <div class="slider-image-box d-none d-lg-flex align-items-end">
                      <div class="slider-image">
-                        <img src="assets/xprize/images/slider/epi.png" alt="">
+                        <img src="assets/xprize/images/slider/epi.png" class="img-fluid" alt="">
                      </div>
                   </div>
                </div>
@@ -141,7 +141,7 @@
                   </div>
                   <div class="slider-image-box d-none d-lg-flex align-items-end">
                      <div class="slider-image">
-                        <img src="assets/xprize/images/slider/pre.png" alt="">
+                        <img src="assets/xprize/images/slider/pre.png" class="img-fluid" alt="">
                      </div>
                   </div>
                </div>
@@ -161,7 +161,7 @@
                   </div>
                   <div class="slider-image-box d-none d-lg-flex align-items-end">
                      <div class="slider-image">
-                        <img src="assets/xprize/images/slider/mob.png" alt="">
+                        <img src="assets/xprize/images/slider/mob.png" class="img-fluid" alt="">
                      </div>
                   </div>
                </div>
@@ -181,7 +181,7 @@
                   </div>
                   <div class="slider-image-box d-none d-lg-flex align-items-end">
                      <div class="slider-image">
-                        <img src="assets/xprize/images/slider/sur.png" alt="">
+                        <img src="assets/xprize/images/slider/sur.png" class="img-fluid" alt="">
                      </div>
                   </div>
                </div>
@@ -194,6 +194,30 @@
             </a>
          </div>
       </section>
+
+
+      <!--====== Home ======-->
+      <section id="home" style="min-height: 60vh" class="portfolio-area portfolio-four pb-100">
+         <div class="container">
+            <!-- Cabecera -->
+            <div class="row justify-content-center">
+               <div class="col-lg-12 col-md-10">
+                  <div class="section-title text-center pb-10">
+                     <h3 class="title">Who are we?</h3>
+                     <!-- <p class="xquote"> Even if we knew everything about the present, it is impossible to predict what will happen next. We do not live in a universe of rules, but of probabilities.</p> -->
+                  </div>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-12 col-md-10">
+                 <h4 class="contact-title pb-10"><i class="lni lni-invention"></i> Introduction</h4>
+                  <p class="pgrande">We are a team of Spanish scientists who have been working since March 2020 in collaboration with the Valencian Government of Spain on using Data Science to help fight the SARS-CoV-2 pandemic. We have focused on 4 large areas of work: large-scale human mobility modeling via the analysis of aggregated, anonymized data derived from the mobile network infrastructure; computational epidemiological models; predictive models and citizen science by means of a large-scale citizen survey called <em>COVID19impactsurvey </em>which, with almost 330,000 answers in Spain and over 100,000 answers from other countries is one of the largest COVID-19 citizen surveys to date. Our work has been awarded two competitive research grants.</p>
+                  <p class="pgrande">Since March, we have been developing two types of traditional computational epidemiological models: a metapopulation compartmental SEIR model and an agent-based model. However, for this challenge, we opted for a deep learning-based approach, inspired by the model suggested by the challenge organizers. Such an approach would enable us to build a model within the time frame of the competition with two key properties: be applicable to a large number of regions and be able to automatically learn the impact of the Non-Pharmaceutical Interventions (NPIs) on the transmission rate of the disease. The Pandemic COVID-19 XPRIZE challenge has been a great opportunity for our team to explore new modeling approaches and expand our scope beyond the Valencian region of Spain.</p>
+
+              </div>
+            </div>
+          </div>
+       </section>
 
       <!--====== MODELO PREDICTIVO ======-->
       <section id="predictivemodel" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area">
@@ -327,95 +351,6 @@
          </div>
       </section>
 
-      <!--====== MODELO PRESCRIPTIVO ======-->
-      <section id="prescriptivevemodel" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area">
-         <div class="container">
-           <!-- Cabecera -->
-            <div class="row justify-content-center">
-               <div class="col-lg-6 col-md-10">
-                  <div class="section-title text-center pb-10">
-                     <h3 class="title">Prescriptive Model</h3>
-                     <p class="xquote">Do you have a good eye for safety or are you blinded by bad habits?</p>
-                  </div>
-               </div>
-            </div>
-            <!-- Cuerpo -->
-            <div class="row mt-50">
-               <!-- Menu -->
-               <div class="col-lg-3 col-md-3">
-                  <div class="portfolio-menu text-center">
-                     <ul>
-                        <li onclick="abrir_panel('grupo3', 'panel31')" class="active">INTRODUCTION</li>
-                        <li onclick="abrir_panel('grupo3', 'panel32')">DASHBOARD</li>
-                        <li onclick="abrir_panel('grupo3', 'panel33')">DOCUMENTATION</li>
-                     </ul>
-                  </div>
-               </div>
-               <!-- Contenido -->
-               <div class="col-lg-9 col-md-9">
-                  <div class="grupo3" id="panel31">
-                     <h4 style="color:#03013e; padding-bottom: 10px;"> #INTRODUCTION</h4>
-                     <p class="pxprize">Prescriptive models use the knowledge and information gathered by descriptive and predictive analytics techniques, that is, classification, prediction and segmentation, relying on operational research and numbers.</p>
-                  </div>
-                  <div class="grupo3" id="panel32" style="display: none">
-                     <h4 style="color:#03013e; padding-bottom: 10px;"> #DASHBOARD</h4>
-                     <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
-                  </div>
-                  <div class="grupo3" id="panel33" style="display: none">
-                     <h4 style="color:#03013e; padding-bottom: 10px;"> #DOCUMENTATION</h4>
-                     <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-      <!--====== MODELO MOVILIDAD ======-->
-      <section id="mobile" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100">
-         <div class="container">
-           <!-- Cabecera -->
-            <div class="row justify-content-center">
-               <div class="col-lg-6 col-md-10">
-                  <div class="section-title text-center pb-10">
-                     <h3 class="title">Mobile Data Analysis</h3>
-                     <p class="xquote">I came a long way, for a long time</p>
-                  </div>
-               </div>
-            </div>
-            <!-- Cuerpo -->
-            <div class="row mt-50">
-               <!-- Contenido -->
-               <div class="col-lg-9 col-md-9">
-                  <div class="grupo4" id="panel41">
-                     <h4 style="color:#03013e; padding-bottom: 10px;">#INTRODUCTION</h4>
-                     <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
-                  </div>
-                  <div class="grupo4" id="panel42" style="display: none">
-                     <h4 style="color:#03013e; padding-bottom: 10px;">#DASHBOARD</h4>
-                     <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
-                     <!-- iframe arcgis -->
-                     <div class="iframeYoMeQuedoEnCasaT">
-                        <iframe frameborder="0" scrolling="yes"  height="100%" width="100%" class="tableauViz iframeYoMeQuedoEnCasaB" style="display: block; height:100%; width:100%; min-height: 550px; margin: 0px; padding: 0px;" src="https://www.arcgis.com/apps/opsdashboard/index.html#/778023f21baf447cb387c98c318f1e5c"></iframe>
-                     </div>
-                  </div>
-                  <div class="grupo4" id="panel43" style="display: none">
-                     <h4 style="color:#03013e; padding-bottom: 10px;">#DOCUMENTATION</h4>
-                     <p class="pxprize">Texto descriptivo de que es lo que se ve aqui debajo</p>
-                  </div>
-               </div>
-               <!-- Menu -->
-                <div class="col-lg-3 col-md-3">
-                   <div class="portfolio-menu text-center">
-                      <ul>
-                         <li onclick="abrir_panel('grupo4', 'panel41')" class="active">INTRODUCTION</li>
-                         <li onclick="abrir_panel('grupo4', 'panel42')">DASHBOARD</li>
-                         <li onclick="abrir_panel('grupo4', 'panel43')">DOCUMENTATION</li>
-                      </ul>
-                   </div>
-                </div>
-            </div>
-         </div>
-      </section>
 
       <!--====== ENCUESTA CIUDADANA ======-->
       <section id="citizen" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area">
@@ -507,25 +442,6 @@
                                     <!-- single member row starts -->
                                     <li class="clearfix">
                                        <div class="member-details">
-                                          <div></div>
-                                       </div>
-                                       <div class="member-details">
-                                          <div>
-                                             <img src="assets/xprize/images/team/dahe.png" alt="">
-                                             <div class="member-info">
-                                                <h3>David Hervas</h3>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="member-details">
-                                          <div>
-                                             <img src="assets/xprize/images/team/dafu.png" alt="">
-                                             <div class="member-info">
-                                                <h3>David Fuente Herraiz</h3>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/mire.png" alt="">
                                              <div class="member-info">
@@ -541,13 +457,6 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="member-details">
-                                          <div></div>
-                                       </div>
-                                    </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
-                                    <li class="clearfix">
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/osga.png" alt="">
@@ -565,13 +474,13 @@
                                           </div>
                                        </div>
                                        <div class="member-details">
-                                          <div>
-                                             <img src="assets/xprize/images/team/rufe.png" alt="">
-                                             <div class="member-info">
-                                                <h3>Rubén Femenía</h3>
-                                             </div>
-                                          </div>
                                        </div>
+                                       <div class="member-details">
+                                       </div>
+                                    </li>
+                                    <!-- /single member row ends -->
+                                    <!-- single member row starts -->
+                                    <li class="clearfix">
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/alra.png" alt="">
@@ -588,12 +497,13 @@
                                              </div>
                                           </div>
                                        </div>
-                                    </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
-                                    <li class="clearfix">
                                        <div class="member-details">
-                                          <div></div>
+                                          <div>
+                                             <img src="assets/xprize/images/team/vide.png" alt="">
+                                             <div class="member-info">
+                                                <h3>Victor de Elena</h3>
+                                             </div>
+                                          </div>
                                        </div>
                                        <div class="member-details">
                                           <div>
@@ -603,6 +513,13 @@
                                              </div>
                                           </div>
                                        </div>
+                                    </li>
+                                    <!-- /single member row ends -->
+                                    <!-- single member row starts -->
+                                    <li class="clearfix">
+                                      <div class="member-details">
+                                          <div></div>
+                                      </div>
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/fres.png" alt="">
@@ -639,12 +556,15 @@
                                     <!-- /single member row ends -->
                                     <!-- single member row starts -->
                                     <li class="clearfix">
-                                       <div class="member-details">
+                                      <!-- <div class="member-details">
                                           <div></div>
-                                       </div>
-                                       <div class="member-details">
+                                      </div>
+                                      <div class="member-details">
                                           <div></div>
-                                       </div>
+                                      </div>
+                                      <div class="member-details">
+                                          <div></div>
+                                      </div> -->
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/alco.png" alt="">
@@ -663,40 +583,9 @@
                                        </div>
                                        <div class="member-details">
                                           <div>
-                                             <img src="assets/xprize/images/team/emsa.png" alt="">
-                                             <div class="member-info">
-                                                <h3>Emilio Sansanor</h3>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="member-details">
-                                          <div>
                                              <img src="assets/xprize/images/team/milo.png" alt="">
                                              <div class="member-info">
                                                 <h3>Miguel Angel Lozano</h3>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
-                                    <li class="clearfix">
-                                       <div class="member-details">
-                                          <div></div>
-                                       </div>
-                                       <div class="member-details">
-                                          <div>
-                                             <img src="assets/xprize/images/team/vide.png" alt="">
-                                             <div class="member-info">
-                                                <h3>Victor de Elena</h3>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div class="member-details">
-                                          <div>
-                                             <img src="assets/xprize/images/team/mama.png" alt="">
-                                             <div class="member-info">
-                                                <h3>Marina Martinez-Garcia</h3>
                                              </div>
                                           </div>
                                        </div>
@@ -731,15 +620,35 @@
       <!--====== TEAM  ENDS ======-->
       <!--====== PRESS PART START ======-->
       <section id="press" class="press-area pt-120 pb-130 features-area">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col-lg-6 col-md-10">
-                  <div class="section-title text-center pb-10">
-                     <h3 class="title">Press</h3>
-                     <!-- <p class="xquote">Frase Explicando los modelos epimediologicos</p> -->
+        <div class="container">
+        <div class="row justify-content-center">
+           <div class="col-lg-6 col-md-10">
+              <div class="section-title text-center pb-10">
+                 <h3 class="title">Press</h3>
+                 <!-- <p class="xquote">Frase Explicando los modelos epimediologicos</p> -->
+              </div>
+           </div>
+        </div>
+      </div>
+
+         <div class="container" style="padding-top:50px; padding-bottom: 50px">
+
+               <div class="row justify-content-center">
+                  <div class="col-lg-10 col-md-10">
+                    <h4 class="contact-title pb-10"><i class="lni lni-briefcase"></i> Press Release 28/01/2021</h4>
+                    <p class="pgrande"> <strong> Valencian scientists predict the spread of COVID-19 worldwide through Artificial Intelligence </strong> </p>
+                    <p class="pgrande"> <strong> The VALENCIA IA4COVID team model is, so far, the most accurate when determining the evolution of the pandemic in Asia and one of the best for Europe and South America. </strong> </p>
+                    <p class="pgrande"> Formed by twenty experts from universities and research centers of the Valencian Community, and coordinated by Dr. <strong> Nuria Oliver </strong>, Commissioner of the Presidency of the Generalitat Valenciana in AI and data sciences in the fight against COVID-19, the <strong> VALENCIA IA4COVID team </strong> has spent months trying to model the progression of the pandemic and its impact on citizens, in collaboration with the General Directorate of Analysis and Public Policies within the Presidency of the Generalitat . </p>
+                    <p class="pgrande"> Determined to contribute their grain of sand against the disease, in March they began to work on the use of <strong> artificial intelligence and data science to forecast epidemiological evolution </strong>. To validate their work, they decided to present themselves, along with 350 other teams from around the world, to <strong> the global 500K Pandemic Response Challenge, directed by XPRIZE, and sponsored by Cognizant, </strong> endowed with a prize of half a million dollars. </p>
+                    <p class="pgrande"> After a first screening, 104 teams from 28 countries participated in the semifinal, which consisted of developing <strong> models to predict the number of cases </strong> of COVID-19 in 236 regions and countries of the world within six months view. After the semifinal, <strong> the model of the VALENCIA IA4COVID team has been placed among the best in the world </strong>. Trained with real data, the model offers the <strong> second best average ranking worldwide </strong>, standing out for being the best model predicting daily cases of coronavirus in Asia and one of the best in Europe and South America, which has guaranteed him a pass <strong> to the final phase of the challenge </strong>. </p>
+                    <p class="pgrande"> In the final, the teams must be able to <strong> prescribe intervention plans </strong> that reduce the contagion rate and minimize the economic and social impact of said plans, such as the closure of educational centers or the imposition of mobility or assembly limitations. </p>
+                    <p class="pgrande"> The <strong> VALENCIA IA4COVID </strong> team includes researchers from the universities of Alicante, Politècnica de València, Jaume I from Castellón, Miguel Hernández from Elche, Cardenal Herrera CEU and the Fundación Unidad ELLIS Alicante. It has the support of the Generalitat Valenciana, CSIC, <br /> CRUE Spanish Universities, BBVA Foundation and Santander Universities. <br /> <br /> </p>
                   </div>
-               </div>
-            </div>
+                </div>
+              </div>
+
+                <div class="container">
+
             <div class="row">
                <div class="col-lg-12 col-md-10">
                   <div class="container testimonio">
