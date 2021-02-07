@@ -1,7 +1,6 @@
 ---
 title: Estatutos Fundación de la Comunidad Valenciana Unidad ELLIS Alicante
 lang: es
-layout: page
 ---
 
 - TOC

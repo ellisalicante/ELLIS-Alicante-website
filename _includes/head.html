@@ -1,16 +1,23 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="facebook-domain-verification" content="w5zgjekjxi6v6dvya6lxdvw2d6ndpv" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ "/assets/css/styles.css" | absolute_url }}">
 <meta property="og:title" content="{{page.title}}" />
+
+{% for i in (1..2) %}{% if i == 1 %}{%  assign result=site.pages | sort: 'lang' %}{% else %}{% 	assign result=site.posts | sort: 'lang' %}{% endif %}{% capture removeback %}.{{page.lang}}.md{%endcapture%}{% capture pagebasepath %}{{ page.path | remove: removeback }}{% endcapture%}{% for p in result %}{% capture removeback %}.{{p.lang}}.md{%endcapture%}{% capture basepath %}{{ p.path | remove: removeback }}{% endcapture%}{% if pagebasepath == basepath %}
+<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url }}" />{% endif %}{% endfor %}{% endfor %}
+
 {% if page.cardimage %}
 <meta property="og:image" content="{{ page.cardimage |  | absolute_url }}" />
 {% else %}
-<meta property="og:image" content="{{ "/assets/ELLISAlicanteLogo.jpg" | absolute_url }}" />
+<meta property="og:image" content="{{ "/assets/default_card_image.jpg" | absolute_url }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
 {% endif %}
 <meta property="og:type" content="website" />
 <meta property="twitter:card" content="summary">
@@ -25,5 +32,9 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-163878632-2');
+
+  // don't track IP, don't store cookies or query parameters
+  var config = { 'cookie_expires': 0, 'anonymize_ip': true, 'store_gac': false, 'page_path': location.pathname };
+
+  gtag('config', 'UA-163878632-2', config);
 </script>

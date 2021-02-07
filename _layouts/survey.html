@@ -2,8 +2,28 @@
 layout: default
 ---
 <div class="container">
-<h2>{{page.title}}</h2>
-<div class="text-justify">
+
+<div class="d-flex flex-wrap justify-content-between">
+<div><h2>{{page.title}}</h2></div>
+
+<div class="btn-group p-1">
+<div class="p-2">
+{% if page.lang == "es" %}
+{% assign emailbody = "Covid19ImpactSurvey es una de las encuestas ciudadanas más grandes del mundo sobre el impacto de Covid-19 en la sociedad. ¿Te animas a contestarlo? https://covid19impactsurvey.org" %}
+Compartir la encuesta:
+{% else %}
+{% assign emailbody = "The Covid19ImpactSurvey one of the world's largest citizen-science surveys and is helping us understand the health, economic and psychological impact of the epidemic. Do you want contribute your experience? https://covid19impactsurvey.org" %}
+Share survey:
+{% endif %}
+</div>
+<a href="https://covid19impactsurvey.org/share/whatsapp.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/whatsapp.png" width=20 height=20> WhatsApp</div></a>
+<a href="https://covid19impactsurvey.org/share/twitter.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/twitter.png"  width=20 height=20> Twitter</div></a>
+<a href="https://covid19impactsurvey.org/share/facebook.html"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/facebook.png"  width=20 height=20> Facebook</div></a>
+<a href="mailto:?subject=Covid19ImpactSurvey&body={{ emailbody }}"><div class="btn btn-outline-primary"><img src="https://covid19impactsurvey.org/share/email.png" width=20 height=20> Email</div></a>
+</div>
+</div>
+
+<div>
 {{content}}
 </div>
 
@@ -11,10 +31,10 @@ layout: default
 <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
 <param name='embed_code_version' value='3' /> 
 <param name='site_root' value='' />
-<param name='name' value='Covid19ImpactSurvey&#47;Contactocercano' />
+<param name='name' value='Covid19ImpactSurvey&#47;Polticaspublicas' />
 <param name='tabs' value='yes' />
 <param name='toolbar' value='yes' />
-<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19ImpactSurvey&#47;Contactocercano&#47;1.png' /> 
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid19ImpactSurvey&#47;Polticaspublicas&#47;1.png' /> 
 <param name='animate_transition' value='yes' />
 <param name='display_static_image' value='yes' />
 <param name='display_spinner' value='yes' />

@@ -1,31 +1,50 @@
 en:
  - path: index.en.md
  - title: About ELLIS
-   subitems: 
-    - path: about.en.md
+   subitems:
+    - path: about/about.en.md
+    - path: about/transparency.en.md
     - path: about/governance.en.md
     - path: about/researchers.en.md
     - path: about/statutes.es.md
       title: Statutes (in Spanish)
+    - path: about/funding.en.md
+    - path: about/privacy.en.md
  - title: Projects
    subitems:
      - path: projects/covid19impactsurvey.en.md
+       title: Covid19ImpactSurvey
+     - path: projects/ellas_en_ellis.es.md
+       title: Ellas en ELLIS
+     - path: projects/ai4covid19.en.md
+       title: Data Science against COVID-19
+     - path: projects/xprize.en.md
+       title: xprize
  - path: news.en.md
  - path: jobs.en.md
 es:
  - path: index.es.md
  - title: Sobre ELLIS
    subitems:
-    - path: about.es.md
-    - path: about/governance.en.md
-      title: Gobernanza
-    - path: about/researchers.en.md
-      title: Investigación
+    - path: about/about.es.md
+    - path: about/transparency.es.md
+    - path: about/governance.es.md
+    - path: about/researchers.es.md
     - path: about/statutes.es.md
       title: Estatutos
-   title: Noticias
+    - path: about/funding.es.md
+    - path: about/privacy.en.md
+      title: Política de privacidad
  - title: Proyectos
    subitems:
      - path: projects/covid19impactsurvey.es.md
+       title: Covid19ImpactSurvey
+     - path: projects/ellas_en_ellis.es.md
+       title: Ellas en ELLIS
+     - path: projects/ai4covid19.es.md
+       title: Ciencias de Datos contra COVID-19
+     - path: projects/xprize.en.md
+       title: xprize
  - path: news.en.md
+   title: Noticias
  - path: jobs.es.md
