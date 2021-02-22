@@ -16,8 +16,6 @@ en:
        title: Covid19ImpactSurvey
      - path: projects/ellas_en_ellis.es.md
        title: Ellas en ELLIS
-     - path: projects/ai4covid19.en.md
-       title: Data Science against COVID-19
      - path: projects/xprize.en.md
        title: xprize
  - path: news.en.md
@@ -41,8 +39,6 @@ es:
        title: Covid19ImpactSurvey
      - path: projects/ellas_en_ellis.es.md
        title: Ellas en ELLIS
-     - path: projects/ai4covid19.es.md
-       title: Ciencias de Datos contra COVID-19
      - path: projects/xprize.en.md
        title: xprize
  - path: news.en.md
