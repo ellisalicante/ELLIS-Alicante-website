@@ -23,3 +23,9 @@ The transparency portal of the ELLIS Alicante Foundation provides the main infor
 
   
 
+### Funding Sources
+
+The ELLIS Unit Alicante Foundation's Webpage and the research activities carried out in 2020 on the topic of Data Science against COVID-19 have been partially funded by the Valencian Generalitat according to Decreto 202/2020 from the 4th of December of 2020. 
+
+The research activities on Data Science against COVID-19 are partially funded by the CD4COVID project sponsored by the Fondo Supera from the CRUE and Banco Santander, and by the AI4COVID19 project from the BBVA Foundation. 
+
