@@ -15,9 +15,6 @@
       <link rel="stylesheet" href="assets/xprize/css/custom.css">
    </head>
    <body>
-      <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
       <!--====== PRELOADER PART START ======-->
       <div class="preloader">
          <div class="loader">
@@ -36,13 +33,13 @@
          </div>
       </div>
       <!--====== MENU ======-->
-      <section class="navbar-area">
+      <section class="navbar-area sticky">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
                   <nav class="navbar navbar-expand-lg">
                      <a class="navbar-brand" class="page-scroll" href="#home">
-                     <img src="assets/xprize/images/logo_claro.png" alt="Logo" style="max-height: 60px;">
+                     <img src="assets/xprize/images/logo_oscuro.png" alt="Logo" style="max-height: 60px;">
                      </a>
                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="toggler-icon"></span>
@@ -52,12 +49,10 @@
                      <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
                            <li class="nav-item"><a class="page-scroll" href="#home">home</a></li>
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#prescriptivemodel">Prescriptive Model</a></li>
-                              <li class="nav-item"><a class="page-scroll" href="#predictivemodel">Predictive Model</a></li>
-                              <li class="nav-item"><a class="page-scroll" href="#epimediologicalmodel">Epimediological Model</a></li> -->
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#mobile">Mobile Data Analysis</a></li> -->
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#citizen">Citizen's Science</a></li> -->
                            <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li>
+                           <li class="nav-item"><a class="page-scroll" href="#NPIS">NPIs Visualizations </a></li>
+                           <li class="nav-item"><a class="page-scroll" href="#predictive">Predictive Model</a></li>
+                           <!-- <li class="nav-item"><a class="page-scroll" href="#presciptor"> Prescriptor Model</a></li> -->
                            <li class="nav-item"><a class="page-scroll" href="#press">Press</a></li>
                         </ul>
                      </div>
@@ -71,147 +66,35 @@
             </div>
          </div>
       </section>
-      <!--====== SLIDER ======-->
-      <section id="slider" class="slider_area">
-         <div id="carouselThree" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
-               <li data-target="#carouselThree" data-slide-to="1"></li>
-               <li data-target="#carouselThree" data-slide-to="2"></li>
-               <li data-target="#carouselThree" data-slide-to="3"></li>
-               <li data-target="#carouselThree" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="slider-content">
-                              <h1 class="title">Predictive Model</h1>
-                              <p class="text">Frase explicando lo que son los modelos predictivos</p>
-                              <ul class="slider-btn rounded-buttons">
-                                 <li><a class="main-btn rounded-one" href="#predictivemodel">SHOW MORE</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slider-image-box d-none d-lg-flex align-items-end">
-                     <div class="slider-image">
-                        <img src="assets/xprize/images/slider/sta.png" class="img-fluid" alt="">
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="slider-content">
-                              <h1 class="title">Epimediological Model</h1>
-                              <p class="text">Frase explicando lo que son los modelos epidemiologicos</p>
-                              <ul class="slider-btn rounded-buttons">
-                                 <li><a class="main-btn rounded-one" href="#epimediologicalmodel">SHOW MORE</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slider-image-box d-none d-lg-flex align-items-end">
-                     <div class="slider-image">
-                        <img src="assets/xprize/images/slider/epi.png" class="img-fluid" alt="">
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="slider-content">
-                              <h1 class="title">Prescriptive Model</h1>
-                              <p class="text">Frase explicando lo que son los modelos predictivos</p>
-                              <ul class="slider-btn rounded-buttons">
-                                 <li><a class="main-btn rounded-one" href="#prescriptivemodel">SHOW MORE</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slider-image-box d-none d-lg-flex align-items-end">
-                     <div class="slider-image">
-                        <img src="assets/xprize/images/slider/pre.png" class="img-fluid" alt="">
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="slider-content">
-                              <h1 class="title">Mobile Data Analysis</h1>
-                              <p class="text">Frase explicando lo que es el analisis de datos de movimiento</p>
-                              <ul class="slider-btn rounded-buttons">
-                                 <li><a class="main-btn rounded-one" href="#mobile">SHOW MORE</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slider-image-box d-none d-lg-flex align-items-end">
-                     <div class="slider-image">
-                        <img src="assets/xprize/images/slider/mob.png" class="img-fluid" alt="">
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="slider-content">
-                              <h1 class="title">Citizen's Science</h1>
-                              <p class="text">Frase explicando lo que es la encuesta ciudadana</p>
-                              <ul class="slider-btn rounded-buttons">
-                                 <li><a class="main-btn rounded-one" href="#citizen">SHOW MORE</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slider-image-box d-none d-lg-flex align-items-end">
-                     <div class="slider-image">
-                        <img src="assets/xprize/images/slider/sur.png" class="img-fluid" alt="">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
-            <i class="lni lni-arrow-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
-            <i class="lni lni-arrow-right"></i>
-            </a>
-         </div>
-      </section>
-      <!--====== Home ======-->
+      <!--====== HOME START ======-->
       <section id="home" style="min-height: 60vh" class="portfolio-area portfolio-four pb-100 features-area">
          <div class="container">
-            <!-- Cabecera -->
             <div class="row justify-content-center">
                <div class="col-lg-12 col-md-10">
                   <div class="section-title text-center pb-10">
                      <h3 class="title">Who are we?</h3>
-                     <!-- <p class="xquote"> Even if we knew everything about the present, it is impossible to predict what will happen next. We do not live in a universe of rules, but of probabilities.</p> -->
                   </div>
                </div>
             </div>
             <div class="row justify-content-center">
                <div class="col-lg-12 col-md-10">
                   <h4 class="contact-title pb-10"><i class="lni lni-invention"></i> Introduction</h4>
+                </div>
+                <div class="col-lg-7 col-md-10">
+                  <div style="padding-right: 10px;">
                   <p class="pgrande">We are a team of Spanish scientists who have been working since March 2020 in collaboration with the Valencian Government of Spain on using Data Science to help fight the SARS-CoV-2 pandemic. We have focused on 4 large areas of work: large-scale human mobility modeling via the analysis of aggregated, anonymized data derived from the mobile network infrastructure; computational epidemiological models; predictive models and citizen science by means of a large-scale citizen survey called <em>COVID19impactsurvey </em>which, with almost 330,000 answers in Spain and over 100,000 answers from other countries is one of the largest COVID-19 citizen surveys to date. Our work has been awarded two competitive research grants.</p>
                   <p class="pgrande">Since March, we have been developing two types of traditional computational epidemiological models: a metapopulation compartmental SEIR model and an agent-based model. However, for this challenge, we opted for a deep learning-based approach, inspired by the model suggested by the challenge organizers. Such an approach would enable us to build a model within the time frame of the competition with two key properties: be applicable to a large number of regions and be able to automatically learn the impact of the Non-Pharmaceutical Interventions (NPIs) on the transmission rate of the disease. The Pandemic COVID-19 XPRIZE challenge has been a great opportunity for our team to explore new modeling approaches and expand our scope beyond the Valencian region of Spain.</p>
+                </div>
+               </div>
+               <div class="col-lg-5 col-md-10">
+                 <div class="div_contenedor">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/RZ9wsSGH8U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
                </div>
             </div>
          </div>
       </section>
+      <!--====== HOME  ENDS ======-->
       <!--====== TEAM START ======-->
       <section id="team" class="team-area pt-120 pb-130">
          <div class="container">
@@ -219,12 +102,9 @@
                <div class="col-lg-6 col-md-10">
                   <div class="section-title text-center pb-30">
                      <h3 class="title">Meet The Team</h3>
-                     <!-- <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p> -->
                   </div>
-                  <!-- section title -->
                </div>
             </div>
-            <!-- row -->
             <div class="row">
                <div class="page" id="pTheTeam">
                   <section class="card ficha fichaequipo">
@@ -233,7 +113,6 @@
                            <div class="row flex-center sm-no-flex">
                               <div class="pull-right sm-no-float col-md-8">
                                  <ul class="list-unstyled team-members" style="padding-top: 80px;">
-                                    <!-- single member row starts -->
                                     <li class="clearfix">
                                        <div class="member-details">
                                           <div>
@@ -272,8 +151,6 @@
                                        <div class="member-details">
                                        </div>
                                     </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
                                     <li class="clearfix">
                                        <div class="member-details">
                                           <div>
@@ -308,8 +185,6 @@
                                           </div>
                                        </div>
                                     </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
                                     <li class="clearfix">
                                        <div class="member-details">
                                           <div></div>
@@ -347,18 +222,7 @@
                                           </div>
                                        </div>
                                     </li>
-                                    <!-- /single member row ends -->
-                                    <!-- single member row starts -->
                                     <li class="clearfix">
-                                       <!-- <div class="member-details">
-                                          <div></div>
-                                          </div>
-                                          <div class="member-details">
-                                          <div></div>
-                                          </div>
-                                          <div class="member-details">
-                                          <div></div>
-                                          </div> -->
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/alco.png" alt="">
@@ -384,11 +248,8 @@
                                           </div>
                                        </div>
                                     </li>
-                                    <!-- /single member row ends -->
                                  </ul>
-                                 <!-- /end team-photos -->
                               </div>
-                              <!-- /end col-md-8 -->
                               <div class="pull-left col-md-4 sm-text-center">
                                  <div class="team-overview">
                                     <h2>Our Multidisciplinary Team</h2>
@@ -398,81 +259,87 @@
                                     <p><strong>Affiliated with:</strong> Ellis Alicante, Universitat Jaume I, Universidad de Alicante, Universidad Miguel Hernández, Universitat Politècnica de València, Universidad Cardenal Herrera CEU. </p>
                                  </div>
                               </div>
-                              <!-- /end col-md-4 -->
                            </div>
-                           <!-- /end row -->
                         </div>
-                        <!-- /end container -->
                      </section>
                   </section>
                </div>
             </div>
-            <!-- row -->
          </div>
-         <!-- container -->
       </section>
       <!--====== TEAM  ENDS ======-->
-      <!--====== MODELO PREDICTIVO ======-->
-      <section id="seccion1" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area ">
+      <!--====== NPIS START ======-->
+      <section id="NPIS" style="min-height: 120vh" class="portfolio-area portfolio-four pb-100 features-area ">
          <div class="container-fluid">
-            <!-- Cabecera -->
             <div class="row justify-content-center">
                <div class="col-lg-12 col-md-10">
                   <div class="section-title text-center pb-10">
                      <h3 class="title">Visualizations of applied NPIs</h3>
-                     <!-- <p class="xquote"> Even if we knew everything about the present, it is impossible to predict what will happen next. We do not live in a universe of rules, but of probabilities.</p> -->
                   </div>
                </div>
             </div>
-            <!-- Cuerpo -->
             <div class="row mt-50">
-               <!-- Menu -->
                <div class="col-lg-12">
-                  <div class='tableauPlaceholder' id='viz1614112361100' style='position: relative'>
-                     <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VA&#47;VALENCIAIA4COVID&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
-                     <object class='tableauViz'  style='display:none;'>
-                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                        <param name='embed_code_version' value='3' />
-                        <param name='site_root' value='' />
-                        <param name='name' value='VALENCIAIA4COVID&#47;Dashboard1' />
-                        <param name='tabs' value='no' />
-                        <param name='toolbar' value='yes' />
-                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VA&#47;VALENCIAIA4COVID&#47;Dashboard1&#47;1.png' />
-                        <param name='animate_transition' value='yes' />
-                        <param name='display_static_image' value='yes' />
-                        <param name='display_spinner' value='yes' />
-                        <param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' />
-                        <param name='language' value='es' />
-                     </object>
-                  </div>
-                  <script type='text/javascript'>                    var divElement = document.getElementById('viz1614112361100');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) {
-                     vizElement.style.width='1490px';
-                     vizElement.style.height='2334px';} else if ( divElement.offsetWidth > 500 ) {
-                       vizElement.style.width='1490px';
-                     vizElement.style.height='2334px';} else {
+                 <div class="tableaupapi">
+                   <div class='tableauPlaceholder' id='viz1614112361100' style='position: relative'>
+                      <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VA&#47;VALENCIAIA4COVID&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+                      <object class='tableauViz'  style='display:none;'>
+                         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                         <param name='embed_code_version' value='3' />
+                         <param name='site_root' value='' />
+                         <param name='name' value='VALENCIAIA4COVID&#47;Dashboard1' />
+                         <param name='tabs' value='no' />
+                         <param name='toolbar' value='yes' />
+                         <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;VA&#47;VALENCIAIA4COVID&#47;Dashboard1&#47;1.png' />
+                         <param name='animate_transition' value='yes' />
+                         <param name='display_static_image' value='yes' />
+                         <param name='display_spinner' value='yes' />
+                         <param name='display_overlay' value='yes' />
+                         <param name='display_count' value='yes' />
+                         <param name='language' value='es' />
+                      </object>
+                   </div>
+                 </div>
+                  <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1614112361100');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) {
                        vizElement.style.width='100%';
-                     vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                       vizElement.style.height='600px';
+                     }
+                       else if ( divElement.offsetWidth > 500 ) {
+                         vizElement.style.width='100%';
+                       vizElement.style.height='600px';
+                     } else {
+                         vizElement.style.width='100%';
+                         vizElement.style.height='600px';
+                     }
+                     var scriptElement = document.createElement('script');
+                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
                   </script>
                </div>
             </div>
          </div>
       </section>
-      <section id="seccion2" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 ">
+      <!--====== NPIS  ENDS ======-->
+      <!--====== PREDICTIVE START ======-->
+      <section id="predictive" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 ">
          <div class="container">
-            <!-- Cabecera -->
             <div class="row justify-content-center">
                <div class="col-lg-12 col-md-10">
                   <div class="section-title text-center pb-10">
-                     <h3 class="title">Predictor Model</h3>
-                     <!-- <p class="xquote"> Even if we knew everything about the present, it is impossible to predict what will happen next. We do not live in a universe of rules, but of probabilities.</p> -->
+                     <h3 class="title">Predictive Models</h3>
                   </div>
                </div>
             </div>
-            <!-- Cuerpo -->
             <div class="row mt-50">
-               <!-- Menu -->
-               <div class="col-lg-12">
+              <div class="col-lg-4">
+                   <h4 class="contact-title pb-10"><i class="lni lni-information"></i> Info</h4>
+                   <p class="pgrande">We have developed machine learning-based predictive models of the number of hospitalizations and intensive care hospitalizations overall and for SARS-CoV-2 patients. We have also developed a model to infer the prevalence of the disease based on a few of the answers to our citizen survey <a href="https://covid19impactsurvey.org" target="_blank"> https://covid19impactsurvey.org </a></p>
+              </div>
+               <div class="col-lg-8">
+                 <div class="tableaupapi">
                   <div class='tableauPlaceholder' id='viz1614112305955' style='position: relative'>
                      <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;ClusterMapping_16091541628540&#47;clusters&#47;1_rss.png' style='border: none' /></a></noscript>
                      <object class='tableauViz'  style='display:none;'>
@@ -491,15 +358,23 @@
                         <param name='language' value='es' />
                      </object>
                   </div>
-                  <script type='text/javascript'>                    var divElement = document.getElementById('viz1614112305955');                    var vizElement = divElement.getElementsByTagName('object')[0];
+                </div>
+                  <script type='text/javascript'>
+                      var divElement = document.getElementById('viz1614112305955');
+                      var vizElement = divElement.getElementsByTagName('object')[0];
                      vizElement.style.width='100%';
-                     vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                     vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                     var scriptElement = document.createElement('script');
+                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
                   </script>
                </div>
             </div>
          </div>
       </section>
-      <section id="seccion3" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area ">
+      <!--====== PREDICTIVE  ENDS ======-->
+      <!--====== PRESCRIPTOR START ======-->
+      <section id="prescriptor" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100 features-area ">
          <div class="container">
             <!-- Cabecera -->
             <div class="row justify-content-center">
@@ -513,12 +388,59 @@
             <!-- Cuerpo -->
             <div class="row mt-50">
                <!-- Menu -->
-               <div class="col-lg-12">
-<div class='tableauPlaceholder' id='viz1614113595827' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PrescriptionsWeb&#47;Compare&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PrescriptionsWeb&#47;Compare' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PrescriptionsWeb&#47;Compare&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1614113595827');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='1434px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='1434px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+               <div class="col-lg-2">
+                    <h4 class="contact-title pb-10"><i class="lni lni-information"></i> Info</h4>
+                    <p class="pgrande">We have developed 3 types of computational epidemiological models: (1) a metapopulation compartmental SEIR-type model; (2) an agent-based model and (3) a deep learning-based model in the context of the 500k XPRIZE Pandemic Response Competition sponsored by Cognizant</p>
+               </div>
+                <div class="col-lg-10">
+                  <div class="tableaupapi">
+                        <div class='tableauPlaceholder' id='viz1614113595827' style='position: relative'>
+                          <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PrescriptionsWeb&#47;Compare&#47;1_rss.png' style='border: none' /></a></noscript>
+                          <object class='tableauViz'  style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='PrescriptionsWeb&#47;Compare' />
+                            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;PrescriptionsWeb&#47;Compare&#47;1.png' />
+                             <param name='animate_transition' value='yes' />
+                             <param name='display_static_image' value='yes' />
+                             <param name='display_spinner' value='yes' />
+                             <param name='display_overlay' value='yes' />
+                             <param name='display_count' value='yes' />
+                             <param name='language' value='es' />
+                             <param name='filter' value='publish=yes' />
+                           </object>
+                         </div>
+                       </div>
+                       <script type='text/javascript'>
+                          var divElement = document.getElementById('viz1614113595827');
+                          var vizElement = divElement.getElementsByTagName('object')[0];
+                          if ( divElement.offsetWidth > 800 ) {
+                             vizElement.style.width='100%';
+                             vizElement.style.height='550px';
+                           }
+                             else if ( divElement.offsetWidth > 500 ) {
+                               vizElement.style.width='100%';
+                             vizElement.style.height='550px';
+                           } else {
+                               vizElement.style.width='100%';
+                               vizElement.style.height='550px';
+                           }
+                          var scriptElement = document.createElement('script');
+                          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                        </script>
+                        </div>
+
+
                </div>
             </div>
          </div>
       </section>
+      <!--====== TEAM  ENDS ======-->
+      <!--====== NPIS START ======-->
       <section id="seccion4" style="min-height: 110vh" class="portfolio-area portfolio-four pb-100">
          <div class="container-fluid">
             <!-- Cabecera -->
@@ -552,13 +474,16 @@
                         <param name='language' value='es' />
                      </object>
                   </div>
-                  <script type='text/javascript'>                    var divElement = document.getElementById('viz1614112500651');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) {
+                  <script type='text/javascript'>
+                  var divElement = document.getElementById('viz1614112500651');
+                  var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) {
                      vizElement.style.width='1490px';
                      vizElement.style.height='734px';} else if ( divElement.offsetWidth > 500 ) {
                        vizElement.style.width='1490px';
                      vizElement.style.height='734px';} else {
                        vizElement.style.width='100%';
-                     vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                     vizElement.style.height='727px';}
+                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
                   </script>
                </div>
             </div>
@@ -907,7 +832,7 @@
                </div>
             </div>
          </div>
-         </div>
+
       </section>
       <!--====== PRESS  ENDS ======-->
       <!--====== FOOTER PART START ======-->
@@ -940,6 +865,7 @@
       <script src="assets/xprize/js/main.js"></script>
       <script>
          function abrir_panel(nombregrupo, nombrepanel) {
+
            var i, tabcontent, tablinks;
            tabcontent = document.getElementsByClassName(nombregrupo);
            for (i = 0; i < tabcontent.length; i++) {
@@ -967,6 +893,7 @@
 
 
          window.onload = function() {
+
             var iframe = document.getElementById('t4');
             iframe.src = "xprize_valencia_t4.html";
          };
