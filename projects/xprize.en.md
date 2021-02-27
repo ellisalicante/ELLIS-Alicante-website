@@ -7,7 +7,7 @@ permalink: xprize
 <div class="container">
   <div class="row">
     <div class="col-sm-8">
-      <h2>XPrize on Pandemic Response</h2>
+      <h2>500K XPrize Challenge on Pandemic Response sponsored by Cognizant</h2>
     </div>
     <div class="col-sm-4">
       <a href="https://ellisalicante.org/xprize_valencia" class="btn btn-secondary" style="position: absolute; right: 0px;">Show on full screen</a>
