@@ -25,7 +25,7 @@ El portal de transparencia de la Fundación de la Comunitat Valenciana Unidad EL
   
 ### Fuentes de Financiación
 
-La elaboración de la página de web de la Fundación Unidad ELLIS Alicante así como el trabajo de investigación en Ciencias de Datos en la lucha contra COVID-19 han sido parcialmente financiados en 2020 por la SUBVENCIÓN de la Generalitat según Decreto 202/2020 de 4 de diciembre del Consell. 
+Las actividades de puesta en marcha y funcionamiento de la Fundación Unidad ELLIS Alicante, la elaboración de la página de web de la Fundación Unidad ELLIS Alicante así como el trabajo de investigación en Ciencias de Datos en la lucha contra COVID-19 han sido parcialmente financiados en 2020 por la SUBVENCIÓN global de 120.000 euros de la Generalitat Valenciana según Decreto 202/2020 de 4 de diciembre del Consell. 
 
 El trabajo de investigación en Ciencias de Datos en la lucha contra COVID-19 está parcialmente financiado por el proyecto CD4COVID del Fondo Supera CRUE con el Banco de Santander y por el proyecto AI4COVID19 de la Fundación BBVA.
 
