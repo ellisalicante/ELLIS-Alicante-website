@@ -7,9 +7,18 @@ layout: default
             <h2>{{page.title}}</h2>
             {{content}}
 			<ul class="timeline">
-{% for post in site.posts %}
+{% assign news=site.posts | where: "lang", page.lang | sort: "date" | reverse %}
+{% for post in news %}
 				<li>
-					<a href="#" class="float-right">{{post.date | date: "%d %B, %Y"}}</a>
+					<a href="{{post.url}}" class="float-right">
+{% if page.lang == 'es' %}					
+					{% assign m = post.date | date: "%-m" %}
+      {{ post.date | date: "%-d" }} de {% case m %}{% when '1' %}enero{% when '2' %}febrero{% when '3' %}marzo{% when '4' %}abril{% when '5' %}mayo{% when '6' %}junio{% when '7' %}julio{% when '8' %}agosto{% when '9' %}septiembre{% when '10' %}octubre{% when '11' %}noviembre{% when '12' %}deciembre{% endcase %}, {{ post.date | date: "%Y" }}
+{% else %}					
+					{{post.date | date: "%B %-d, %Y"}}
+{% endif %}					
+					</a>
+					
 					<a href="{{post.url}}">{{post.title}}</a>
 					<p>{{post.excerpt}}</p>
 				</li>
