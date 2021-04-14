@@ -2,6 +2,7 @@
 layout: page
 title: The Data Science against COVID19 Team obtains €300 thousand in competitive funding from CRUE and FBBVA
 excerpt_separator: <!--more-->
+lang: en
 ---
 
 The Data Science against COVID19 Team, led by Dr. Nuria Oliver, Chief Scientific Advisor at the newly created ELLIS Unit of Alicante, has received competitive funding for her work leading the Data Science against COVID-19 team as Commissioner for the President of the Valencian Government in Spain on AI and Data Science against COVID-19.<!--more-->

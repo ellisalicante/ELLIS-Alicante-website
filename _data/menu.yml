@@ -41,6 +41,5 @@ es:
        title: Ellas en ELLIS
      - path: projects/xprize.en.md
        title: xprize
- - path: news.en.md
-   title: Noticias
+ - path: news.es.md
  - path: jobs.es.md
