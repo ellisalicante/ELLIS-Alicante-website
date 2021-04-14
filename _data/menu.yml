@@ -18,7 +18,7 @@ en:
        title: Ellas en ELLIS
      - path: projects/xprize.en.md
        title: XPRIZE
-	 - path: projects/trinity.en.md
+     - path: projects/trinity.en.md
        title: Trinity
  - path: news.en.md
  - path: jobs.en.md
@@ -43,7 +43,7 @@ es:
        title: Ellas en ELLIS
      - path: projects/xprize.en.md
        title: xprize
-	 - path: projects/trinity.en.md
+     - path: projects/trinity.en.md
        title: Trinity
  - path: news.es.md
  - path: jobs.es.md
