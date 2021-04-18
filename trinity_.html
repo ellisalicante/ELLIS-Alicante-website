@@ -22,11 +22,62 @@
          }
          .card-img-top{
          margin-top: 20px;
-         margin-right: 10%;
-         margin-left: 10%;
+         margin-right: 2%;
+         margin-left: 2%;
          width: auto;
          height: 50px;
          }
+         .carousel-control-prev-icon,
+         .carousel-control-next-icon {
+           height: 100px;
+           width: 100px;
+           outline: black;
+           background-size: 100%, 100%;
+           border-radius: 50%;
+           background-image: none;
+         }
+
+         .carousel-control-next-icon:after
+         {
+           content: '>';
+           font-size: 55px;
+           color: #0d0b46;
+         }
+
+         .carousel-control-prev-icon:after {
+           content: '<';
+           font-size: 55px;
+           color: #0d0b46;
+         }
+
+        .carousel .carousel-control-prev {
+            left: 5px !important;
+        }
+        .carousel .carousel-control-next{
+          right: 5px !important;
+
+        }
+
+        .carousel-indicators li {
+    display: inline-block;
+    width: 48px !important;
+    height: 8px !important;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: #0d0b46 !important;
+    opacity: 1 !important;
+    /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); */
+}
+.carousel-indicators .active {
+    width: 48px !important;
+    height: 8px !important;
+    margin: 10px;
+    background-color: #ffb001 !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 0px !important;
+}
       </style>
    </head>
    <body>
@@ -63,14 +114,11 @@
                      </button>
                      <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#home">home</a></li> -->
                            <li class="nav-item"><a class="page-scroll" href="#team">Team</a></li>
                            <li class="nav-item"><a class="page-scroll" href="#NPIS">NPIs Visualizations </a></li>
                            <li class="nav-item"><a class="page-scroll" href="#epimediological">Computational Epimediological Models</a></li>
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#predictive">Predictive Models</a></li> -->
                            <li class="nav-item"><a class="page-scroll" href="#presciptive">Prescriptor</a></li>
-                           <!-- <li class="nav-item"><a class="page-scroll" href="#predictor">Predictor Model</a></li> -->
-                           <li class="nav-item"><a class="page-scroll" href="#press">Press and news</a></li>
+                           <li class="nav-item"><a class="page-scroll" href="#press">Press & Social Media Impacts</a></li>
                         </ul>
                      </div>
                      <div id="botonellis" class="navbar-btn d-none d-sm-inline-block">
@@ -83,6 +131,8 @@
             </div>
          </div>
       </section>
+      <!--====== MENU ENDS ======-->
+
       <!--====== HOME START ======-->
       <section id="home" class="portfolio-area portfolio-four pb-100 features-area">
          <div class="container">
@@ -97,9 +147,6 @@
                <div class="col-lg-7 col-md-10">
                   <h4 class="contact-title pb-10"><i class="lni lni-invention"></i> Introduction</h4>
                </div>
-               <div class="col-lg-5 col-md-10">
-                  <!-- <a class="btn btn-primary" style="    background: black; font-size: 10px; position: absolute; right: 0px;" href="https://www.youtube.com/watch?v=RZ9wsSGH8U8" target="_blank" role="button">Show Full Video Version</a> -->
-               </div>
                <div class="col-lg-7 col-md-10">
                   <div style="padding-right: 10px;">
                      <p class="pgrande">
@@ -109,19 +156,19 @@
                         Since March, we have been developing two types of traditional computational epidemiological models: a metapopulation compartmental SEIR model and an agent-based model. However, for this challenge, we opted
                         for a deep learning-based approach, inspired by the model suggested by the challenge organizers. Such an approach would enable us to build a model within the time frame of the competition with two key
                         properties: be applicable to a large number of regions and be able to automatically learn the impact of the Non-Pharmaceutical Interventions (NPIs) on the transmission rate of the disease.
-                        <!-- The Pandemic
-                           COVID-19 XPRIZE challenge has been a great opportunity for our team to explore new modeling approaches and expand our scope beyond the Valencian region of Spain. -->
                      </p>
                   </div>
                </div>
                <div class="col-lg-5 col-md-10" >
                   <div class="div_contenedor">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J5aqp90hulQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  </div>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/J5aqp90hulQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                </div>
             </div>
          </div>
       </section>
       <!--====== HOME  ENDS ======-->
+
       <!--====== TEAM START ======-->
       <section id="team" class="team-area pt-120 pb-130">
          <div class="container">
@@ -144,7 +191,6 @@
                                        <div class="member-details">
                                           <div></div>
                                        </div>
-                                       <!-- <div class="member-details"><div></div></div> -->
                                        <div class="member-details">
                                           <div>
                                              <img src="assets/xprize/images/team/krpo.png" alt="" />
@@ -169,9 +215,6 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <!-- <div class="member-details"><div></div></div> -->
-                                       <!-- <div class="member-details"><div></div></div> -->
-                                       <!-- <div class="member-details"><div></div></div> -->
                                     </li>
                                     <li class="clearfix">
                                        <div class="member-details">
@@ -301,6 +344,7 @@
          </div>
       </section>
       <!--====== TEAM  ENDS ======-->
+
       <!--====== NPIS START ======-->
       <section id="NPIS" style="min-height: 125vh;" class="portfolio-area portfolio-four pb-100 features-area">
          <div class="container-fluid">
@@ -340,14 +384,14 @@
                      var divElement = document.getElementById('viz1618048049847');
                      var vizElement = divElement.getElementsByTagName("object")[0];
                      if (divElement.offsetWidth > 800) {
-                         vizElement.style.width = "100%";
-                         vizElement.style.height = "600px";
+                         vizElement.style.width = "830px";
+                         vizElement.style.height = "2240px";
                      } else if (divElement.offsetWidth > 500) {
-                         vizElement.style.width = "100%";
-                         vizElement.style.height = "600px";
+                         vizElement.style.width = "830px";
+                         vizElement.style.height = "2240px";
                      } else {
-                         vizElement.style.width = "100%";
-                         vizElement.style.height = "600px";
+                         vizElement.style.width = "830px";
+                         vizElement.style.height = "2240px";
                      }
                      var scriptElement = document.createElement("script");
                      scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
@@ -358,7 +402,8 @@
          </div>
       </section>
       <!--====== NPIS  ENDS ======-->
-      <!--====== PREDICTIVE START ======-->
+
+      <!--====== EPIMEDIOLOGICAL START ======-->
       <section id="epimediological" style="min-height: 90vh;" class="portfolio-area portfolio-four pb-100">
          <div class="container">
             <div class="row justify-content-center">
@@ -373,7 +418,6 @@
                   <img src="/assets/xprize/images/PredictorPNG.png" alt="" />
                </div>
                <div class="col-lg-4">
-                  <!-- <h4 class="contact-title pb-10"><i class="lni lni-information"></i> Info</h4> -->
                   <p class="pgrande">
                      We have developed machine learning-based predictive models of the number of hospitalizations and intensive care hospitalizations overall and for SARS-CoV-2 patients. We have also developed a model to infer the
                      prevalence of the disease based on a few of the answers to our citizen survey <a href="https://covid19impactsurvey.org" target="_blank"> https://covid19impactsurvey.org </a>
@@ -382,23 +426,12 @@
             </div>
          </div>
       </section>
-      <!--====== PREDICTIVE  ENDS ======-->
-      <!--====== EPIMEDIOLOGICAL START ======-->
       <section id="" style="min-height: 110vh;" class="portfolio-area portfolio-four pb-100">
          <div class="container">
             <div class="row justify-content-center">
-               <!-- <div class="col-lg-12 col-md-10">
-                  <div class="section-title text-center pb-10">
-                      <h3 class="title">Computational epidemiological model</h3>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="row mt-50"> -->
                <div class="col-lg-4">
-                  <!-- <h4 class="contact-title pb-10"><i class="lni lni-information"></i> Info</h4> -->
                   <p class="pgrande">
                      We have developed 3 types of computational epidemiological models: (1) a metapopulation compartmental SEIR-type model; (2) an agent-based model and (3) a deep learning-based model
-                     <!-- in the context of the 500k XPRIZE Pandemic Response Competition sponsored by Cognizant -->
                   </p>
                </div>
                <div class="col-lg-8">
@@ -427,8 +460,8 @@
                   <script type="text/javascript">
                      var divElement = document.getElementById("viz1614112305955");
                      var vizElement = divElement.getElementsByTagName("object")[0];
-                     vizElement.style.width = "100%";
-                     vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
+                     vizElement.style.width = "700px";
+                     vizElement.style.height = "650px";
                      var scriptElement = document.createElement("script");
                      scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
                      vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -437,7 +470,8 @@
             </div>
          </div>
       </section>
-      <!--====== EPIMEDIOLOGICAL  ENDS ======-->
+      <!--====== EPIMEDIOLOGICAL ENDS ======-->
+
       <!--====== PRESCIPTIVE START ======-->
       <section id="presciptive" style="min-height: 90vh;" class="portfolio-area portfolio-four pb-100 features-area ">
          <div class="container">
@@ -450,7 +484,6 @@
             </div>
             <div class="row mt-50">
                <div class="col-lg-4">
-                  <!-- <h4 class="contact-title pb-10"><i class="lni lni-information"></i> Info</h4> -->
                   <p class="pgrande">
                      Our goal in the Prescription phase of the competition is to develop an interpretable, data-driven and flexible prescription framework that would be usable by non machine-learning experts, such as citizens and policy makers in the Valencian Government. Our design principles are therefore driven by developing interpretable and transparent models.
                   </p>
@@ -464,18 +497,12 @@
             </div>
          </div>
       </section>
-      <!--====== TEAM  ENDS ======-->
-      <!--====== PRESCIPTIVE START ======-->
+      <!--====== PRESCIPTIVE ENDS ======-->
+
+      <!--====== PRESCRITOR START ======-->
       <section id="prescriptor" style="min-height: 110vh;" class="portfolio-area portfolio-four pb-100 features-area">
          <div class="container">
             <div class="row justify-content-center">
-               <!-- <div class="col-lg-12 col-md-10">
-                  <div class="section-title text-center pb-10">
-                      <h3 class="title">Prescriptor Models</h3>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="row mt-50"> -->
                <div class="col-lg-12">
                   <center>
                      <div class="tableaupapis" style="width: 800px; border:3px solid #ddd;">
@@ -505,26 +532,26 @@
                      var vizElement = divElement.getElementsByTagName("object")[0];
                      if (divElement.offsetWidth > 800) {
                          vizElement.style.width = "100%";
-                         vizElement.style.height = "550px";
+                         vizElement.style.height = "1450px";
                      } else if (divElement.offsetWidth > 500) {
                          vizElement.style.width = "100%";
-                         vizElement.style.height = "550px";
+                         vizElement.style.height = "1450px";
                      } else {
                          vizElement.style.width = "100%";
-                         vizElement.style.height = "550px";
+                         vizElement.style.height = "1450px";
                      }
                      var scriptElement = document.createElement("script");
                      scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
                      vizElement.parentNode.insertBefore(scriptElement, vizElement);
                   </script>
-
                </div>
             </div>
          </div>
       </section>
-      <!--====== TEAM  ENDS ======-->
-      <!--====== NPIS START ======-->
-      <section id="prescriptor2" style="min-height: 110vh;" class="portfolio-area portfolio-four pb-100">
+      <!--====== PRESCRITOR ENDS ======-->
+
+      <!--====== PRESCRIPTOR CV START ======-->
+      <!-- <section id="prescriptor2" style="min-height: 110vh;" class="portfolio-area portfolio-four pb-100">
          <div class="container-fluid">
             <div class="row justify-content-center">
                <div class="col-lg-12 col-md-10">
@@ -575,11 +602,11 @@
                </div>
             </div>
          </div>
-      </section>
-      <!--====== MODELO PREDICTIVO ======-->
-      <!--====== PRESS PART START ======-->
-      <!--====== HOME START ======-->
-      <section id="press" class="portfolio-area portfolio-four pb-100 features-area">
+      </section> -->
+      <!--====== PRESCRIPTOR CV ENDS ======-->
+
+      <!--====== PRESS START ======-->
+      <section id="press" class="portfolio-area portfolio-four pb-100">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-lg-6 col-md-10">
@@ -590,8 +617,6 @@
             </div>
          </div>
          <div class="container">
-
-
             <div class="row justify-content-center">
                <div class="col-lg-6 col-md-10">
                   <div class="section-title text-center pb-20 pt-80">
@@ -665,8 +690,6 @@
                   </a>
                </div>
             </div>
-
-
             <div class="row justify-content-center">
                <div class="col-lg-6 col-md-10">
                   <div class="section-title text-center pb-20 pt-80">
@@ -707,14 +730,6 @@
                      </div>
                   </a>
                </div>
-               <!-- <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.eleconomista.es/ecoaula/noticias/11117654/03/21/La-academica-de-la-Real-Academia-de-Ingenieria-Nuria-Oliver-lidera-el-primer-proyecto-espanol-ganador-del-XPrize.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://asempleo.com/wp-content/uploads/2017/06/Logo-el-economista.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">La académica de la Real Academia de Ingeniería, Nuria Oliver, lidera el primer proyecto español ganador del XPrize - elEconomista.es</p>
-                     </div>
-                  </a>
-               </div> -->
                <div class="col-sm-3">
                   <a style="margin:2px"  href="https://www.elindependiente.com/vida-sana/2021/03/10/el-equipo-de-nuria-oliver-gana-un-desafio-mundial-en-ia-para-reactivar-la-economia" class="card cardb" style="width: 18rem;">
                      <img class="card-img-top img-fluid" src="https://www.elconfidencialdigital.com/asset/zoomcrop,1366,800,center,center//media/elconfidencialdigital/images/2020/02/13/2020021319293079387.jpg" data-holder-rendered="true">
@@ -739,14 +754,6 @@
                      </div>
                   </a>
                </div>
-               <!-- <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.abc.es/tecnologia/abci-inteligencia-artificial-aliado-para-encontrar-equilibrio-entre-restricciones-y-pandemia-202104100134_noticia.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">La Inteligencia Artificial, un aliado para encontrar el equilibrio entre las restricciones y la pandemia</p>
-                     </div>
-                  </a>
-               </div> -->
                <div class="col-sm-3">
                   <a style="margin:2px"  href="https://www.abc.es/espana/comunidad-valenciana/abci-cientificos-valencianos-desarrollan-predictor-coronavirus-mide-efectos-restricciones-202103241808_noticia.html" class="card cardb" style="width: 18rem;">
                      <img class="card-img-top img-fluid" src="https://static2.abc.es/assets/2.0.141/img/rrss/abc/facebook/avatar-facebook.jpg" data-holder-rendered="true">
@@ -755,533 +762,59 @@
                      </div>
                   </a>
                </div>
-             </div>
-
-
-             <!-- <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-10">
-                   <div class="section-title text-center pb-20 pt-80">
-                      <h5 class="title" style="font-size: 35px;"> - Regional Press - </h5>
-                   </div>
-                </div>
-             </div>
-             <div class="row">
-
-
-
-
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.eldiario.es/agencias/trabajo-virus-nuria-oliver-alberto-conejero-premio-angeles_1_7288492.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un trabajo del virus de Nuria Oliver y Alberto Conejero, premio en Los Ángeles</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.levante-emv.com/comunitat-valenciana/2021/03/09/equipo-valencia-ia4covid-liderado-nuria-39845376.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo "Valencia IA4COVID" liderado por Núria Oliver gana un premio mundial sobre la pandemia - Levante-EMV</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://es.noticias.yahoo.com/trabajo-coronavirus-nuria-oliver-alberto-112937426.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Yahoo ahora forma parte de Verizon Media</p>
-                     </div>
-                  </a>
-               </div>
             </div>
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-10">
-                     <div class="section-title text-center pb-20 pt-80">
-                        <h5 class="title" style="font-size: 35px;">Radio nacional</h5>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.cope.es/emisoras/comunidad-valenciana/alicante-provincia/alicante/audios/mediodia-cope-alicante-miercoles-marzo-20210310_1390092" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">AUDIO: Mediodia COPE Alicante ( Miércoles 10 de marzo) - Alicante - COPE</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.rtve.es/alacarta/audios/informativo-de-la-comunidad-valenciana/premio-para-inteligencia-artificial-valenciana-10-03-21/5814924/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Premio para la inteligencia artificial valenciana - 10/03/21 - RTVE.es</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://plazaradio.valenciaplaza.com/miguel-rebollo-nuestro-modelo-pronostica-que-habra-una-cuarta-ola-mucho-mas-suave-aunque-nos-faltan-datos-por-introducir" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Miguel Rebollo: "Nuestro modelo pronostica que habrá una cuarta ola mucho más suave aunque nos faltan datos por introducir" - Plaza Radio</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://play.cadenaser.com/audio/cadenaser_avivirquesondosdias_20210314_110000_120000/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">A vivir que son dos días, 11-12h - 14/03/2021 | Audio | A vivir que son dos días | Cadena SER</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.rtve.es/alacarta/audios/a-golpe-de-bit-en-radio-5/golpe-bit-radio-5-equipo-espanol-gana-reto-ia-inteligencia-artificial-mundial/5820640/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un equipo español gana un reto de IA</p>
-                     </div>
-                  </a>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-10">
-                     <div class="section-title text-center pb-20 pt-80">
-                        <h5 class="title" style="font-size: 35px;">Televisión</h5>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-10">
-                     <div class="section-title text-center pb-20 pt-80">
-                        <h5 class="title" style="font-size: 35px;">Prensa regional</h5>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.apuntmedia.es/noticies/societat/model-valencia-intel-ligencia-artificial-coronavirus-guanya-prestigios-premi-xprize-los-angeles_1_1401340.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un model valencià de predicció del coronavirus guanya el prestigiós premi XPrize a Los Angeles - À Punt</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.informacion.es/alicante/2021/03/09/equipo-nuria-oliver-gana-desafio-39830028.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo de Nuria Oliver gana un desafío internacional para reactivar la economía con inteligencia artificial - Información</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.informacion.es/alicante/2021/03/09/herramienta-inteligencia-artificial-mejorar-decisiones-39961820.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Una herramienta de Inteligencia Artificial para mejorar las decisiones de los políticos sobre el covid - Información</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.levante-emv.com/comunitat-valenciana/2021/03/10/cientificos-valencianos-ganan-premio-mundial-39997586.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Científicos valencianos ganan un premio mundial por su modelo de IA frente a la covid - Levante-EMV</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.informacion.es/universidad/2021/03/13/investigadores-universidad-alicante-ganan-premio-42271410.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Investigadores de la Universidad de Alicante ganan el premio del desafío “Respuesta a la pandemia” para reactivar las economías en todo el mundo - Información</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.informacion.es/universidad/2021/03/13/virus-frena-universidades-42344039.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El virus se frena en las universidades - Información</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.lasprovincias.es/comunitat/cientificos-valencianos-crean-20210325100310-nt.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Coronavirus Valencia | Científicos valencianos crean el predictor Covid para medir los efectos de las restricciones | Las Provincias</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://alicanteplaza.es/ElequipolideradoporNuriaOliverganaeldesafomundialenIAparareactivarlaeconoma" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo liderado por Nuria Oliver gana el desafío mundial en IA para reactivar la economía - Alicanteplaza</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://valenciaplaza.com/nuria-oliver-equipo-gana-desafio-mundial-ia" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo liderado por Nuria Oliver gana el desafío mundial en IA para reactivar la economía - Valencia Plaza</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://alicantepress.com/art/45358/el-equipo-de-nuria-oliver-gana-el-desafio-mundial-de-inteligencia-artificial-por-el-covid" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo de Nuria Oliver gana el Desafío Mundial de Inteligencia Artificial por el Covid | ALICANTE PRESS | Noticias de Alicante, Comunidad Valenciana</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.cope.es/emisoras/comunidad-valenciana/alicante-provincia/alicante/noticias/estudio-sobre-pandemia-nuria-oliver-alberto-conejero-premio-xprize-los-angeles-20210309_1179595" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El estudio sobre la pandemia de Nuria Oliver y Alberto Conejero, premio XPrize en Los Ángeles - Alicante - COPE</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.ondacero.es/emisoras/comunidad-valenciana/alicante/noticias/equipo-ingeniera-alicantina-nuria-oliver-gana-premio-mundial-proyecto-combatir-epidemia_202103096047661b5333a40001b6a8f8.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo de la ingeniera alicantina Nuria Oliver gana un premio mundial por un proyecto para combatir la epidemia | Onda Cero Radio</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://cadenaser.com/emisora/2021/03/09/radio_alicante/1615283047_560804.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El modelo de predicción de la COVID-19 de la alicantina Nuria Oliver gana el concurso internacional XPRIZE | Radio Alicante | Actualidad | Cadena SER</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://valenciaextra.com/equipo-nuria-oliver-gana-desafio-fundacion-xprize/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">L'equip valencià liderat per Nuria Oliver guanya el desafiament "Resposta a la pandèmia" de XPRIZE per a reactivar l'economia | Valencia Extra</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.noticiasde.es/comunidad-valenciana/el-equipo-de-nuria-oliver-gana-el-desafio-respuesta-a-la-pandemia-de-xprize-para-reactivar-la-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo de Nuria Oliver gana el desafío “Respuesta a la pandemia” de XPRIZE para reactivar la economía | NoticiasDe.es</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.castelloninformacion.com/primer-premio-respuesta-a-la-pandemia-equipo-valencia-ia4covid19-nuria-oliver/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Equipo científico recibe el primer premio | Castellón Información</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.elperiodic.com/equipo-cientifico-liderado-comisionada-generalitat-nuria-oliver-recibe-premio-internacional-modelo-para-gestion-pandemia_733882" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo científico liderado por la Comisionada de la Generalitat Nuria Oliver recibe un premio internacional por su modelo de IA para la gestión de la pandemia</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.elperiodic.com/elx/tres-investigadoras-participan-equipo-ganador-premio-mundial-desafio-respuesta-pandemia_735680" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Tres investigadoras de la UMH participan en el equipo de IA ganador del 1er premio mundial del desafío ‘Respuesta a la Pandemia’</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://valenciacity.es/actualidad/el-equipo-cientifico-valenciano-recibe-un-premio-internacional-por-su-modelo-para-gestionar-la-pandemia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo científico valenciano recibe un premio internacional por su modelo para gestionar la pandemia - Valencia City</p>
-                     </div>
-                  </a>
-               </div>
-            </div>
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-lg-6 col-md-10">
-                     <div class="section-title text-center pb-20 pt-80">
-                        <h5 class="title" style="font-size: 35px;">Otros</h5>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://alicantec.com/2021/03/09/nuria-oliver-lidera-el-equipo-ganador-del-xprize-el-desafio-mundial-en-ia-para-reactivar-la-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Nuria Oliver lidera el equipo ganador del XPrize, el desafío mundial en IA para reactivar la economía | Alicantec</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.zonamovilidad.es/nuria-oliver-gana-desafio-respuesta-pandemia-xprize" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un equipo valenciano gana el desafío ‘Respuesta a la pandemia’ | Zonamovilidad.es</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.sporthd.news/texto-diario/mostrar/2780010/modelo-predictivo-espanol-coordinado-ingeniera-nuria-oliver-gana-desafio-global-reactivar-economia?utm_source=dlvr.it&utm_medium=twitter" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un modelo predictivo español coordinado por la ingeniera Nuria Oliver gana un desafío global para reactivar la economía</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.estrategiasdeinversion.com/actualidad/noticias/otras/xprize-y-cognizant-anuncian-los-ganadores-del-n-469581" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE Y COGNIZANT DESVELAN LOS GANADORES DEL DESAFÍO “RESPUESTA A LA PANDEMIA“ PARA REACTIVAR LAS ECONOMÍAS EN TODO EL MUNDO | Estrategias de Inversión</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.mujeresaseguir.com/tendencias/noticia/1164862048815/equipo-liderado-nuria-oliver-gana-desafio-global-reactivar-economia.1.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo liderado por Nuria Oliver gana un desafío global para reactivar la economía - Noticia - Tendencias - Mas: Mujeres a seguir</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.computerworld.es/tecnologia/un-proyecto-espanol-ayuda-a-gestionar-la-crisis-de-la-covid-con-inteligencia-artificial" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un proyecto español ayuda a gestionar la crisis de la covid con inteligencia artificial | Tecnología | ComputerWorld</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://n-economia.com/noticias/ia-espanola-anti-covid-triunfa-en-un-certamen/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">IA española anti Covid triunfa en un certamen | N-Economia</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.que.es/2021/03/09/modelo-predictivo-desafio-global-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un modelo predictivo español gana un desafío global para reactivar la economía</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://bigdatamagazine.es/un-equipo-espanol-coordinado-por-nuria-oliver-gana-por-primera-vez-el-xprize" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">ValenciaIA4Covid19, primer puesto en los premios XPrize</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.gva.es/es/inicio/area_de_prensa/not_detalle_area_prensa?id=929636" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">GVA.ES: El equipo científico liderado por la Comisionada de la Generalitat Nuria Oliver recibe un premio internacional por su modelo de IA para la gestión de la pandemia</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="http://www.upv.es/noticias-upv/noticia-12746-ganadores-del-es.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Noticia UPV: El equipo Valencia IA4COVID, coordinado por Nuria Oliver y Alberto Conejero, se impone en la final internacional a 48 equipos de 17 países | Universitat Politècnica de València</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://web.ua.es/es/actualidad-universitaria/2021/marzo2021/8-14/investigadores-de-la-universidad-de-alicante-ganan-el-premio-del-desafio-respuesta-a-la-pandemia-para-reactivar-las-economias-en-todo-el-mundo.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Investigadores de la Universidad de Alicante ganan el premio del desafío "Respuesta a la pandemia" para reactivar las economías en todo el mundo. Actualidad Universitaria</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="http://www.raing.es/es/noticias/la-rai-en-los-medios/nuria-oliver-galardonada-con-el-premio-xprize" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Nuria Oliver galardonada con el premio XPrize | Real Academia de Ingeniería</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.facebook.com/fundacionfisabio/posts/5081819791893148" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Se recomienda ver este sitio web en Microsoft Edge - Soporte de Office</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.invattur.es/news/el-equipo-liderado-por-la-comisionada-de-la-generalitat-nuria-oliver-gana-el-desafio-mundial-en-inteligencia-artificial-para-reactivar-la-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">El equipo liderado por la Comisionada de la Generalitat Nuria Oliver gana el desafío mundial en Inteligencia Artificial para reactivar la economía - Invattur</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.businesswire.com/news/home/20210309005419/en/XPRIZE-and-Cognizant-Announce-Grand-Prize-Winners-in-Pandemic-Response-Challenge-to-Restart-Economies-Around-the-World" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE and Cognizant Announce Grand Prize Winners in Pandemic Response Challenge to Restart Economies Around the World | Business Wire</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="http://crweworld.com/article/news-provided-by-business-wire/1914009/xprize-and-cognizant-announce-grand-prize-winners-in-pandemic-response-challenge-to-restart-economies-around-the-world" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Crwe World | XPRIZE and Cognizant Announce Grand Prize Winners in Pandemic Response Challenge to Restart Economies Around the World</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.biospace.com/article/releases/xprize-and-cognizant-announce-grand-prize-winners-in-pandemic-response-challenge-to-restart-economies-around-the-world/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE and Cognizant Announce Grand Prize Winners in Pandemic Response Challenge to Restart Economies Around the World | BioSpace</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.infobae.com/america/agencias/2021/03/09/portaltic-un-modelo-predictivo-espanol-coordinado-por-la-ingeniera-nuria-oliver-gana-un-desafio-global-para-reactivar-la-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Portaltic.-Un modelo predictivo español coordinado por la ingeniera Nuria Oliver gana un desafío global para reactivar la economía - Infobae</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.presseportal.de/pm/63089/4859616" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">▷ XPRIZE und COGNIZANT geben die Gewinner des Hauptpreises der "Pandemic Response ... | Presseportal</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.pressebox.de/inaktiv/cognizant-technology-solutions/XPRIZE-und-COGNIZANT-geben-die-Gewinner-des-Hauptpreises-der-Pandemic-Response-Challenge-zum-Neustart-der-weltweiten-Wirtschaft-bekannt/boxid/1048526" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE und COGNIZANT geben die Gewinner des Hauptpreises der "Pandemic Response Challenge" zum Neustart der weltweiten Wirtschaft bekannt, Cognizant Technology Solutions GmbH, Pressemitteilung - PresseBox</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.onvista.de/news/xprize-und-cognizant-geben-die-hauptpreisgewinner-der-pandemic-response-challenge-zur-weltweiten-wiederbelebung-der-wirtschaft-bekannt-440278311" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE und Cognizant geben die Hauptpreisgewinner der Pandemic Response Challenge zur weltweiten Wiederbelebung der Wirtschaft bekannt - onvista</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.rtvslo.si/znanost-in-tehnologija/ijs-ju-drugo-mesto-na-mednarodnem-natecaju-za-napredne-resitve-v-boju-proti-epidemiji/572312" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Se recomienda ver este sitio web en Microsoft Edge - Soporte de Office</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://reporter.si/clanek/slovenija/velik-uspeh-ekipe-instituta-jozef-stefan-z-umetno-inteligenco-v-boj-proti-pandemiji-855983" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Velik uspeh ekipe Instituta Jožef Stefan: z umetno inteligenco v boj proti pandemiji | Revija Reporter</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.delo.si/novice/svet/turisticni-sejem-itb-berlin-now-odpira-spletna-vrata/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Na meji z Italijo od srede brezplačno testiranje - Delo</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://english.sta.si/2876648/jozef-stefan-institute-shares-top-prize-in-pandemic-response-challenge" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">STA: Jožef Stefan Institute shares top prize in Pandemic Response Challenge</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.ansa.it/sito/notizie/economia/business_wire/news/2021-03-10_110141718.html" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE e Cognizant annunciano i vincitori del concorso Pandemic Response Challenge per la ripresa delle economie di tutto il mondo - ANSA.it</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://www.pharmiweb.com/press-release/2021-03-10/xprize-and-cognizant-announce-grand-prize-winners-in-pandemic-response-challenge-to-restart-economies-around-the-world" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE and Cognizant Announce Grand Prize Winners in Pandemic Response Challenge to Restart Economies Around the World - PharmiWeb.com</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://medtech.pharmaintelligence.informa.com/MT143622/Spanish-Teams-AI-Model-For-Pandemic-Response-Named-XPRIZE-Winner" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Attention Required! | Cloudflare</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://negocios.today/un-modelo-predictivo-espanol-coordinado-por-la-ingeniera-nuria-oliver-gana-un-desafio-global-para-reactivar-la-economia/" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">Un modelo predictivo español coordinado por la ingeniera Nuria Oliver gana un desafío global para reactivar la economía - Negocios Today</p>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-sm-3">
-                  <a style="margin:2px"  href="https://business-review.eu/news/xprize-and-cognizant-announce-grand-prize-winners-in-pandemic-response-challenge-to-restart-economies-around-the-world-217982" class="card cardb" style="width: 18rem;">
-                     <img class="card-img-top img-fluid" src="https://fondosmil.com/fondo/17541.jpg" data-holder-rendered="true">
-                     <div class="card-body">
-                        <p class="card-text">XPRIZE And Cognizant Announce Grand Prize Winners In Pandemic Response Challenge To Restart Economies Around The World - Business Review</p>
-                     </div>
-                  </a>
-               </div>
-            </div> -->
          </div>
       </section>
-      <!--====== HOME  ENDS ======-->
       <!--====== PRESS  ENDS ======-->
+
+      <!--====== PRESS START ======-->
+      <section id="press" class="portfolio-area portfolio-four pb-100 features-area">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-6 col-md-10">
+                  <div class="section-title text-center pb-20 pt-80">
+                     <h3 class="title">Social Media Impacts</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="assets/xprize/images/twitter/tweet1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/xprize/images/twitter/tweet2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/xprize/images/twitter/tweet3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="assets/xprize/images/twitter/tweet4.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            </div>
+         </div>
+      </section>
+      <!--====== PRESS  ENDS ======-->
+
       <!--====== FOOTER PART START ======-->
       <section class="footer-area footer-dark">
          <div class="container">
