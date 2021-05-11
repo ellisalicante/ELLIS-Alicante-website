@@ -29,3 +29,7 @@ The activities to start the ELLIS Unit Alicante Foundation, its webpage and the 
 
 The research activities on Data Science against COVID-19 are partially funded by the CD4COVID project sponsored by the Fondo Supera from the CRUE and Banco Santander, and by the AI4COVID19 project from the BBVA Foundation. 
 
+
+
+![logoFBBVA](../assets/logoFBBVA.png)![logoGeneralitat](../assets/logoGeneralitat.png)![logoSantander](../assets/logoSantander.png)![logoCRUE](../assets/logoCRUE.png)
+
