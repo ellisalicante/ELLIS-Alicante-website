@@ -31,5 +31,7 @@ The research activities on Data Science against COVID-19 are partially funded by
 
 
 
-<img src="../assets/logoFBBVA.png" alt="logoFBBVA" style="zoom:50%;" />![logoGeneralitat](../assets/logoGeneralitat.png)<img src="../assets/logoSantander.png" alt="logoSantander" style="zoom:67%;" /><img src="../assets/logoCRUE.png" alt="logoCRUE" style="zoom:50%;" />
+![logoGeneralitat](../assets/logoGeneralitat.png)<img src="../assets/logoSantander.png" alt="logoSantander" style="zoom:67%;" /><img src="../assets/logoCRUE.png" alt="logoCRUE" style="zoom:50%;" />
+
+<img src="../assets/logoFBBVA.png" alt="logoFBBVA" style="zoom:50%;" />
 

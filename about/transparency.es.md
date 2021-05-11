@@ -29,6 +29,7 @@ Las actividades de puesta en marcha y funcionamiento de la Fundación Unidad ELL
 
 El trabajo de investigación en Ciencias de Datos en la lucha contra COVID-19 está parcialmente financiado por el proyecto CD4COVID del Fondo Supera CRUE con el Banco de Santander y por el proyecto AI4COVID19 de la Fundación BBVA.
 
-<img src="../assets/logoFBBVA.png" alt="logoFBBVA" style="zoom:50%;" />![logoGeneralitat](../assets/logoGeneralitat.png)<img src="../assets/logoSantander.png" alt="logoSantander" style="zoom:50%;" /><img src="../assets/logoCRUE.png" alt="logoCRUE" style="zoom:50%;" />
+![logoGeneralitat](../assets/logoGeneralitat.png)<img src="../assets/logoSantander.png" alt="logoSantander" style="zoom:50%;" /><img src="../assets/logoCRUE.png" alt="logoCRUE" style="zoom:50%;" />
 
+<img src="../assets/logoFBBVA.png" alt="logoFBBVA" style="zoom:50%;" />
 
